@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <title>登录</title>
-  <jsp:include page="init.jsp"></jsp:include>
+  <jsp:include page="../init.jsp"></jsp:include>
   <link href="./files1/login_all.css" rel="stylesheet" type="text/css">
 <style>
 .logo{display:block;height:36px;width:113px;float:left;margin-left:10px;background-position:0 0;margin-top:5px;display:inline;outline:0}
@@ -24,9 +24,6 @@ width:90px;
 line-height:48px}
 .module-header .navs .separate{margin:0;height:48px;width:2px;background:#2a2b2d}
 </style>
-<script type="text/javascript">
-   
-</script>
 </head>
 <body class="disk-lyt-lrg">
 
@@ -52,7 +49,7 @@ line-height:48px}
 <img  alt="" style="display: block;" tabindex="1" width="100%" src="./files1/bg_shad_top_2.jpg">
 </div>
 <div class="disk-lyt-bg-bd rlv">
-<img  alt="" style="display: block;" tabindex="1" width="100%" src="./files1/bg_shad_bottom_2.jpg">
+<img style="display: block;" tabindex="1" width="100%" src="./files1/bg_shad_bottom_2.jpg">
 </div>
 </div>
 <div class="disk-lyt-sec-i">
@@ -68,19 +65,34 @@ line-height:48px}
 <div class="disk-lyt-bx disk-lyt-hd rlv">
 <div class="disk-lyt-bx disk-lyt-bx-frm tang-pass-login" id="sysLoginForm">
 
-<form id="form"  method="POST" action="user/useraction!checkUserInfo" autocomplete="off">
-<center><span id="msg"></span></center>
-<p  class="pass-form-item pass-form-item-userName" style="display:">
-<!-- <img alt="" src="files1/yun_login_logo.png" style="block:"> -->
+<form id="form" method="post" action="useraction!checkUserInfo" autocomplete="off">
+<span id="msg">${error}</span>
+<table id="logintable">
+<tr>
+<td style="width:15px;">
+<img class="imgtext" src="files1/yun_login_logo.png"></td>
+<td> 
+
 <input  type="text" name="username" class="pass-text-input pass-text-input-userName" autocomplete="off" placeholder="手机/邮箱/用户名">
-</p>
-<p  class="pass-form-item pass-form-item-password" style="display:">
+</td>
+</tr>
+<tr>
+<td style="width:15px;">
+<img class="imgtext" src="files1/sprite_1.png">
+</td>
+<td>
+
 <input id="password" type="password" name="password" class="pass-text-input pass-text-input-password" placeholder="密码">
-</p>
+</td>
+</tr>
+</table>
+
+
 <br/>
 <center>
 <input name="loginAnniu" type="image" src="files1/login.png"/>
 </center>
+
 <p  class="pass-form-item pass-form-item-memberPass">
 <input  type="checkbox" name="memberPass" class="pass-checkbox-input pass-checkbox-memberPass" checked="checked">
 <label for="TANGRAM__PSP_4__memberPass" id="TANGRAM__PSP_4__memberPassLabel" class="">下次自动登录</label>
@@ -89,7 +101,7 @@ line-height:48px}
 <a class="pass-fgtpwd" href="#" target="_blank">忘记密码？</a>
 </p>
 </form>
-<a href="user/Register.jsp">
+<a href="Register.jsp">
 <center>
 <input name="registerAnniu" type="image" src="files1/register.png" style="width:425px"/>
 </center>

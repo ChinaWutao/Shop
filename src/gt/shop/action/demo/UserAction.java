@@ -1,8 +1,14 @@
 package gt.shop.action.demo;
 
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
+
+import org.apache.struts2.ServletActionContext;
 import org.apache.struts2.convention.annotation.Action;
 import org.apache.struts2.convention.annotation.Namespace;
 import org.apache.struts2.convention.annotation.ParentPackage;
+import org.apache.struts2.convention.annotation.Result;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import gt.shop.action.base.BaseAction;
@@ -15,11 +21,10 @@ import gt.shop.services.UserServiceI;
 import com.opensymphony.xwork2.ModelDriven;
 @ParentPackage("gutao")
 @Namespace("/user")
-@Action(value="useraction")
+@Action(value="useraction",results={@Result(name="succ",location="/index.jsp"),@Result(name="relogin",location="/user/Login.jsp")})
 public class UserAction extends BaseAction implements ModelDriven<Pageuser>{
     private Pageuser puser=new Pageuser();
     private UserServiceI userservice;
-    
 	public UserServiceI getUserservice() {
 		return userservice;
 	}
@@ -71,17 +76,20 @@ public class UserAction extends BaseAction implements ModelDriven<Pageuser>{
 	  
 	  
    }
-   public void checkUserInfo(){
+   public String checkUserInfo(){
 	   System.out.println(puser.getUsername()+"----"+puser.getPassword());
-	   Json json=new Json();
 	   User user=userservice.checkUserInfo(puser);
 	   if(user!=null){
-		   json.setSuccess(true);
-		   json.setMsg("登录成功");
-		   super.writeJson(json);
+		   HttpServletRequest request=ServletActionContext.getRequest();
+		   HttpSession session=request.getSession();
+		   session.setAttribute("username", user.getUsername());
+		   return "succ";
 	   }else{
-		   json.setMsg("登录失败");
-	       super.writeJson(json);
+		   String error="您的用户名或密码错误！";
+		   HttpServletRequest request=ServletActionContext.getRequest();
+		   HttpSession session=request.getSession();
+		   session.setAttribute("error", error);
+		   return  "relogin";
 	   }
    }
 }

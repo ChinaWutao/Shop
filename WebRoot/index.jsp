@@ -1,5 +1,5 @@
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
-
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
 <html class="transitions animations windows webkit chrome gecko firefox" lang="zh-cn"><head><meta http-equiv="Content-Type" content="text/html; charset=gbk">
 	<meta charset="gbk">
@@ -21,10 +21,18 @@
 		</ul>
 
 		 <ul class="mod_user">
-
+<c:if test="${username != null}">
+<li id="J_headLogin" class="mod_user_login">
+        <strong>当前用户:</strong>
+        <strong>${username}</strong>  
+</li>
+</c:if>
+<c:if test="${username == null}"> 
        <li id="J_headLogin" class="mod_user_login">
-            <a href="Login.jsp" target="_self">登录</a>
+            <a href="user/Login.jsp" target="_self">登录</a>
        </li>
+</c:if>
+      
 
 			<li id="J_headLogout" class="mod_user_login hide"></li>
 
