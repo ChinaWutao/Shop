@@ -92,4 +92,7 @@ public class UserAction extends BaseAction implements ModelDriven<Pageuser>{
 		   return  "relogin";
 	   }
    }
+   public void exituser(){
+	   ServletActionContext.getRequest().getSession().invalidate();
+	   }
 }

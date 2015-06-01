@@ -24,6 +24,38 @@ width:90px;
 line-height:48px}
 .module-header .navs .separate{margin:0;height:48px;width:2px;background:#2a2b2d}
 </style>
+<script type="text/javascript">
+   var sign=false;
+   function checkName(){
+	   var username=document.getElementById("username");
+	   if(username!=null&&username!=""){
+		   sign=true;
+		   return sign;
+	   }else{
+		   var msg=document.getElementById("msg");
+		   msg.innerHTML="<font color='red'>用户名不能为空！</font>";
+		   return sign;
+	   }
+   }
+   function checkPassword(){
+	   var password=document.getElementById("password");
+	   if(password!=null&&password!=""){
+		   sign=true;
+		   return sign;
+	   }else{
+		   var msg=document.getElementById("msg");
+		   msg.innerHTML="<font color='red'>密码不能为空！</font>";
+		   return sign;
+	   }
+   }
+   function checkForm(){
+	    if(sign){
+	    	return true;
+	    }else{
+	    	return false;
+	    }
+	}
+</script>
 </head>
 <body class="disk-lyt-lrg">
 
@@ -33,7 +65,7 @@ line-height:48px}
     <a data-key="LOGO" class="f-icon logo" hidefocus="true" title="百度云" target="_blank" href="#"></a>  
     <!-- nav -->
     <div class="navs" xmlns="http://www.w3.org/1999/xhtml">
-        <a node-type="click-ele pos-ele" data-key="HOME" class="def-nav current" hidefocus="hideFocus" href="index.jsp">主页</a>
+        <a node-type="click-ele pos-ele" data-key="HOME" class="def-nav current" hidefocus="hideFocus" href="/index.jsp">主页</a>
         
         <span class="separate"></span>
         <a  data-key="NAVS_SHARE" class="def-nav def-nav-share" hidefocus="hideFocus" href="Login.jsp">分享</a>
@@ -65,7 +97,7 @@ line-height:48px}
 <div class="disk-lyt-bx disk-lyt-hd rlv">
 <div class="disk-lyt-bx disk-lyt-bx-frm tang-pass-login" id="sysLoginForm">
 
-<form id="form" method="post" action="useraction!checkUserInfo" autocomplete="off">
+<form id="form" method="post" action="useraction!checkUserInfo" autocomplete="off" onsubmit="return checkForm();">
 <span id="msg">${error}</span>
 <table id="logintable">
 <tr>
@@ -73,7 +105,7 @@ line-height:48px}
 <img class="imgtext" src="files1/yun_login_logo.png"></td>
 <td> 
 
-<input  type="text" name="username" class="pass-text-input pass-text-input-userName" autocomplete="off" placeholder="手机/邮箱/用户名">
+<input  type="text" name="username" class="pass-text-input pass-text-input-userName" autocomplete="off" placeholder="手机/邮箱/用户名" onblur="checkName();">
 </td>
 </tr>
 <tr>
@@ -82,7 +114,7 @@ line-height:48px}
 </td>
 <td>
 
-<input id="password" type="password" name="password" class="pass-text-input pass-text-input-password" placeholder="密码">
+<input type="password" name="password" class="pass-text-input pass-text-input-password" autocomplete="off" placeholder="密码" onblur="checkPassword();">
 </td>
 </tr>
 </table>
