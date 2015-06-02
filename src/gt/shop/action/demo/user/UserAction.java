@@ -1,4 +1,4 @@
-package gt.shop.action.demo;
+package gt.shop.action.demo.user;
 
 
 import javax.servlet.http.HttpServletRequest;

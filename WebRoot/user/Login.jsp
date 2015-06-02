@@ -28,7 +28,7 @@ line-height:48px}
    var sign=false;
    function checkName(){
 	   var username=document.getElementById("username");
-	   if(username!=null&&username!=""){
+	   if(username.value!=null&&username.value!=""){
 		   sign=true;
 		   return sign;
 	   }else{
@@ -39,7 +39,7 @@ line-height:48px}
    }
    function checkPassword(){
 	   var password=document.getElementById("password");
-	   if(password!=null&&password!=""){
+	   if(password.value!=null&&password.value!=""){
 		   sign=true;
 		   return sign;
 	   }else{
@@ -65,7 +65,7 @@ line-height:48px}
     <a data-key="LOGO" class="f-icon logo" hidefocus="true" title="百度云" target="_blank" href="#"></a>  
     <!-- nav -->
     <div class="navs" xmlns="http://www.w3.org/1999/xhtml">
-        <a node-type="click-ele pos-ele" data-key="HOME" class="def-nav current" hidefocus="hideFocus" href="/index.jsp">主页</a>
+        <a node-type="click-ele pos-ele" data-key="HOME" class="def-nav current" hidefocus="hideFocus" href="../index.jsp">主页</a>
         
         <span class="separate"></span>
         <a  data-key="NAVS_SHARE" class="def-nav def-nav-share" hidefocus="hideFocus" href="Login.jsp">分享</a>
@@ -105,7 +105,7 @@ line-height:48px}
 <img class="imgtext" src="files1/yun_login_logo.png"></td>
 <td> 
 
-<input  type="text" name="username" class="pass-text-input pass-text-input-userName" autocomplete="off" placeholder="手机/邮箱/用户名" onblur="checkName();">
+<input  type="text" name="username" id="username" class="pass-text-input pass-text-input-userName" autocomplete="off" placeholder="手机/邮箱/用户名" onblur="checkName();">
 </td>
 </tr>
 <tr>
@@ -114,7 +114,7 @@ line-height:48px}
 </td>
 <td>
 
-<input type="password" name="password" class="pass-text-input pass-text-input-password" autocomplete="off" placeholder="密码" onblur="checkPassword();">
+<input type="password" name="password" id="password" class="pass-text-input pass-text-input-password" autocomplete="off" placeholder="密码" onblur="checkPassword();">
 </td>
 </tr>
 </table>
