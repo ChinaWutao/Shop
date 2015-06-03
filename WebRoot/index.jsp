@@ -36,10 +36,6 @@
           			<a href="#" target="_blank">账户设置</a>
 				</div>
 			</li>
-<!--  <li id="J_headLogin" class="mod_user_login">
-        <strong>当前用户:</strong>
-        <strong>${username}</strong>  
-</li>-->
 </c:if>
 <c:if test="${username == null}"> 
        <li id="J_headLogin" class="mod_user_login">
@@ -53,7 +49,7 @@
 			<li class="mod_user_gap"></li>
 
 			<li id="J_headUser" class="mod_user_more mod_user_my">
-				<a href="#" target="_blank" class="mod_user_more_btn">
+				<a href="${pageContext.request.contextPath}/user/person.jsp" target="_blank" class="mod_user_more_btn">
 					<span>个人中心</span>
 					<i class="ico_sel"></i>
 				</a>
@@ -1635,7 +1631,6 @@
         </ul>
     </div>
     <!-- E 楼层电梯 -->
-
     <a href="http://exp.qq.com/ur/?urid=20685" ptag="20567.54.1" target="_blank" class="surveys">首页调研</a>
 	
 	<div class="p_ft" id="foot">
@@ -1652,8 +1647,6 @@
 				<li><a href="#" target="_blank">拍拍安全中心</a></li>
 			</ul>
 </div>
-
-
 <div class="mod_site_plan">
 			<h4><i></i>诚信保证计划</h4>
 			<ul>
