@@ -164,7 +164,7 @@
 				<!--[if !IE]><!-->
 				<embed src="${pageContext.request.contextPath}/files/logo.swf" id="myFlash" quality="high" width="190px" height="75px"></embed>
 				<!--<![endif]-->
-				<span class="hide">拍拍</span></a></h1><div class="mod_logo_extra hide" id="J_logo_extra"></div></div>
+				<span class="hide">寻宝</span></a></h1><div class="mod_logo_extra hide" id="J_logo_extra"></div></div>
 
 		
 		<div class="mod_chnn">
