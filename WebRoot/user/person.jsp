@@ -192,7 +192,7 @@ visibility: hidden;
 					</div>
                     <div class="sns" id="J_HomePageSNS" data-url="//my.taobao.com/homepage/ajax/get_user_info.json?user_id=1107719163">
 												<p class="line edit-btn">
-							<a class="edit" target="_blank" href="http://i.taobao.com/user/baseInfoSet.htm">编辑资料</a>
+							<a class="edit" target="_blank" href="${pageContext.request.contextPath}/user/personInfo.jsp">编辑资料</a>
 						</p> 
 						 <ul class="user-atten">
                         </ul>

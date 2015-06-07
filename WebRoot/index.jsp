@@ -49,7 +49,7 @@
 			<li class="mod_user_gap"></li>
 
 			<li id="J_headUser" class="mod_user_more mod_user_my">
-				<a href="${pageContext.request.contextPath}/user/person.jsp" target="_blank" class="mod_user_more_btn">
+				<a href="${pageContext.request.contextPath}/user/personshop.jsp" target="_blank" class="mod_user_more_btn">
 					<span>个人中心</span>
 					<i class="ico_sel"></i>
 				</a>

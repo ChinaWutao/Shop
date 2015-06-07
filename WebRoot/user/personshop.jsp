@@ -64,7 +64,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                     <i class="mt-arrow"></i>
                 </li>
                 <li>
-                    <a href="http://my.taobao.com/home?tracelog=mytaobaonavmyindex&nekot=1433331969976" data-spm-click="gostr=/sns;locaid=d1000353;" data-spm="d1000353" target="_blank">个人主页</a>
+                    <a href="${pageContext.request.contextPath}/user/person.jsp" data-spm-click="gostr=/sns;locaid=d1000353;" data-spm="d1000353" target="_blank">个人主页</a>
                     <i class="mt-arrow"></i>
                 </li> 
                 <li class="J_MtNavSubTrigger">
