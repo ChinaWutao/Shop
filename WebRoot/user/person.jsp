@@ -4,7 +4,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<title>个人主页</title>
-    <meta charset="GBK">
+    <meta charset="utf-8">
 <!-- 站点埋点  专辑detail 页面埋点 区别对待-->
 	<meta name="data-spm" content="a310q">
     <meta name="viewport" content="width=device-width, initial-scale=1 minimum-scale=1">
