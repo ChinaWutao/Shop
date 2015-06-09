@@ -1,4 +1,6 @@
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%@ include file="userCheckLogin.jsp"%>
+
 <!DOCTYPE html>
 <html class="ks-webkit537 ks-webkit ks-chrome39 ks-chrome">
 <head>
@@ -8,8 +10,8 @@
 <!-- 站点埋点  专辑detail 页面埋点 区别对待-->
 	<meta name="data-spm" content="a310q">
     <meta name="viewport" content="width=device-width, initial-scale=1 minimum-scale=1">
-		<!-- S GLOBAL JS -->
-<script src="personfiles/saved_resource(1)"></script>
+		<!-- S GLOBAL JS
+<script src="personfiles/saved_resource(1)"></script> -->
 <!-- E GLOBAL JS -->
 
 <title>个人主页</title>
@@ -18,16 +20,18 @@
 	<meta name="data-spm" content="a310q">
     <meta name="viewport" content="width=device-width, initial-scale=1 minimum-scale=1">  
 	<!-- S GLOBAL CSS -->
-<link rel="stylesheet" href="personfiles/global-min.css">
-<link rel="stylesheet" href="personfiles/a.css">
-<link rel="stylesheet" href="personfiles/index_002.css">
-<link rel="stylesheet" href="personfiles/index-min_003.css">
+	
+<link rel="stylesheet" type="text/css" href="personfiles/global-min.css">
+<link rel="stylesheet" type="text/css" href="personfiles/a.css">
+<link rel="stylesheet" type="text/css" href="personfiles/index_002.css">
+<link rel="stylesheet" type="text/css" href="personfiles/index-min_003.css">
+<link rel="stylesheet" type="text/css" href="personfiles/index-min.1.0.0.css">
+
 <!-- S GLOBAL CSS -->
 		<!-- S GLOBAL JS -->
-<script src="./personfiles/saved_resource(1)"></script>
 <!-- E GLOBAL JS -->
-<link rel="stylesheet" href="personfiles/index1.css">
-<link rel="stylesheet" href="personfiles/index.css">
+<link rel="stylesheet" type="text/css" href="personfiles/index1.css">
+<link rel="stylesheet" type="text/css" href="personfiles/index.css">
     <!--[if lte IE 6]>
     <style>
         html {
@@ -37,7 +41,7 @@
 
         .fix-tool {
             position: absolute;
-            top: expression(eval(document.documentElement.scrollTop + document.documentElement.clientHeight-this.offsetHeight) - 50);
+            top: expression(eval(documentcumentElement.scrollTop + documentcumentElement.clientHeight-this.offsetHeight) - 50);
         }
     </style>
     <![endif]-->
@@ -65,7 +69,7 @@
     <div class="menu-hd"><a href="http://i.taobao.com/my_taobao.htm?ad_id=&am_id=&cm_id=&pm_id=1501036000a02c5c3739" target="_top" class="login-info-nick">gt18086525549</a>
     <span class="arrow-icon-wrapper"><span class="g-icon arrow-icon"></span></span></div><div class="menu-bd"><div class="menu-bd-panel">
     <a href="http://i.taobao.com/my_taobao.htm?ad_id=&am_id=&cm_id=&pm_id=1501036000a02c5c3739" target="_top" id="J_UserAvatar" class="user-avatar">
-    <img src="personfiles/s.gif" width="80" height="80" alt="gt18086525549的头像"></a>
+    <img src="" width="80" height="80" alt="gt18086525549的头像"></a>
     <div class="user-info">
     <p class="user-operate">
     <a href="#" target="_top">账号管理</a>
@@ -91,7 +95,7 @@
     <span class="g-icon arrow-icon"></span></span></div>
     <div class="menu-bd"><div class="J_Tmsg_Panel_Apps tmsg_panel_apps"><div class="J_Tmsg_Panel_Head tmsg_panel_head">   <h2 class="J_Tmsg_Panel_Title tmsg_panel_title">未读新消息</h2>  
      <a class="J_Tmsg_Button_ReadAll tmsg_button_read-all" data-tip="ignoreAll" title="忽略所有消息" href="http://my.taobao.com/homepage/like_list.htm?spm=a310q.2282149.0.0.zYbOLh&user_code=MM8QWvmMHMmNSvC*hMGk4v0c4PC-IvkRzMFxGMGMzPmkT&type=1#">全部设为已读</a></div><div class="J_Tmsg_Panel_AppsBody tmsg_panel_body">
-    <img style="display:block;margin:30px auto" width="48" height="48" src="personfiles/T1HcvHXd4nXXb6ROYh-48-48.gif"></div><div class="J_Tmsg_Panel_Foot tmsg_panel_foot"> 
+    <img style="display:block;margin:30px auto" width="48" height="48" src=""></div><div class="J_Tmsg_Panel_Foot tmsg_panel_foot"> 
       <a class="J_Tmsg_Button_Setting tmsg_button_setting" data-tips="setting" title="消息设置" href="http://my.taobao.com/homepage/like_list.htm?spm=a310q.2282149.0.0.zYbOLh&user_code=MM8QWvmMHMmNSvC*hMGk4v0c4PC-IvkRzMFxGMGMzPmkT&type=1#">设置</a>  
      <a class="J_Tmsg_Button_Feedback tmsg_button_feedback" data-tips="feedback" title="意见反馈" href="http://ur.taobao.com/survey/view.htm?spm=1.6659421.0.0.Nmaw77&id=1990&scm=1229.325.1.1" target="_blank">反馈</a>  
      <span class="J_Tmsg_Button_CheckAll_Wrap tmsg_button_check-all_wrap">       <a class="J_Tmsg_Button_CheckAll tmsg_button_check-all" href="http://my.taobao.com/homepage/like_list.htm?spm=a310q.2282149.0.0.zYbOLh&user_code=MM8QWvmMHMmNSvC*hMGk4v0c4PC-IvkRzMFxGMGMzPmkT&type=1#" target="_blank">查看全部</a> 
@@ -217,7 +221,6 @@ visibility: hidden;
 				</div>
 			</div>
 		</div>
-			<script type="text/javascript" src="personfiles/index(6).js" charset="UTF-8"></script>
 			</div>
 </div>
 
@@ -277,7 +280,7 @@ visibility: hidden;
                                                                     <li class="interest-item">
                         <div class="avatar">
 							<a target="_blank" href="http://my.taobao.com/MPFIWOFxSOmZIMk8LMH7ePG84OHRhPk8bPF*hvH8GMmQT">
-							<img src="personfiles/getAvatar(1).do" alt="">
+							<img src="" alt="">
 							</a>
                         </div>
                         <div class="cont"><h4>
@@ -294,7 +297,7 @@ visibility: hidden;
                                                         <li class="interest-item">
                         <div class="avatar">
 							<a target="_blank" href="http://my.taobao.com/MMm8YvmcbMkR-vFgLM0gbvFcbP8ReMHleMFMzMkRIP0cT">
-							<img src="personfiles/getAvatar(2).do" alt="">
+							<img src="" alt="">
 							</a>
                         </div>
                         <div class="cont"><h4>
@@ -311,7 +314,7 @@ visibility: hidden;
                                                         <li class="interest-item">
                         <div class="avatar">
 							<a target="_blank" href="http://my.taobao.com/MOFx4XFkSOHQWMGvSMkcWXm*zM0k4PHxYMHgLM8RIPFgT">
-							<img src="personfiles/getAvatar(3).do" alt="">
+							<img src="" alt="">
 							</a>
                         </div>
                         <div class="cont"><h4>
@@ -328,7 +331,7 @@ visibility: hidden;
                                                         <li class="interest-item">
                         <div class="avatar">
 							<a target="_blank" href="http://my.taobao.com/MvmRIvC8LMC9zPm*zvmg0XH8GvGkSXFPevHZePmkuMF8T">
-							<img src="personfiles/getAvatar(4).do" alt="">
+							<img src="" alt="">
 							</a>
                         </div>
                         <div class="cont">
@@ -339,14 +342,14 @@ visibility: hidden;
                             <p class="intro"><span class="highlight">796</span>&nbsp;粉丝</p>
 
                             <div class="action sns-widget-friendFollow follow-ui-green2" data-userid="275115708">
-                                <a href="#" class="J_Follow friend-follow " data-tracelog="tbhudong.14.2"> 加关注 </a>
+                                <a href="" class="J_Follow friend-follow " data-tracelog="tbhudong.14.2"> 加关注 </a>
                             </div>
                         </div>
                     </li>
                         <li class="interest-item">
                         <div class="avatar">
 							<a target="_blank" href="#">
-							<img src="#" alt="">
+							<img src="" alt="">
 							</a>
                         </div>
                         <div class="cont">
@@ -364,7 +367,7 @@ visibility: hidden;
                                                         <li class="interest-item">
                         <div class="avatar">
 							<a target="_blank" href="http://my.taobao.com/MPFNSPGHYXmN4OmcuOmxuPGHLv8RzMk8LMHPHvCPHOFQT">
-							<img src="personfiles/getAvatar(6).do" alt="">
+							<img src="" alt="">
 							</a>
                         </div>
                         <div class="cont"><h4>
@@ -381,7 +384,7 @@ visibility: hidden;
                                                         <li class="interest-item">
                         <div class="avatar">
 							<a target="_blank" href="http://my.taobao.com/MOFMIvCx4PC8bvm*IPHcyvmkbvmIbX8gyXmHGvCgyMHgT">
-							<img src="personfiles/getAvatar(7).do" alt="">
+							<img src="" alt="">
 							</a>
                         </div>
                         <div class="cont"><h4>
@@ -398,7 +401,7 @@ visibility: hidden;
                                                         <li class="interest-item">
                         <div class="avatar">
 							<a target="_blank" href="http://my.taobao.com/MMCNyvkZHPFN0MFQYMFQyv0cyMHkWM0Z-XmH4PmRzX8kT">
-							<img src="personfiles/getAvatar(8).do" alt="">
+							<img src="" alt="">
 							</a>
                         </div>
                         <div class="cont"><h4>
@@ -451,4 +454,4 @@ visibility: hidden;
 <div id="J_TbcFixtool" class="tbc-fixtool"><a class="tbc-fixtool-box old-home" target="_blank" href="http://my.taobao.com/homepage/like_list.htm?spm=a310q.2282149.0.0.zYbOLh&user_code=MM8QWvmMHMmNSvC*hMGk4v0c4PC-IvkRzMFxGMGMzPmkT&type=1#"><span class="tbc-fixtool-small">回老版</span>
 <span class="tbc-fixtool-large">返 回<br>老主页</span></a><a class="tbc-fixtool-box tbc-fixtool-feedback" href="http://ur.taobao.com/survey/view.htm?id=1684" id="J_TbcFixtool_Feedback" target="_blank"><span class="tbc-fixtool-small">提建议</span><span class="tbc-fixtool-large">意见<br>反馈</span></a><a class="tbc-fixtool-box tbc-fixtool-gotop tbc-fixtool-hidden" href="" id="J_TbcFixtool_Gotop"><span class="tbc-fixtool-small">回顶部</span>
 <span class="tbc-fixtool-large">回到<br>顶部</span></a></div><div id="J_UmppUserContainer" style="height:1px;width:1px;overflow:hidden;position:absolute;bottom:1px"><embed src="http://g.alicdn.com/tbc/umpp/1.4.35/trinity.swf" width="1" height="1" id="ks-flash-88" name="umpp-trinity-name" type="application/x-shockwave-flash" allowscriptaccess="always" flashvars="jsentry=_umpp_trinity_&amp;swfid=UM_gt180865255491433297191192&amp;group=gt18086525549"></div>
-<iframe src="personfiles/ajaxconn2.html" id="J_Um_Iframe" frameborder="0" scrolling="no" width="1" height="1" style="position: absolute;"></iframe></body></html>
+<iframe src="" id="J_Um_Iframe" frameborder="0" scrolling="no" width="1" height="1" style="position: absolute;"></iframe></body></html>

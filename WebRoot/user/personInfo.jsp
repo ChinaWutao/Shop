@@ -1,4 +1,6 @@
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%@ include file="userCheckLogin.jsp"%>
+
 <!DOCTYPE html>
 <!-- saved from url=(0128)http://i.taobao.com/user/baseInfoSet.htm?spm=a1z02.1.972272805.d4911997.FHtY0L&nekot=1433486180585&tracelog=newmytb_bianjiziliao -->
 <html class="ks-webkit537 ks-webkit ks-chrome39 ks-chrome">

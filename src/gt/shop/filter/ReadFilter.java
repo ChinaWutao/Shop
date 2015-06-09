@@ -27,11 +27,12 @@ public class ReadFilter implements Filter{
 		String seqpath=req.getServletPath();
 		HttpSession session=req.getSession();
 		
-		if(session.getAttribute("username")==null&&!seqpath.endsWith("index.jsp")&&!seqpath.endsWith("Login.jsp")&&!seqpath.endsWith("Register.jsp")&&!seqpath.endsWith("RegisterOK.jsp")){
-			request.getRequestDispatcher("/user/Login.jsp").forward(request, response);
-		}else{
-			chain.doFilter(request, response);
+		if(session.getAttribute("username")!=null){
+			//request.getRequestDispatcher("/user/Login.jsp").forward(request, response);
+		   System.out.println("当前用户为："+session.getAttribute("username"));
 		}
+			chain.doFilter(request, response);
+		
 	}
 
 	@Override
