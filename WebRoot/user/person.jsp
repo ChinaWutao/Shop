@@ -13,15 +13,13 @@
 		<!-- S GLOBAL JS
 <script src="personfiles/saved_resource(1)"></script> -->
 <!-- E GLOBAL JS -->
-
 <title>个人主页</title>
     <meta charset="GBK">
 <!-- 站点埋点  专辑detail 页面埋点 区别对待-->
 	<meta name="data-spm" content="a310q">
     <meta name="viewport" content="width=device-width, initial-scale=1 minimum-scale=1">  
 	<!-- S GLOBAL CSS -->
-	
-<link rel="stylesheet" type="text/css" href="personfiles/global-min.css">
+	<link rel="stylesheet" type="text/css" href="personfiles/global-min.css">
 <link rel="stylesheet" type="text/css" href="personfiles/a.css">
 <link rel="stylesheet" type="text/css" href="personfiles/index_002.css">
 <link rel="stylesheet" type="text/css" href="personfiles/index-min_003.css">
@@ -66,7 +64,8 @@
   <div id="J_SiteNavBd" class="site-nav-bd">
     <ul id="J_SiteNavBdL" class="site-nav-bd-l">
     <li id="J_LoginInfo" class="J_Menu menu login-info" data-fn-name="fn-login-info" data-spm="754894437">
-    <div class="menu-hd"><a href="http://i.taobao.com/my_taobao.htm?ad_id=&am_id=&cm_id=&pm_id=1501036000a02c5c3739" target="_top" class="login-info-nick">gt18086525549</a>
+    <div class="menu-hd">
+    <a href="http://i.taobao.com/my_taobao.htm?ad_id=&am_id=&cm_id=&pm_id=1501036000a02c5c3739" target="_top" class="login-info-nick">gt18086525549</a>
     <span class="arrow-icon-wrapper"><span class="g-icon arrow-icon"></span></span></div><div class="menu-bd"><div class="menu-bd-panel">
     <a href="http://i.taobao.com/my_taobao.htm?ad_id=&am_id=&cm_id=&pm_id=1501036000a02c5c3739" target="_top" id="J_UserAvatar" class="user-avatar">
     <img src="" width="80" height="80" alt="gt18086525549的头像"></a>
@@ -108,12 +107,31 @@
     <ul id="J_SiteNavBdR" class="site-nav-bd-r">
 	<li class="menu home" data-spm="1581860521">
 	<div class="menu-hd">
-	<a href="http://www.taobao.com/" target="_top" class="h">淘宝网首页</a>
+	<a href="${pageContext.request.contextPath}/index.jsp" target="_top" class="h">商城首页</a>
 	</div>
 	</li>
-	<li class="J_Menu menu my-taobao" data-spm="1997525045"><div class="menu-hd J_MenuMyTaobao"><a href="http://i.taobao.com/my_taobao.htm" target="_top">我的淘宝</a><span class="arrow-icon-wrapper"><span class="g-icon arrow-icon"></span></span></div><div class="menu-bd menu-list"><div class="menu-bd-panel"><a href="http://trade.taobao.com/trade/itemlist/list_bought_items.htm" target="_top">已买到的宝贝</a><a href="http://lu.taobao.com/newMyPath.htm" target="_top">我的足迹</a><a href="http://dongtai.taobao.com/hub/new_arrival.htm?scm=1046.1.7.1" target="_top">我的上新</a>
-	<a href="http://guang.taobao.com/?scm=2022.1.1.1" target="_top">爱逛街 <em class="J_GuangCount guang-count"></em></a><a href="http://daren.taobao.com/" target="_top">淘宝达人</a><a href="http://love.taobao.com/" target="_top">新欢</a></div></div></li>
-	<li id="J_MiniCart" class="J_Menu menu mini-cart" data-fn-name="fn-mini-cart" data-spm="1997525049"><div class="menu-hd"><a href="http://cart.taobao.com/cart.htm?from=mini&ad_id=&am_id=&cm_id=&pm_id=1501036000a02c5c3739" target="_top" id="mc-menu-hd"><span class="g-icon"></span><span>购物车</span><strong id="J_MiniCartNum" class="h">1</strong></a><span class="arrow-icon-wrapper"><span class="g-icon arrow-icon"></span></span></div><div class="menu-bd"><div class="menu-bd-panel"></div></div></li><li class="J_Menu menu favorite" data-spm="1997525053"><div class="menu-hd">
+	<li class="J_Menu menu my-taobao" data-spm="1997525045">
+	<div class="menu-hd J_MenuMyTaobao">
+	<a href="http://i.taobao.com/my_taobao.htm" target="_top">我的淘宝</a><span class="arrow-icon-wrapper"><span class="g-icon arrow-icon"></span></span></div>
+	<div class="menu-bd menu-list">
+	<div class="menu-bd-panel"><a href="http://trade.taobao.com/trade/itemlist/list_bought_items.htm" target="_top">已买到的宝贝</a>
+	<a href="http://lu.taobao.com/newMyPath.htm" target="_top">我的足迹</a>
+	<a href="http://dongtai.taobao.com/hub/new_arrival.htm?scm=1046.1.7.1" target="_top">我的上新</a>
+	<a href="http://guang.taobao.com/?scm=2022.1.1.1" target="_top">爱逛街 <em class="J_GuangCount guang-count"></em></a><a href="http://daren.taobao.com/" target="_top">淘宝达人</a>
+	<a href="http://love.taobao.com/" target="_top">新欢</a>
+	</div>
+	</div>
+	</li>
+	<li id="J_MiniCart" class="J_Menu menu mini-cart" data-fn-name="fn-mini-cart" data-spm="1997525049">
+	<div class="menu-hd"><a href="http://cart.taobao.com/cart.htm?from=mini&ad_id=&am_id=&cm_id=&pm_id=1501036000a02c5c3739" target="_top" id="mc-menu-hd">
+	<span class="g-icon"></span>
+	<span>购物车</span>
+	<strong id="J_MiniCartNum" class="h">1</strong></a>
+	<span class="arrow-icon-wrapper">
+	<span class="g-icon arrow-icon">
+	</span></span>
+	</div>
+	<div class="menu-bd"><div class="menu-bd-panel"></div></div></li><li class="J_Menu menu favorite" data-spm="1997525053"><div class="menu-hd">
 	<a href="http://shoucang.taobao.com/shop_collect_list.htm" target="_top"><span class="g-icon"></span><span>收藏夹</span></a><span class="arrow-icon-wrapper"><span class="g-icon arrow-icon"></span></span></div><div class="menu-bd menu-list"><div class="menu-bd-panel"><a href="http://shoucang.taobao.com/item_collect.htm" target="_top">收藏的宝贝</a><a href="http://shoucang.taobao.com/shop_collect_list.htm" target="_top">收藏的店铺</a></div></div></li>
 	<li class="menu guide" data-spm="1997563209"><div class="menu-hd"><a href="http://list.taobao.com/browse/cat-0.htm?taobao_from=6" target="_top">商品分类</a></div></li><li class="site-nav-pipe">|</li><li class="J_Menu menu seller-center" data-spm="1997525073"><div class="menu-hd"><a href="http://mai.taobao.com/seller_admin.htm" target="_top">卖家中心</a><span class="arrow-icon-wrapper"><span class="g-icon arrow-icon"></span></span></div>
 	<div class="menu-bd menu-list"><div class="menu-bd-panel"><a href="http://mai.taobao.com/seller_admin.htm" target="_top">免费开店</a><a href="http://trade.taobao.com/trade/itemlist/list_sold_items.htm" target="_top">已卖出的宝贝</a><a href="http://sell.taobao.com/auction/goods/goods_on_sale.htm" target="_top">出售中的宝贝</a><a href="http://fuwu.taobao.com/?tracelog=tbdd" target="_top">卖家服务市场</a><a href="http://daxue.taobao.com/" target="_top">卖家培训中心</a></div></div></li><li class="menu service" data-spm="754895749">
