@@ -1,0 +1,308 @@
+
+.pp_prop_diy {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left:0px;
+	right:0px;
+	top:100px;
+	padding: 0 10px 15px;
+	width: 910px;
+	border: 1px solid #e6e6e6;
+	z-index: 200;
+	background: #fff;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2)
+}
+
+.pp_diy_hd {
+	height: 40px;
+	line-height: 40px;
+	text-align: right;
+	border-bottom: 1px solid #F0F0F0
+}
+
+.pp_diy_hd a {
+	font-size: 14px;
+	font-weight: bold;
+	color: #a00
+}
+
+.pp_diy_col1,.pp_diy_col2 {
+	float: left
+}
+
+.pp_diy_col1 {
+	width: 409px;
+	border-right: 1px solid #E6E6E6
+}
+
+.pp_diy_col2 {
+	position: relative;
+	width: 500px
+}
+
+.pp_diy_col2_ico {
+	position: absolute;
+	left: -9px;
+	width: 15px;
+	height: 15px;
+	transform: rotate(45deg);
+	border: 1px solid #E6E6E6;
+	border-width: 0 0 1px 1px;
+	background: #fff
+}
+
+.pp_diy_lists h4,.pp_sel_hd h4 {
+	line-height: 30px;
+	font-family: "\5FAE\8F6F\96C5\9ED1";
+	font-size: 14px;
+	color: #4193e6
+}
+
+.pp_diy_tbl thead {
+	line-height: 38px;
+	background: #4193E6;
+	font-family: "\5b8b\4f53";
+	color: #fff;
+	text-align: center
+}
+
+.pp_diy_tbl thead th {
+	font-weight: normal
+}
+
+.pp_diy_tbl_col1 {
+	width: 88px;
+	text-indent: 15px
+}
+
+.pp_diy_tbl_col2 {
+	width: 188px
+}
+
+.pp_diy_tbl_col3 {
+	width: 85px
+}
+
+.pp_diy_tbl_col4 {
+	width: 40px
+}
+
+.pp_diy_tbl tbody tr {
+	border-bottom: 1px solid #F0F0F0
+}
+
+.pp_diy_fittings p {
+	margin: 9px 0 9px 15px;
+	text-align: center;
+	width: 64px;
+	height: 26px;
+	line-height: 26px;
+	background: #4193E6;
+	border-bottom: 4px solid #255CB9;
+	border-radius: 3px;
+	color: #fff;
+	font-weight: normal
+}
+
+.pp_diy_fittings i {
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	width: 8px;
+	height: 8px;
+	background:
+		url('http://static.paipaiimg.com/qqbuy/img/shop/product.png?t=20150303')
+		no-repeat -230px 0
+}
+
+.pp_diy_desc {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 188px
+}
+
+.pp_diy_price {
+	color: #d70000;
+	text-align: center
+}
+
+.pp_diy_price span {
+	font-family: arial
+}
+
+.pp_diy_del {
+	color: #327fe7
+}
+
+.pp_diy_lists .pp_diy_count,.pp_diy_lists .pp_diy_total {
+	float: left;
+	padding-top: 14px
+}
+
+.pp_diy_lists .pp_diy_count {
+	padding-left: 60px;
+	width: 200px
+}
+
+.pp_diy_lists .pp_diy_count dt,.pp_diy_lists .pp_diy_count dd {
+	float: left
+}
+
+.pp_diy_lists .pp_diy_count dt {
+	margin-right: 5px
+}
+
+.pp_diy_lists .pp_diy_count dd {
+	width: 120px
+}
+
+.pp_diy_lists .pp_diy_total {
+	width: 140px;
+	height: 32px;
+	line-height: 32px;
+	color: #d70000
+}
+
+.pp_diy_lists .pp_diy_total dt,.pp_diy_lists .pp_diy_total dd {
+	float: left
+}
+
+.pp_diy_lists .pp_diy_total dt {
+	width: 40px;
+	color:black
+}
+
+.pp_diy_lists .pp_diy_total dd {
+	width: 100px
+}
+
+.pp_diy_lists .pp_diy_total em {
+	font-size: 20px
+}
+
+.pp_diy_buy {
+	float: right
+}
+
+.pp_diy_count .textarea {
+	float: left
+}
+
+.pp_diy_sel {
+	padding-left: 10px
+}
+
+.pp_sel_bd {
+	overflow: hidden;
+	margin-bottom: 30px;
+	padding: 14px 0 0;
+	max-height: 555px
+}
+
+.pp_sel_hd h4 {
+	border-bottom: 1px solid #F0F0F0;
+	color: #666
+}
+
+.pp_sel_item {
+	margin-bottom: 14px;
+	zoom: 1
+}
+
+.pp_sel_item:after {
+	content: '';
+	display: table;
+	clear: both
+}
+
+.pp_sel_item_img,.pp_sel_item_info,.pp_sel_item_price,.pp_sel_item_act {
+	float: left;
+	height: 80px
+}
+
+.pp_sel_item_img img {
+	display: block;
+	margin-right: 9px;
+	width: 80px;
+	height: 80px
+}
+
+.pp_sel_item_tit {
+	overflow: hidden;
+	margin: 10px 0 12px;
+	height: 35px
+}
+
+.pp_sel_item_tit a {
+	color: #327FE7;
+	font-weight: normal
+}
+
+.pp_sel_item_info {
+	margin-right: 15px;
+	width: 255px
+}
+
+.pp_sel_item_desc {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #FF9820
+}
+
+.pp_sel_item_price {
+	line-height: 80px;
+	color: #D70000;
+	width: 70px
+}
+
+.pp_sel_item_act {
+	line-height: 80px
+}
+
+.pp_sel_item_act a {
+	display: inline-block;
+	width: 58px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	color: #fff;
+	background: #D70000;
+	border: 1px solid #D70000
+}
+
+.pp_sel_item_act .pp_sel_item_act_dis {
+	background: #fff;
+	color: #666;
+	border-color: #E2E1E3
+}
+
+.pp_sel_pagination {
+	text-align: center
+}
+
+.pp_sel_pagination a {
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	margin: 0 5px;
+	width: 18px;
+	height: 18px;
+	text-align: center;
+	line-height: 18px;
+	color: #666;
+	border: 1px solid #E2E1E3;
+	background: #fff
+}
+
+.pp_sel_pagination a:hover {
+	text-decoration: none
+}
+
+.pp_sel_pagination .cur {
+	color: #fff;
+	background: #666;
+	border-color: #666
+}
