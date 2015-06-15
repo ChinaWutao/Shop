@@ -2391,13 +2391,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 									<ul class="preview_item">
 										
 										<li><a class="cur" href="http://auction1.paipai.com/AE6E2E1C0000000004010000397F5A52"><img init_src="http://img6.paipaiimg.com/675c226e/item-5567E6E4-AE6E2E1C0000000004010000397F5A52.0.80x80.jpg" pos="12" commid="AE6E2E1C0000000004010000397F5A52" leafclassid="238812" cg="6-32-1" alt="麦尚伦夏季新款真皮舒适男士休闲鞋驾车鞋透气网布系带低帮男鞋透气鞋 " tourl="Invalid_ToUrl" src="./ppshoppage_files/item-5567E6E4-AE6E2E1C0000000004010000397F5A52.0.80x80.jpg" iguid="79"></a></li>
-										
 										<li><a href="http://auction1.paipai.com/AE6E2E1C0000000004010000397F5A52"><img init_src="http://img6.paipaiimg.com/675c226e/item-5567E6E4-AE6E2E1C0000000004010000397F5A52.1.80x80.jpg" pos="12" commid="AE6E2E1C0000000004010000397F5A52" leafclassid="238812" cg="6-32-2" alt="麦尚伦夏季新款真皮舒适男士休闲鞋驾车鞋透气网布系带低帮男鞋透气鞋 " tourl="Invalid_ToUrl" src="./ppshoppage_files/item-5567E6E4-AE6E2E1C0000000004010000397F5A52.1.80x80.jpg" iguid="80"></a></li>
-										
 										<li><a href="http://auction1.paipai.com/AE6E2E1C0000000004010000397F5A52"><img init_src="http://img6.paipaiimg.com/675c226e/item-5567E6E4-AE6E2E1C0000000004010000397F5A52.2.80x80.jpg" pos="12" commid="AE6E2E1C0000000004010000397F5A52" leafclassid="238812" cg="6-32-3" alt="麦尚伦夏季新款真皮舒适男士休闲鞋驾车鞋透气网布系带低帮男鞋透气鞋 " tourl="Invalid_ToUrl" src="./ppshoppage_files/item-5567E6E4-AE6E2E1C0000000004010000397F5A52.2.80x80.jpg" iguid="81"></a></li>
-										
-										<li><a href="http://auction1.paipai.com/AE6E2E1C0000000004010000397F5A52"><img init_src="http://img6.paipaiimg.com/675c226e/item-5567E6E4-AE6E2E1C0000000004010000397F5A52.3.80x80.jpg" pos="12" commid="AE6E2E1C0000000004010000397F5A52" leafclassid="238812" cg="6-32-4" alt="麦尚伦夏季新款真皮舒适男士休闲鞋驾车鞋透气网布系带低帮男鞋透气鞋 " tourl="Invalid_ToUrl" src="./ppshoppage_files/item-5567E6E4-AE6E2E1C0000000004010000397F5A52.3.80x80.jpg" iguid="82"></a></li>
-										
+										<li><a href="http://auction1.paipai.com/AE6E2E1C0000000004010000397F5A52"><img init_src="http://img6.paipaiimg.com/675c226e/item-5567E6E4-AE6E2E1C0000000004010000397F5A52.3.80x80.jpg" pos="12" commid="AE6E2E1C0000000004010000397F5A52" leafclassid="238812" cg="6-32-4" alt="麦尚伦夏季新款真皮舒适男士休闲鞋驾车鞋透气网布系带低帮男鞋透气鞋 " tourl="Invalid_ToUrl" src="./ppshoppage_files/item-5567E6E4-AE6E2E1C0000000004010000397F5A52.3.80x80.jpg" iguid="82"></a></li>										
 										<li><a href="http://auction1.paipai.com/AE6E2E1C0000000004010000397F5A52"><img init_src="http://img6.paipaiimg.com/675c226e/item-5567E6E4-AE6E2E1C0000000004010000397F5A52.4.80x80.jpg" pos="12" commid="AE6E2E1C0000000004010000397F5A52" leafclassid="238812" cg="6-32-5" alt="麦尚伦夏季新款真皮舒适男士休闲鞋驾车鞋透气网布系带低帮男鞋透气鞋 " tourl="Invalid_ToUrl" src="./ppshoppage_files/item-5567E6E4-AE6E2E1C0000000004010000397F5A52.4.80x80.jpg" iguid="83"></a></li>
 										
 									</ul>
@@ -2420,11 +2416,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 								
 							</p>
 							<p class="fn_wrap">
-								
-								
-			                	
-			                	
-			                	<a href="http://auction1.paipai.com/AE6E2E1C0000000004010000397F5A52" class="fn" leafclassid="238812" pos="12" commid="AE6E2E1C0000000004010000397F5A52" per="1" cg="6-22-2" target="_blank" title="麦尚伦夏季新款真皮舒适男士休闲鞋驾车鞋透气网布系带低帮男鞋透气鞋 ">麦尚伦夏季新款真皮舒适男士休闲<em>鞋驾车鞋</em>透气网布系带低帮男<em>鞋</em>透气<em>鞋</em> </a>
+								<a href="http://auction1.paipai.com/AE6E2E1C0000000004010000397F5A52" class="fn" leafclassid="238812" pos="12" commid="AE6E2E1C0000000004010000397F5A52" per="1" cg="6-22-2" target="_blank" title="麦尚伦夏季新款真皮舒适男士休闲鞋驾车鞋透气网布系带低帮男鞋透气鞋 ">麦尚伦夏季新款真皮舒适男士休闲<em>鞋驾车鞋</em>透气网布系带低帮男<em>鞋</em>透气<em>鞋</em> </a>
 			              	</p>
 				            <ul class="shopinfo_wrap"> 				            	
 				              	<li class="seller ">
@@ -2441,8 +2433,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 								<!-- new -->
 								</p><div class="promo_wrap" tag="promoteParams" value="" uin="472805038" itemauctionurl="">
 									<div class="promo_inner">										
-										
-										
 										<a class="icon_service icon_seven" title="7天无理由退货">7</a>
 										<!-- a class="icon_service icon_credit"  title="先行赔付">信</a -->
 										<a class="icon_service icon_real" style="display:none" title="正品假一赔三">正</a>
@@ -2490,7 +2480,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 										<li><a href="http://auction1.paipai.com/8B5CF63200000000040100004A0FDA0F"><img init_src="http://img3.paipaiimg.com/3d9dcfef/item-5516161C-8B5CF63200000000040100004A0FDA0F.3.80x80.jpg" pos="13" commid="8B5CF63200000000040100004A0FDA0F" leafclassid="238812" cg="6-32-4" alt="【TBLS汤铂莱斯】头层牛皮手工皮鞋 男士驾车鞋 休闲英伦男鞋 " tourl="Invalid_ToUrl" src="./ppshoppage_files/item-5516161C-8B5CF63200000000040100004A0FDA0F.3.80x80.jpg" iguid="88"></a></li>
 										
 										<li><a href="http://auction1.paipai.com/8B5CF63200000000040100004A0FDA0F"><img init_src="http://img3.paipaiimg.com/3d9dcfef/item-5516161C-8B5CF63200000000040100004A0FDA0F.4.80x80.jpg" pos="13" commid="8B5CF63200000000040100004A0FDA0F" leafclassid="238812" cg="6-32-5" alt="【TBLS汤铂莱斯】头层牛皮手工皮鞋 男士驾车鞋 休闲英伦男鞋 " tourl="Invalid_ToUrl" src="./ppshoppage_files/item-5516161C-8B5CF63200000000040100004A0FDA0F.4.80x80.jpg" iguid="89"></a></li>
-										
 									</ul>
 								</div>
 							</div>
@@ -2519,7 +2508,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				              	<a href="http://shop.paipai.com/855006347" uin="855006347" data-detail="rate" pos="13" commid="8B5CF63200000000040100004A0FDA0F" leafclassid="238812" per="1" cg="6-23-2" target="_blank" title="汤铂莱斯官方旗舰店 ">汤铂莱斯官方旗舰店 </a>
 				              	</li>
 				              	<li class="seller hidden "><a href="http://shop.paipai.com/855006347" title="汤铂莱斯官方旗舰店 " pos="13" commid="8B5CF63200000000040100004A0FDA0F" leafclassid="238812" per="1" cg="6-23-3" target="_blank">汤铂莱斯官方旗舰店 </a></li>
-				
 				              	<li class="location " pos="13" commid="8B5CF63200000000040100004A0FDA0F" leafclassid="238812" per="1" cg="6-21-2" tourl="http://auction1.paipai.com/8B5CF63200000000040100004A0FDA0F">福建泉州</li>
 				            </ul>
 				            <p class="other" pos="13" commid="8B5CF63200000000040100004A0FDA0F" leafclassid="238812" per="1" cg="6-21-2" tourl="Invalid_ToUrl">
@@ -2527,9 +2515,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
 								<!-- new -->
 								</p><div class="promo_wrap" tag="promoteParams" value="" uin="855006347" itemauctionurl="">
-									<div class="promo_inner">										
-										
-										
+									<div class="promo_inner">												
 										<a class="icon_service icon_seven" style="display:none" title="7天无理由退货">7</a>
 										<!-- a class="icon_service icon_credit"  title="先行赔付">信</a -->
 										<a class="icon_service icon_real" style="display:none" title="正品假一赔三">正</a>
@@ -2547,7 +2533,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 									</div>
 								</div>
 				            <p></p>
-
 							<p class="action ">
 								<a class="link_shopincart" href="http://s.paipai.com/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-PTAG=20567.38.60&,20084.2.2-as,0-bpf,0-cd,0-platform,1-sf,102.html###" tag="addCart" cg="6-26" per="1" leafclassid="238812" pos="13" commid="8B5CF63200000000040100004A0FDA0F">加入购物车</a>
 								<a class="link_detail" href="http://auction1.paipai.com/8B5CF63200000000040100004A0FDA0F" target="_blank" per="1" leafclassid="238812" pos="13" commid="8B5CF63200000000040100004A0FDA0F" cg="6-28">查看详情</a>
@@ -2559,12 +2544,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				<!-- E 商品列表 大图 -->		
 				<!-- S 分页 -->	
 				<div class="pp_pagination">
-					<ul id="btmPager">
-						
-						
+					<ul id="btmPager">	
 							<li class="disabled"><a class="prev" href="http://s.paipai.com/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-PTAG=20567.38.60&,20084.2.2-as,0-bpf,0-cd,0-platform,1-sf,102.html###"><i></i>上一页</a></li>
 							<li class="active"><a>1</a></li>
-
 								<li><a href="http://s.paipai.com/0,34167/s-1wr5kqrtyt--61-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html" pagetag="go" cg="7-2-2" pos="2">2</a></li>
 								<li><a href="http://s.paipai.com/0,34167/s-1wr5kqrtyt--121-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html" pagetag="go" cg="7-2-3" pos="3">3</a></li>
 								<li><a href="http://s.paipai.com/0,34167/s-1wr5kqrtyt--181-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html" pagetag="go" cg="7-2-4" pos="4">4</a></li>	
@@ -2578,8 +2560,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 						<span>页</span>
 						<button pagetag="jumper" id="jumpPageBtn" value="go" cg="7-4">确定</button>
 					</div>
-				</div>
-				
+				</div>		
 				<!-- E 分页 -->
 				<!--  你是不是想找(底) -->
 				<div class="pp_box" id="relevantKeywordArea2">
@@ -2595,7 +2576,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 						</div>
 					</div>
 				</div>
-
 				<!-- 您可能感兴趣的商品 -->
 				<div class="pp_box pp_tuijian" id="btmRecommendArea">
 					<div class="pp_box_hd" id="btmRecmdTitle"><h3>您可能感兴趣的商品</h3></div>
@@ -2606,7 +2586,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					</div>
 				</div>
 			</div>
-			
 			<!-- S 侧栏 -->
 			<div class="pp_sub">
 	<!-- S 卖家推荐商品 -->
@@ -2649,8 +2628,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	</div>
 	<!-- E 最近浏览 -->
 </div>
-
-
 			<!-- E 侧栏 -->
 		</div>
 	</div>
@@ -2682,7 +2659,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		</div>
 	</div>
 </div>
-
 <!-- 促销浮层 -->
 <div class="vip_detail" style="display:none;" id="promoteFloat1">
 	<div class="vip_full" id="mlsPromote"><ul><li>有效期：<span class="num">2015-05-09 - 2015-06-30</span></li><li>每笔订单满<span class="num">139元</span>减<em>5</em>元！</li><li>满<span class="num">199元</span>减<em>15</em>元！</li><li>满<span class="num">299元</span>减<em>30</em>元！</li></ul></div>
@@ -2736,16 +2712,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	</div>
 </div>
 
-
-
-
 <!-- S 显示旗舰店入口banner 相关 模板-->
-
-
 <!-- E 显示旗舰店入口banner 相关 模板-->
-
-
-
 <script type="text/javascript" src="./ppshoppage_files/jquery.1.8.js"></script>
 <script>window["PP.search.greyItem.time"]=[new Date()]</script>
 <script id="legos:22302" ver="22302:20150408:20150408105640" name="PP.search.greyItem" src="./ppshoppage_files/pp.search.greyItem.20150408.js" charset="gbk"></script><!--[if !IE]>|xGv00|8f1b03e5d0b2e2446f73e9818f21fbc6<![endif]-->
@@ -2760,15 +2728,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <div class="mod_site_new">
 			<h4><i></i>新手指南</h4>
 			<ul>
-
 				<li><a href="http://www.paipai.com/fresher/?PTAG=20316.38.1" target="_blank">新人购物指南</a></li>
-
 				<li><a href="http://fuwu.paipai.com/?PTAG=20316.38.1" target="_blank">商户服务平台</a></li>
-
 				<li><a href="http://guize.paipai.com/v2/index.shtml?PTAG=20316.38.1" target="_blank">拍拍规则平台</a></li>
-
 				<li><a href="http://aq.paipai.com/?PTAG=20316.38.1" target="_blank">拍拍安全中心</a></li>
-
 			</ul>
 		</div>
 
@@ -2776,16 +2739,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <div class="mod_site_plan">
 			<h4><i></i>诚信保证计划</h4>
 			<ul>
-
 				<li><a href="http://www.paipai.com/trust/chengbao.shtml?tab=1&PTAG=20316.38.1" target="_blank">先行赔付</a></li>
-
-
 				<li><a href="http://www.paipai.com/trust/chengbao.shtml?tab=2&PTAG=20316.38.1" target="_blank">7天包退</a></li>
-
 				<li><a href="http://www.paipai.com/trust/chengbao.shtml?tab=3&PTAG=20316.38.1" target="_blank">诚保代充</a></li>
-
 				<li><a href="http://www.paipai.com/trust/plan/?tab=8&PTAG=20316.38.1" target="_blank">快速发货</a></li>
-
 			</ul>
 		</div>
 
