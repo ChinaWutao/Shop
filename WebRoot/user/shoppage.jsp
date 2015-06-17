@@ -1,12 +1,14 @@
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+
 <%
 String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
 %>
 <!DOCTYPE html>
 <!-- saved from url=(0140)http://s.paipai.com/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-PTAG=20567.38.60&,20084.2.2-as,0-bpf,0-cd,0-platform,1-sf,102.html -->
-<html lang="zh-cn" class="w1260"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta charset="utf-8">
+<html lang="zh-cn" class="w1260"><head><meta http-equiv="Content-Type" content="text/html; charset=GBK">
+<meta charset="GBK">
 <title>驾车</title>
 <meta name="keywords" content="驾车鞋男鞋,驾车鞋男鞋价格,品牌,评测,行情,报价,促销,导购">
 <meta name="description" content="拍拍网(paipai.com)-京东旗下网站，提供驾车鞋男鞋最新报价、促销、评测、导购、排行、图片等与驾车鞋男鞋相关的选购信息.">
@@ -44,23 +46,37 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			<li><a href="http://dc2.jd.com/auto.php?service=transfer&type=dmp&from=dmp&kid=73&klid=11730&to=http://www.jd.com" target="_blank">京东</a></li>
 			<li><a href="http://www.yixun.com/?YTAG=0.280400001300000&PTAG=20316.1.9" target="_blank">易迅</a></li>
 		</ul>
-
-
 		<ul class="mod_user">
-			<li id="J_ppIndex" class="mod_user_home"><a href="http://www.paipai.com/?ptag=20316.1.13" class="c_tx1">拍拍首页</a></li>
-			<li id="J_headLogin" class="mod_user_login"><a href="http://member.paipai.com/cgi-bin/login_entry?PTAG=20257.1.7" target="_self">登录</a></li>
+			<li id="J_ppIndex" class="mod_user_home"><a href="${pageContext.request.contextPath}/user/Login.jsp" class="c_tx1">商城首页</a></li>
+			<c:if test="${username == null}">
+						<li id="J_headLogin" class="mod_user_login">
+						<a href="${pageContext.request.contextPath}/user/Login.jsp" target="_self">登录</a></li>
+			</c:if>
+			<c:if test="${username != null}">
+			  <li id="J_headUser" class="mod_user_more mod_user_my">
+				<a href="#" target="_blank" class="mod_user_more_btn">
+					<span> <strong>当前用户:</strong>
+                           <strong>${username}</strong> </span>
+					<i class="ico_sel"></i>
+				</a>
+				<div class="mod_user_more_pop">
+					<a href="${pageContext.request.contextPath}/user/Login.jsp" target="_self" onclick="exit();">退出</a>
+          			<a href="#" target="_blank">账户设置</a>
+				</div>
+			</li>
+			</c:if>
 			<li id="J_headLogout" class="mod_user_out hide"></li>
 
 			<li class="mod_user_gap"></li>
 
 			<li id="J_headUser" class="mod_user_more mod_user_my">
-				<a href="http://my.paipai.com/cgi-bin/myppindex/entry?ptag=20316.1.10" target="_blank" class="mod_user_more_btn">
+				<a href="${pageContext.request.contextPath}/user/personshop.jsp" target="_blank" class="mod_user_more_btn">
 					<span>个人中心</span>
 					<i class="ico_sel"></i>
 				</a>
 				<div class="mod_user_more_pop">
 					<a href="http://my.paipai.com/cgi-bin/trade_deal_list/boughtentry?isBuyLink=01&PTAG=20316.1.10" target="_blank">购买的商品</a>
-          <a href="http://p.paipai.com/auction/GetUserBidList?isBuyLink=03?PTAG=20316.1.10" target="_blank">竞拍的商品</a>
+                    <a href="http://p.paipai.com/auction/GetUserBidList?isBuyLink=03?PTAG=20316.1.10" target="_blank">竞拍的商品</a>
 					<a href="http://my.paipai.com/cgi-bin/favorite_new/Entry?type=item&PTAG=20316.1.10" target="_blank">收藏的商品</a>
 					<a href="http://my.paipai.com/cgi-bin/favorite_new/Entry?type=shop&PTAG=20316.1.10" target="_blank">收藏的店铺</a>
 					<a href="http://www.paipai.com/cps/index.html?PTAG=20548.1.1" target="_blank">我要分销</a>
@@ -135,9 +151,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				<!--[if !IE]><!-->
 				<img src="./ppshoppage_files/logo.png" srcset="http://static.paipaiimg.com/fd/paipai/base/img/logo_2x.png 2x" alt="拍拍网">
 				<!--<![endif]-->
-				<span class="hide">拍拍</span></a></h1><div class="mod_logo_extra" id="J_logo_extra"></div></div>
-
-		
+				<span class="hide">拍拍</span></a></h1><div class="mod_logo_extra" id="J_logo_extra"></div></div>	
 		<div class="mod_chnn">
 			
 			
@@ -145,17 +159,14 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				<a href="http://s.paipai.com/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-PTAG=20567.38.60&,20084.2.2-as,0-bpf,0-cd,0-platform,1-sf,102.html#" class="mod_chnn_more_btn"><span>更多分类</span><i class="ico_sel"></i></a>
 				<div class="mod_chnn_more_pop">
 					<!--WEBPAGEBEGIN@5199--><dl class="first">
-	<dt>特色频道</dt>
-	<dd>
+	            <dt>特色频道</dt>
+	            <dd>
 				<a href="http://www.paipai.com/nvren/index.html?ptag=20316.39.1" class="c_tx1" target="_blank">爱美丽</a>
 				<a href="http://3c.paipai.com/?ptag=20316.5.4" class="c_tx1" target="_blank">数码电器城</a>
 				<a href="http://www.paipai.com/meishi/index.shtml?PTAG=20316.39.1" class="c_tx1" target="_blank">美食天下</a>
 				<a href="http://www.paipai.com/haiwaigou/index.shtml?ptag=20316.39.1" class="c_tx1" target="_blank">海外购</a>
 				<a href="http://www.paipai.com/ershou/index.html?ptag=20316.39.1" class="c_tx1" target="_blank">拍拍拍</a>
-				<a href="http://tuan.paipai.com/?PTAG=20316.39.1" class="c_tx1" target="_blank">聚精品</a>
-			
-		
-			
+				<a href="http://tuan.paipai.com/?PTAG=20316.39.1" class="c_tx1" target="_blank">聚精品</a>	
 				<a href="http://3.paipai.com/index.shtml?ptag=20316.39.1" class="c_tx1" target="_blank">优品闪购</a>
 			
 		
@@ -163,29 +174,19 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 </dl><!--WEBPAGEEND@5199--><!--[if !IE]>|xGv00|910a3341903c707fc54d6f5be8884150<![endif]-->
 					<!--WEBPAGEBEGIN@5197--><dl>
 	<dt>服饰配件</dt>
-	<dd>
-		
-			<a href="http://s.paipai.com/s-2z1qspa--1-60-77---3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-sf,101.html?ptag=20316.39.1" target="_blank">女装</a>
-		
-			<a href="http://www.paipai.com/nanzhuang/index.shtml?PTAG=20316.39.1" target="_blank">男装</a>
-		
-			<a href="http://s.paipai.com/s-2wqqitt--1-60-77-0--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,1-platform,1-sf,101.html?ptag=20316.39.1" target="_blank">内衣</a>
-		
-			<a href="http://s.paipai.com/s-z99pywzi6v8s6--1-60-77---3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,1-platform,1-sf,141.html?ptag=20316.39.1" target="_blank">配件</a>
-		
+	<dd>	
+			<a href="http://s.paipai.com/s-2z1qspa--1-60-77---3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-sf,101.html?ptag=20316.39.1" target="_blank">女装</a>	
+			<a href="http://www.paipai.com/nanzhuang/index.shtml?PTAG=20316.39.1" target="_blank">男装</a>	
+			<a href="http://s.paipai.com/s-2wqqitt--1-60-77-0--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,1-platform,1-sf,101.html?ptag=20316.39.1" target="_blank">内衣</a>		
+			<a href="http://s.paipai.com/s-z99pywzi6v8s6--1-60-77---3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,1-platform,1-sf,141.html?ptag=20316.39.1" target="_blank">配件</a>		
 	</dd>
 </dl><dl>
 	<dt>鞋帽箱包</dt>
-	<dd>
-		
-			<a href="http://s.paipai.com/s-2z1qboa--1-60-77---3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-sf,141.html?ptag=20316.39.1" target="_blank">女鞋</a>
-		
+	<dd>		
+			<a href="http://s.paipai.com/s-2z1qboa--1-60-77---3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-sf,141.html?ptag=20316.39.1" target="_blank">女鞋</a>	
 			<a href="http://s.paipai.com/s-2wlqboa--1-60-77---3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,1-platform,1-sf,141.html?ptag=20316.39.1" target="_blank">男鞋</a>
-		
-			<a href="http://s.paipai.com/s-2z1ob9a--1-60-77---3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-sf,141.html?ptag=20316.39.1" target="_blank">女包</a>
-		
-			<a href="http://s.paipai.com/s-2wlob9a--1-60-77---3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-sf,141.html?ptag=20316.39.1" target="_blank">男包</a>
-		
+			<a href="http://s.paipai.com/s-2z1ob9a--1-60-77---3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-sf,141.html?ptag=20316.39.1" target="_blank">女包</a>	
+			<a href="http://s.paipai.com/s-2wlob9a--1-60-77---3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-sf,141.html?ptag=20316.39.1" target="_blank">男包</a>		
 	</dd>
 </dl><dl>
 	<dt>珠宝名品</dt>
@@ -205,78 +206,52 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	</dd>
 </dl><dl>
 	<dt>母婴玩具</dt>
-	<dd>
-		
-			<a href="http://s.paipai.com/s-4rvoq8rnzsgor--1-60-77---3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,1-platform,1-sf,141.html?ptag=20316.39.1" target="_blank">婴幼食品</a>
-		
-			<a href="http://s.paipai.com/s-31wo712--1-60-77---3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,1-platform,1-sf,141.html?ptag=20316.39.1" target="_blank">玩具</a>
-		
+	<dd>	
+			<a href="http://s.paipai.com/s-4rvoq8rnzsgor--1-60-77---3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,1-platform,1-sf,141.html?ptag=20316.39.1" target="_blank">婴幼食品</a>		
+			<a href="http://s.paipai.com/s-31wo712--1-60-77---3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,1-platform,1-sf,141.html?ptag=20316.39.1" target="_blank">玩具</a>		
 	</dd>
 </dl><dl>
 	<dt>家居家装</dt>
-	<dd>
-		
+	<dd>	
 			<a href="http://s.paipai.com/s-3sco39zp46--1-60-15-0--3-4-3----2-2-512-128-0-0-PTAG=20316.39.1&,20084.2.2-as,0-bpf,0-cd,0-platform,1-sf,101.html" target="_blank">四件套</a>
-		
-			<a href="http://s.paipai.com/s-z4zogr2--1-60-15-0--3-4-3----2-2-512-128-0-0-PTAG=20316.39.1&,20084.2.2-as,0-bpf,0-cd,0-platform,1-sf,101.html" target="_blank">冬被</a>
-		
+			<a href="http://s.paipai.com/s-z4zogr2--1-60-15-0--3-4-3----2-2-512-128-0-0-PTAG=20316.39.1&,20084.2.2-as,0-bpf,0-cd,0-platform,1-sf,101.html" target="_blank">冬被</a>	
 			<a href="http://s.paipai.com/s-3j35slt--1-60-15-28054--3-4-3----2-2-512-128-0-0-PTAG=20316.39.1&,20084.2.2-as,0-bpf,0-cd,0-platform,1-sf,102.html" target="_blank">沙发</a>
-		
 	</dd>
 </dl><dl>
 	<dt>日用百货</dt>
 	<dd>
-		
 			<a href="http://s.paipai.com/s-3r1ogol--1-60-77---3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-sf,101.html?ptag=20316.39.1" target="_blank">水杯</a>
-		
 			<a href="http://s.paipai.com/s-1owpo2a--1-60-77---3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,1-platform,1-sf,101.html?ptag=20316.39.1" target="_blank">烘培</a>
-		
-			<a href="http://s.paipai.com/s-zoj5712--1-60-77---3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-sf,101.html?ptag=20316.39.1" target="_blank">餐具</a>
-		
+			<a href="http://s.paipai.com/s-zoj5712--1-60-77---3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-sf,101.html?ptag=20316.39.1" target="_blank">餐具</a>		
 	</dd>
 </dl><dl>
 	<dt>美食美酒</dt>
-	<dd>
-		
-			<a href="http://s.paipai.com/0,200540-0,240100/s---1-60-15-240100--3-4-3----2-2-512-128-1-0-as,0-bpf,0-cd,0-platform,1.html?ptag=20316.13.102" target="_blank">大闸蟹</a>
-		
-			<a href="http://s.paipai.com/s-zgo57ut--1-60-15-0--3-4-3----2-2-512-128-0-0-PTAG,20084.2.2-as,0-bpf,0-cd,0-platform,1-sf,101.html" target="_blank">白酒</a>
-		
-			<a href="http://s.paipai.com/0,200540/s-zgzown8b6sioj--1-60-15-200540--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-sf,101.html?ptag=20316.13.3" target="_blank">零食</a>
-		
+	<dd>	
+			<a href="http://s.paipai.com/0,200540-0,240100/s---1-60-15-240100--3-4-3----2-2-512-128-1-0-as,0-bpf,0-cd,0-platform,1.html?ptag=20316.13.102" target="_blank">大闸蟹</a>		
+			<a href="http://s.paipai.com/s-zgo57ut--1-60-15-0--3-4-3----2-2-512-128-0-0-PTAG,20084.2.2-as,0-bpf,0-cd,0-platform,1-sf,101.html" target="_blank">白酒</a>	
+			<a href="http://s.paipai.com/0,200540/s-zgzown8b6sioj--1-60-15-200540--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-sf,101.html?ptag=20316.13.3" target="_blank">零食</a>	
 	</dd>
 </dl><dl>
 	<dt>手机数码</dt>
-	<dd>
-		
-			<a href="http://s.paipai.com/0,204260/s-qi2jt55rpx5a--1-60-15-204260--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-sf,101.html?PTAG=20316.14.14" target="_blank">iPhone6</a>
-		
-			<a href="http://s.paipai.com/s-p7tz22o2shtj655xpxtgl--1-60-15-0--3-4-3----2-2-512-128-0-0-PTAG,20084.2.2-as,0-bpf,0-cd,0-platform,1-sf,101.html?PTAG=20316.14.16" target="_blank">Note4</a>
-		
-			<a href="http://s.paipai.com/0,204260/s-89hqs3l--1-60-15-204260--3-4-3----2-2-512-128-0-0-PTAG,20084.2.2-as,0-bpf,0-cd,0-platform,1-sf,101.html?PTAG=20316.14.7" target="_blank">魅族MX4</a>
-		
+	<dd>	
+			<a href="http://s.paipai.com/0,204260/s-qi2jt55rpx5a--1-60-15-204260--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-sf,101.html?PTAG=20316.14.14" target="_blank">iPhone6</a>	
+			<a href="http://s.paipai.com/s-p7tz22o2shtj655xpxtgl--1-60-15-0--3-4-3----2-2-512-128-0-0-PTAG,20084.2.2-as,0-bpf,0-cd,0-platform,1-sf,101.html?PTAG=20316.14.16" target="_blank">Note4</a>		
+			<a href="http://s.paipai.com/0,204260/s-89hqs3l--1-60-15-204260--3-4-3----2-2-512-128-0-0-PTAG,20084.2.2-as,0-bpf,0-cd,0-platform,1-sf,101.html?PTAG=20316.14.7" target="_blank">魅族MX4</a>	
 	</dd>
 </dl><dl>
 	<dt>电脑家电</dt>
 	<dd>
-		
 			<a href="http://s.paipai.com/s-zw353xyy66--1-60-77---3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,1-platform,1-sf,101.html?ptag=20316.39.1" target="_blank">大家电</a>
-		
-			<a href="http://s.paipai.com/s-z1w6mya--1-60-77---3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-sf,101.html?ptag=20316.39.1" target="_blank">电脑</a>
-		
+			<a href="http://s.paipai.com/s-z1w6mya--1-60-77---3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-sf,101.html?ptag=20316.39.1" target="_blank">电脑</a>	
 			<a href="http://s.paipai.com/s-35co712--1-60-77---3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,1-platform,1-sf,101.html?ptag=20316.39.1" target="_blank">文具</a>
-		
 	</dd>
 </dl><dl>
 	<dt>文娱艺术</dt>
 	<dd>
 		
 			<a href="http://s.paipai.com/s-1rxo11a--1-60-77---3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-sf,101.html?ptag=20316.39.1" target="_blank">花卉</a>
-		
 			<a href="http://s.paipai.com/s-1j56gra--1-60-77---3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-sf,101.html?ptag=20316.39.1" target="_blank">狗粮</a>
-		
 			<a href="http://s.paipai.com/s-1kc653t--1-60-77---3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,1-platform,1-sf,101.html?ptag=20316.39.1" target="_blank">古玩</a>
-		
 			<a href="http://s.paipai.com/s-3ox53ot--1-60-77---3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,1-platform,1-sf,101.html?ptag=20316.39.1" target="_blank">书籍</a>
 		
 	</dd>
@@ -305,26 +280,17 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 </dl><dl>
 	<dt>生活旅行</dt>
 	<dd>
-		
 			<a href="http://s.paipai.com/s-1r2osxl--1-60-15-0--3-4-3----2-2-512-128-0-0-PTAG,20084.2.2-as,0-bpf,0-cd,0-platform,1-sf,101.html?ptag=20316.39.1" target="_blank">话费</a>
-		
 			<a href="http://s.paipai.com/s-riua--1-60-15-0--3-4-3----2-2-512-128-0-0-PTAG,20084.2.2-as,0-bpf,0-cd,0-platform,1-sf,101.html?ptag=20316.39.1" target="_blank">Q币</a>
-		
 			<a href="http://caipiao.jd.com/?ptag=20316.19.252&utm_source=www.paipai.com&utm_medium=tuiguang&utm_campaign=t_98_tx_paipai_caipiao_1&utm_term=182ade7393ed4cdf946016ac9c92ba88" target="_blank">彩票</a>
-		
 	</dd>
 </dl><!--WEBPAGEEND@5197--><!--[if !IE]>|xGv00|df7417032248277c7893b0a6a949a3bd<![endif]-->
 				</div> 
-			</div>
-			
-		</div>
-		
-
+			</div>			
+		</div>		
 		<!-- S 视频举报入口（仅在首页显示，且仅在首页index.css中定义样式） -->
 		<a class="hide gcd_gg" href="http://jubao.china.cn:13225/reportform.do" target="_blank"></a>
-		<!-- E 视频举报入口-->
-
-		
+		<!-- E 视频举报入口-->	
 		<div class="mod_s mod_s_normal">
 			<ul class="mod_s_type" id="J_searchType">
 				<li class="on" data-type="0">商品</li>
@@ -344,22 +310,11 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				</form>
 			</div>
 			<div class="pp_keywords" id="relevantKeywordArea">
-				<ul id="relevantKeywrodList">  
-				   <li><a href="http://se.paipai.com/comm_search?KeyWord=%E6%87%92%E4%BA%BA%E9%9E%8B&Platform=1&charSet=gbk&sf=141&ac=0&as=1&Property=128" target="_blank" cg="3-50-1" pos="1">懒人鞋</a></li> 
-				   <li><a href="http://se.paipai.com/comm_search?KeyWord=%E8%8B%B1%E4%BC%A6%E9%9E%8B&Platform=1&charSet=gbk&sf=141&ac=0&as=1&Property=128" target="_blank" cg="3-50-2" pos="2">英伦鞋</a></li>  
-				   <li><a href="http://se.paipai.com/comm_search?KeyWord=%E5%B7%A5%E8%A3%85%E9%9E%8B&Platform=1&charSet=gbk&sf=141&ac=0&as=1&Property=128" target="_blank" cg="3-50-3" pos="3">工装鞋</a></li> 
-				   <li><a href="http://se.paipai.com/comm_search?KeyWord=%E9%9F%A9%E7%89%88%E9%9E%8B&Platform=1&charSet=gbk&sf=141&ac=0&as=1&Property=128" target="_blank" cg="3-50-4" pos="4">韩版鞋</a></li>   
-				   <li><a href="http://se.paipai.com/comm_search?KeyWord=%E8%B1%86%E8%B1%86%E9%9E%8B&Platform=1&charSet=gbk&sf=141&ac=0&as=1&Property=128" target="_blank" cg="3-50-5" pos="5">豆豆鞋</a></li>    
-				   <li><a href="http://se.paipai.com/comm_search?KeyWord=%E9%80%8F%E6%B0%94%E9%9E%8B&Platform=1&charSet=utf-8&sf=141&ac=0&as=1&Property=128" target="_blank" cg="3-50-6" pos="6">透气鞋</a></li> 
-				   <li><a href="http://se.paipai.com/comm_search?KeyWord=%E5%A2%9E%E9%AB%98%E9%9E%8B&Platform=1&charSet=gbk&sf=141&ac=0&as=1&Property=128" target="_blank" cg="3-50-7" pos="7">增高鞋</a></li>  
-				   <li><a href="http://se.paipai.com/comm_search?KeyWord=%E5%B8%86%E8%88%B9%E9%9E%8B&Platform=1&charSet=gbk&sf=141&ac=0&as=1&Property=128" target="_blank" cg="3-50-8" pos="8">帆船鞋</a></li>   
-				   <li><a href="http://se.paipai.com/comm_search?KeyWord=%E9%A9%BE%E8%BD%A6%E9%9E%8B%E7%94%B7&Platform=1&charSet=gbk&sf=141&ac=0&as=1&Property=128" target="_blank" cg="3-50-9" pos="9">驾车鞋男</a></li>  
-				   <li><a href="http://se.paipai.com/comm_search?KeyWord=%E5%B8%86%E5%B8%83%E9%9E%8B&Platform=1&charSet=gbk&sf=141&ac=0&as=1&Property=128" target="_blank" cg="3-50-10" pos="10">帆布鞋</a></li> 
-				 </ul>
+				<ul id="relevantKeywrodList">    <li><a href="http://se.paipai.com/comm_search?KeyWord=%E6%87%92%E4%BA%BA%E9%9E%8B&Platform=1&charSet=gbk&sf=141&ac=0&as=1&Property=128" target="_blank" cg="3-50-1" pos="1">懒人鞋</a></li>    <li><a href="http://se.paipai.com/comm_search?KeyWord=%E8%8B%B1%E4%BC%A6%E9%9E%8B&Platform=1&charSet=gbk&sf=141&ac=0&as=1&Property=128" target="_blank" cg="3-50-2" pos="2">英伦鞋</a></li>    <li><a href="http://se.paipai.com/comm_search?KeyWord=%E5%B7%A5%E8%A3%85%E9%9E%8B&Platform=1&charSet=gbk&sf=141&ac=0&as=1&Property=128" target="_blank" cg="3-50-3" pos="3">工装鞋</a></li>    <li><a href="http://se.paipai.com/comm_search?KeyWord=%E9%9F%A9%E7%89%88%E9%9E%8B&Platform=1&charSet=gbk&sf=141&ac=0&as=1&Property=128" target="_blank" cg="3-50-4" pos="4">韩版鞋</a></li>    <li><a href="http://se.paipai.com/comm_search?KeyWord=%E8%B1%86%E8%B1%86%E9%9E%8B&Platform=1&charSet=gbk&sf=141&ac=0&as=1&Property=128" target="_blank" cg="3-50-5" pos="5">豆豆鞋</a></li>    <li><a href="http://se.paipai.com/comm_search?KeyWord=%E9%80%8F%E6%B0%94%E9%9E%8B&Platform=1&charSet=gbk&sf=141&ac=0&as=1&Property=128" target="_blank" cg="3-50-6" pos="6">透气鞋</a></li>    <li><a href="http://se.paipai.com/comm_search?KeyWord=%E5%A2%9E%E9%AB%98%E9%9E%8B&Platform=1&charSet=gbk&sf=141&ac=0&as=1&Property=128" target="_blank" cg="3-50-7" pos="7">增高鞋</a></li>    <li><a href="http://se.paipai.com/comm_search?KeyWord=%E5%B8%86%E8%88%B9%E9%9E%8B&Platform=1&charSet=gbk&sf=141&ac=0&as=1&Property=128" target="_blank" cg="3-50-8" pos="8">帆船鞋</a></li>    <li><a href="http://se.paipai.com/comm_search?KeyWord=%E9%A9%BE%E8%BD%A6%E9%9E%8B%E7%94%B7&Platform=1&charSet=gbk&sf=141&ac=0&as=1&Property=128" target="_blank" cg="3-50-9" pos="9">驾车鞋男</a></li>    <li><a href="http://se.paipai.com/comm_search?KeyWord=%E5%B8%86%E5%B8%83%E9%9E%8B&Platform=1&charSet=gbk&sf=141&ac=0&as=1&Property=128" target="_blank" cg="3-50-10" pos="10">帆布鞋</a></li>  </ul>
 			</div>
 			<div class="mod_s_pop" id="J_searchPop" style="display: none;"></div>
 		</div>
-		<div class="s_promote" id="J_searchClassPromote" style="display:none;"></div>
+		<div class="s_promote" id="J_searchClassPromote" style="display:none;"></div>	
 	</div>
 </div><!--[if !IE]>|xGv00|5206fec261c1b4c116d8cd476e1e9009<![endif]--><!--[if !IE]>|xGv00|9264f8eefbc752a188e14ae75266e638<![endif]-->
 <div class="page_search_product" id="mainWrap">
@@ -374,6 +329,26 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<input ind="7" name="SaleType" id="sSaleType" type="hidden" value="3">
 	<input ind="8" name="PayType" id="sPayType" type="hidden" value="4">
 	<input ind="9" name="Degree" id="sDegree" type="hidden" value="3">
+	<input ind="10" name="EndTime" id="sEndTime" type="hidden" value="">
+	<input ind="11" name="BeginPrice" id="sBeginPrice" type="hidden" value="">
+	<input ind="12" name="EndPrice" id="sEndPrice" type="hidden" value="">
+	<input ind="13" name="AuthType" id="sAuthType" type="hidden" value="2">
+	<input ind="14" name="OnlineState" id="sOnlineState" type="hidden" value="2">
+	<input ind="15" name="ShowFlag" id="sShowFlag" type="hidden" value="512">
+	<input ind="16" name="Property" id="sProperty" type="hidden" value="128">
+	<input ind="17" name="ac" id="sac" type="hidden" value="0">
+	<input ind="18" name="SaleNum" id="sSaleNum" type="hidden" value="0">
+	<input ind="19" name="sf" id="ssf" type="hidden" value="102">
+	<input ind="20" name="as" id="sas" type="hidden" value="0">
+	<input ind="21" name="Appid" id="sAppid" type="hidden" value="">
+	<input ind="22" name="PTAG" id="sPTAG" type="hidden" value="">
+	<input ind="23" name="QQUin" id="sQQUin" type="hidden" value="">
+
+	<input ind="24" name="Path" id="sPath" type="hidden" value="0,34167">
+	<input ind="25" name="NewProp" id="sNewProp" type="hidden" value="">
+	<input ind="26" name="Platform" id="sPlatform" type="hidden" value="1">
+	<input ind="27" name="charSet" id="scharSet" type="hidden" value="">
+	<input ind="28" name="TopItemId" id="sTopItemId" type="hidden" value="">
 </form>
 <input name="TotalRelNum" id="sTotalRelNum" type="hidden" value="29336">
 <!--[if !IE]>|xGv00|2093d826adb46bb5d3bef00c41b1e27e<![endif]-->	
@@ -387,8 +362,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<!-- S 主体 -->
 	<div class="pp_container">
 		<div class="pp_wrap">
-			<div class="pp_main">
-				
+			<div class="pp_main">				
 				<!-- S 头部属性项 -->
 				<!--S 猫耳朵 catears-->
 <div class="pp_catears">
@@ -411,16 +385,11 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			<div class="cate">
 				
 				<a href="http://s.paipai.com/s-1wr5kqrtyt--1-60-15---3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html" id="classPathAllLink" cg="2-1-1" tag="changeClass" classid="">全部 </a>
-				
-				
 				<span class="arr">&gt;</span>
-				
 				<a href="http://s.paipai.com/0,34167/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html" tag="changeClass" cg="2-1-2" classid="34167">男鞋</a> <span class="arr">&gt;</span>
-				
 			</div>
 			<div class="filtert">
-				<div class="attribute" id="selectedProperty" style="width: auto;">
-					
+				<div class="attribute" id="selectedProperty" style="width: auto;">				
 				</div>
 				<div class="more hidden" id="morePpath"><a href="javascript:"><i></i>更多</a></div>
 			</div>
@@ -438,18 +407,11 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	</div>
 </div>
 <!-- E 面包屑 -->
-
-
 <!-- S 显示旗舰店入口banner -->
-
 <!-- E 显示旗舰店入口banner  -->
-
-
-
 <!-- S 属性筛选 -->
 <div class="pp_attrs" id="propertyArea">
-	<div class="brand_attr hidden show" id="brandSelList">
-		
+	<div class="brand_attr hidden show" id="brandSelList">		
 		<div class="attr tworows" tag="propertyItem" isbrand="1" attritemgreaterthanoneline="true" brandcn="1">
 			<div class="attr_key">品牌</div>
 			<div class="attr_values">
@@ -460,43 +422,36 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 								<span cg="3-31-1" attrid="55" attritemid="3891" attrname="品牌：TBLS/汤铂莱斯" title="TBLS/汤铂莱斯">TBLS/汤铂莱斯</span>
 							</a>
 						</li>
-					
-						<li>
+	                    <li>
 							<a href="http://s.paipai.com/0,34167-55,10900/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html">
 								<span cg="3-31-2" attrid="55" attritemid="10900" attrname="品牌：Dealyorkdk/蒂诺克" title="Dealyorkdk/蒂诺克">Dealyorkdk/蒂诺克</span>
 							</a>
-						</li>
-					
+						</li>				
 						<li>
 							<a href="http://s.paipai.com/0,34167-55,730/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html">
 								<span cg="3-31-3" attrid="55" attritemid="730" attrname="品牌：Gabloiel/加布力尔" title="Gabloiel/加布力尔">Gabloiel/加布力尔</span>
 							</a>
 						</li>
-					
 						<li>
 							<a href="http://s.paipai.com/0,34167-55,3699/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html">
 								<span cg="3-31-4" attrid="55" attritemid="3699" attrname="品牌：Shen.Gao/圣高" title="Shen.Gao/圣高">Shen.Gao/圣高</span>
 							</a>
 						</li>
-					
 						<li>
 							<a href="http://s.paipai.com/0,34167-55,3719/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html">
 								<span cg="3-31-5" attrid="55" attritemid="3719" attrname="品牌：想川" title="想川">想川</span>
 							</a>
 						</li>
-					
 						<li>
 							<a href="http://s.paipai.com/0,34167-55,3710/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html">
 								<span cg="3-31-6" attrid="55" attritemid="3710" attrname="品牌：Mvshlo/麦尚伦" title="Mvshlo/麦尚伦">Mvshlo/麦尚伦</span>
 							</a>
 						</li>
-					
 						<li>
 							<a href="http://s.paipai.com/0,34167-55,3670/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html">
 								<span cg="3-31-7" attrid="55" attritemid="3670" attrname="品牌：Simier/斯米尔" title="Simier/斯米尔">Simier/斯米尔</span>
 							</a>
 						</li>
-					
 						<li>
 							<a href="http://s.paipai.com/0,34167-55,3879/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html">
 								<span cg="3-31-8" attrid="55" attritemid="3879" attrname="品牌：班威帝亚" title="班威帝亚">班威帝亚</span>
@@ -627,8 +582,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 							<a href="http://s.paipai.com/0,34167-55,29312/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html">
 								<span cg="3-31-29" attrid="55" attritemid="29312" attrname="品牌：DYDLJH" title="DYDLJH">DYDLJH</span>
 							</a>
-						</li>
-					
+						</li>		
 				</ul>
 				<div class="options">
 					<a class="link_more" cg="3-6-1" attrid="" attritemid="" tag="expandProperty" href="javascript:"><i cg="3-6-1" attrid="" attritemid=""></i>更多</a>
@@ -648,8 +602,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			<div class="attr_key">鞋面主材</div>
 			<div class="attr_values">
 				<ul>
-					
-						<li>
+				<li>
 							<a href="http://s.paipai.com/0,34167-1189,31/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html">
 								<span cg="3-32-1" attrid="1189" attritemid="31" attrname="鞋面主材：头层牛皮" title="头层牛皮">头层牛皮</span>
 							</a>
@@ -678,7 +631,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 								<span cg="3-32-5" attrid="1189" attritemid="52" attrname="鞋面主材：绒面" title="绒面">绒面</span>
 							</a>
 						</li>
-					
 				</ul>
 				<div class="options">
 					<a class="link_more" cg="3-6-2" attrid="" attritemid="" tag="expandProperty" href="javascript:" style="display: none;"><i cg="3-6-2" attrid="" attritemid=""></i>更多</a>
@@ -689,13 +641,11 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					<button class="cancel" tag="multOptCancel" cg="3-9-2">取消</button>
 				</div>
 			</div>
-		</div>
-		
+		</div>	
 		<div class="attr" tag="propertyItem" attritemgreaterthanoneline="true">
 			<div class="attr_key">风格</div>
 			<div class="attr_values">
-				<ul>
-					
+				<ul>	
 						<li>
 							<a href="http://s.paipai.com/0,34167-31053,9/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html">
 								<span cg="3-33-1" attrid="31053" attritemid="9" attrname="风格：朋克" title="朋克">朋克</span>
@@ -766,8 +716,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 							<a href="http://s.paipai.com/0,34167-31053,48/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html">
 								<span cg="3-33-12" attrid="31053" attritemid="48" attrname="风格：英伦" title="英伦">英伦</span>
 							</a>
-						</li>
-					
+						</li>					
 				</ul>
 				<div class="options">
 					<a class="link_more" cg="3-6-3" attrid="" attritemid="" tag="expandProperty" href="javascript:"><i cg="3-6-3" attrid="" attritemid=""></i>更多</a>
@@ -779,12 +728,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				</div>
 			</div>
 		</div>
-		
 		<div class="attr" tag="propertyItem">
 			<div class="attr_key">鞋头款式</div>
 			<div class="attr_values">
-				<ul>
-					
+				<ul>				
 						<li>
 							<a href="http://s.paipai.com/0,34167-1859,1/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html">
 								<span cg="3-34-1" attrid="1859" attritemid="1" attrname="鞋头款式：圆头" title="圆头">圆头</span>
@@ -861,9 +808,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 									<ul>
 										
 											<li><a href="http://s.paipai.com/0,34167-11785,1/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="11785" attritemid="1" attrname="帮高：低帮" cg="3-45-1" title="低帮">低帮</span></a></li>
-										
 											<li><a href="http://s.paipai.com/0,34167-11785,2/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="11785" attritemid="2" attrname="帮高：中帮" cg="3-45-2" title="中帮">中帮</span></a></li>
-										
 											<li><a href="http://s.paipai.com/0,34167-11785,3/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="11785" attritemid="3" attrname="帮高：高帮" cg="3-45-3" title="高帮">高帮</span></a></li>
 										
 									</ul>
@@ -885,28 +830,17 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 									<a href="javascript:"><span>闭合方式</span><i class="arrow">&nbsp;</i></a>
 								</div>
 								<div class="attr_values_ddl_cont" style="display:none;">
-									<ul>
-										
+									<ul>		
 											<li><a href="http://s.paipai.com/0,34167-11789,4/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="11789" attritemid="4" attrname="闭合方式：系带" cg="3-46-1" title="系带">系带</span></a></li>
-										
 											<li><a href="http://s.paipai.com/0,34167-11789,1/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="11789" attritemid="1" attrname="闭合方式：松紧带" cg="3-46-2" title="松紧带">松紧带</span></a></li>
-										
 											<li><a href="http://s.paipai.com/0,34167-11789,2/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="11789" attritemid="2" attrname="闭合方式：拉链" cg="3-46-3" title="拉链">拉链</span></a></li>
-										
 											<li><a href="http://s.paipai.com/0,34167-11789,3/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="11789" attritemid="3" attrname="闭合方式：魔术贴" cg="3-46-4" title="魔术贴">魔术贴</span></a></li>
-										
 											<li><a href="http://s.paipai.com/0,34167-11789,5/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="11789" attritemid="5" attrname="闭合方式：套脚" cg="3-46-5" title="套脚">套脚</span></a></li>
-										
 											<li><a href="http://s.paipai.com/0,34167-11789,7/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="11789" attritemid="7" attrname="闭合方式：丁字式扣带" cg="3-46-6" title="丁字式扣带">丁字式扣带</span></a></li>
-										
 											<li><a href="http://s.paipai.com/0,34167-11789,13/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="11789" attritemid="13" attrname="闭合方式：套筒" cg="3-46-7" title="套筒">套筒</span></a></li>
-										
 											<li><a href="http://s.paipai.com/0,34167-11789,14/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="11789" attritemid="14" attrname="闭合方式：松紧贴" cg="3-46-8" title="松紧贴">松紧贴</span></a></li>
-										
 											<li><a href="http://s.paipai.com/0,34167-11789,15/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="11789" attritemid="15" attrname="闭合方式：粘搭" cg="3-46-9" title="粘搭">粘搭</span></a></li>
-										
 											<li><a href="http://s.paipai.com/0,34167-11789,16/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="11789" attritemid="16" attrname="闭合方式：搭扣" cg="3-46-10" title="搭扣">搭扣</span></a></li>
-										
 									</ul>
 									<div class="options">
 										<a class="link_more" cg="3-6-6" attrid="" attritemid="" tag="expandProperty" href="javascript:"><i cg="3-6-6" attrid="" attritemid=""></i>更多</a>
@@ -926,28 +860,17 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 									<a href="javascript:"><span>鞋底材质</span><i class="arrow">&nbsp;</i></a>
 								</div>
 								<div class="attr_values_ddl_cont" style="display:none;">
-									<ul>
-										
+									<ul>			
 											<li><a href="http://s.paipai.com/0,34167-36009,3/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="36009" attritemid="3" attrname="鞋底材质：牛筋底" cg="3-47-1" title="牛筋底">牛筋底</span></a></li>
-										
 											<li><a href="http://s.paipai.com/0,34167-36009,15/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="36009" attritemid="15" attrname="鞋底材质：复合底" cg="3-47-2" title="复合底">复合底</span></a></li>
-										
 											<li><a href="http://s.paipai.com/0,34167-36009,18/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="36009" attritemid="18" attrname="鞋底材质：生胶底" cg="3-47-3" title="生胶底">生胶底</span></a></li>
-										
 											<li><a href="http://s.paipai.com/0,34167-36009,20/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="36009" attritemid="20" attrname="鞋底材质：硫化底" cg="3-47-4" title="硫化底">硫化底</span></a></li>
-										
 											<li><a href="http://s.paipai.com/0,34167-36009,22/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="36009" attritemid="22" attrname="鞋底材质：千层底" cg="3-47-5" title="千层底">千层底</span></a></li>
-										
 											<li><a href="http://s.paipai.com/0,34167-36009,23/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="36009" attritemid="23" attrname="鞋底材质：软木底" cg="3-47-6" title="软木底">软木底</span></a></li>
-										
 											<li><a href="http://s.paipai.com/0,34167-36009,24/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="36009" attritemid="24" attrname="鞋底材质：泡沫底" cg="3-47-7" title="泡沫底">泡沫底</span></a></li>
-										
 											<li><a href="http://s.paipai.com/0,34167-36009,25/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="36009" attritemid="25" attrname="鞋底材质：木质底" cg="3-47-8" title="木质底">木质底</span></a></li>
-										
 											<li><a href="http://s.paipai.com/0,34167-36009,26/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="36009" attritemid="26" attrname="鞋底材质：塑胶底" cg="3-47-9" title="塑胶底">塑胶底</span></a></li>
-										
-											<li><a href="http://s.paipai.com/0,34167-36009,27/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="36009" attritemid="27" attrname="鞋底材质：橡胶底" cg="3-47-10" title="橡胶底">橡胶底</span></a></li>
-										
+											<li><a href="http://s.paipai.com/0,34167-36009,27/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="36009" attritemid="27"  title="橡胶底">橡胶底</span></a></li>								
 									</ul>
 									<div class="options">
 										<a class="link_more" cg="3-6-7" attrid="" attritemid="" tag="expandProperty" href="javascript:"><i cg="3-6-7" attrid="" attritemid=""></i>更多</a>
@@ -970,37 +893,21 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 									<ul>
 										
 											<li><a href="http://s.paipai.com/0,34167-36546,1/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="36546" attritemid="1" attrname="皮革风格：打蜡皮" cg="3-48-1" title="打蜡皮">打蜡皮</span></a></li>
-										
 											<li><a href="http://s.paipai.com/0,34167-36546,2/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="36546" attritemid="2" attrname="皮革风格：反绒皮" cg="3-48-2" title="反绒皮">反绒皮</span></a></li>
-										
 											<li><a href="http://s.paipai.com/0,34167-36546,3/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="36546" attritemid="3" attrname="皮革风格：疯马皮" cg="3-48-3" title="疯马皮">疯马皮</span></a></li>
-										
 											<li><a href="http://s.paipai.com/0,34167-36546,4/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="36546" attritemid="4" attrname="皮革风格：粒面皮" cg="3-48-4" title="粒面皮">粒面皮</span></a></li>
-										
 											<li><a href="http://s.paipai.com/0,34167-36546,5/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="36546" attritemid="5" attrname="皮革风格：裂纹皮" cg="3-48-5" title="裂纹皮">裂纹皮</span></a></li>
-										
 											<li><a href="http://s.paipai.com/0,34167-36546,6/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="36546" attritemid="6" attrname="皮革风格：磨砂皮" cg="3-48-6" title="磨砂皮">磨砂皮</span></a></li>
-										
 											<li><a href="http://s.paipai.com/0,34167-36546,7/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="36546" attritemid="7" attrname="皮革风格：帕纳纹" cg="3-48-7" title="帕纳纹">帕纳纹</span></a></li>
-										
 											<li><a href="http://s.paipai.com/0,34167-36546,8/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="36546" attritemid="8" attrname="皮革风格：漆光皮" cg="3-48-8" title="漆光皮">漆光皮</span></a></li>
-										
 											<li><a href="http://s.paipai.com/0,34167-36546,9/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="36546" attritemid="9" attrname="皮革风格：软面皮" cg="3-48-9" title="软面皮">软面皮</span></a></li>
-										
 											<li><a href="http://s.paipai.com/0,34167-36546,10/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="36546" attritemid="10" attrname="皮革风格：摔纹皮" cg="3-48-10" title="摔纹皮">摔纹皮</span></a></li>
-										
 											<li><a href="http://s.paipai.com/0,34167-36546,11/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="36546" attritemid="11" attrname="皮革风格：水染皮" cg="3-48-11" title="水染皮">水染皮</span></a></li>
-										
 											<li><a href="http://s.paipai.com/0,34167-36546,12/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="36546" attritemid="12" attrname="皮革风格：贴膜皮" cg="3-48-12" title="贴膜皮">贴膜皮</span></a></li>
-										
-											<li><a href="http://s.paipai.com/0,34167-36546,13/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="36546" attritemid="13" attrname="皮革风格：修面皮" cg="3-48-13" title="修面皮">修面皮</span></a></li>
-										
+											<li><a href="http://s.paipai.com/0,34167-36546,13/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="36546" attritemid="13" attrname="皮革风格：修面皮" cg="3-48-13" title="修面皮">修面皮</span></a></li>						
 											<li><a href="http://s.paipai.com/0,34167-36546,14/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="36546" attritemid="14" attrname="皮革风格：压花皮" cg="3-48-14" title="压花皮">压花皮</span></a></li>
-										
 											<li><a href="http://s.paipai.com/0,34167-36546,15/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="36546" attritemid="15" attrname="皮革风格：印花皮" cg="3-48-15" title="印花皮">印花皮</span></a></li>
-										
-											<li><a href="http://s.paipai.com/0,34167-36546,16/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="36546" attritemid="16" attrname="皮革风格：油蜡皮" cg="3-48-16" title="油蜡皮">油蜡皮</span></a></li>
-										
+											<li><a href="#"><span attrid="36546" attritemid="16" attrname="皮革风格：油蜡皮" cg="3-48-16" title="油蜡皮">油蜡皮</span></a></li>
 									</ul>
 									<div class="options">
 										<a class="link_more" cg="3-6-8" attrid="" attritemid="" tag="expandProperty" href="javascript:"><i cg="3-6-8" attrid="" attritemid=""></i>更多</a>
@@ -1021,21 +928,13 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 								</div>
 								<div class="attr_values_ddl_cont" style="display:none;">
 									<ul>
-										
 											<li><a href="http://s.paipai.com/0,34167-36547,1/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="36547" attritemid="1" attrname="内里材质：棉质" cg="3-49-1" title="棉质">棉质</span></a></li>
-										
 											<li><a href="http://s.paipai.com/0,34167-36547,2/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="36547" attritemid="2" attrname="内里材质：皮质" cg="3-49-2" title="皮质">皮质</span></a></li>
-										
 											<li><a href="http://s.paipai.com/0,34167-36547,3/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="36547" attritemid="3" attrname="内里材质：人造短毛绒" cg="3-49-3" title="人造短毛绒">人造短毛绒</span></a></li>
-										
 											<li><a href="http://s.paipai.com/0,34167-36547,4/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="36547" attritemid="4" attrname="内里材质：人造革/PU" cg="3-49-4" title="人造革/PU">人造革/PU</span></a></li>
-										
 											<li><a href="http://s.paipai.com/0,34167-36547,5/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="36547" attritemid="5" attrname="内里材质：人造长毛绒" cg="3-49-5" title="人造长毛绒">人造长毛绒</span></a></li>
-										
 											<li><a href="http://s.paipai.com/0,34167-36547,6/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="36547" attritemid="6" attrname="内里材质：网纱" cg="3-49-6" title="网纱">网纱</span></a></li>
-										
-											<li><a href="http://s.paipai.com/0,34167-36547,7/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="36547" attritemid="7" attrname="内里材质：羊毛" cg="3-49-7" title="羊毛">羊毛</span></a></li>
-										
+											<li><a href="http://s.paipai.com/0,34167-36547,7/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="36547" attritemid="7" attrname="内里材质：羊毛" cg="3-49-7" title="羊毛">羊毛</span></a></li>				
 											<li><a href="http://s.paipai.com/0,34167-36547,8/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="36547" attritemid="8" attrname="内里材质：超纤" cg="3-49-8" title="超纤">超纤</span></a></li>
 										
 									</ul>
@@ -1049,8 +948,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 									</div>
 								</div>
 							</div>
-						</li>
-						
+						</li>			
 						<li class="">
 							<div class="attr_values_ddl" tag="propertyItem">
 								<div class="attr_values_ddl_tit">
@@ -1058,21 +956,13 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 								</div>
 								<div class="attr_values_ddl_cont" style="display:none;">
 									<ul>
-										
 											<li><a href="http://s.paipai.com/0,34167-38831,6/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="38831" attritemid="6" attrname="男鞋功能：透气" cg="3-410-1" title="透气">透气</span></a></li>
-										
 											<li><a href="http://s.paipai.com/0,34167-38831,4/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="38831" attritemid="4" attrname="男鞋功能：耐磨" cg="3-410-2" title="耐磨">耐磨</span></a></li>
-										
 											<li><a href="http://s.paipai.com/0,34167-38831,5/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="38831" attritemid="5" attrname="男鞋功能：轻质" cg="3-410-3" title="轻质">轻质</span></a></li>
-										
 											<li><a href="http://s.paipai.com/0,34167-38831,7/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="38831" attritemid="7" attrname="男鞋功能：增高" cg="3-410-4" title="增高">增高</span></a></li>
-										
 											<li><a href="http://s.paipai.com/0,34167-38831,1/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="38831" attritemid="1" attrname="男鞋功能：保暖" cg="3-410-5" title="保暖">保暖</span></a></li>
-										
 											<li><a href="http://s.paipai.com/0,34167-38831,3/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="38831" attritemid="3" attrname="男鞋功能：减震" cg="3-410-6" title="减震">减震</span></a></li>
-										
 											<li><a href="http://s.paipai.com/0,34167-38831,2/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="38831" attritemid="2" attrname="男鞋功能：防水" cg="3-410-7" title="防水">防水</span></a></li>
-										
 									</ul>
 									<div class="options">
 										<a class="link_more" cg="3-6-10" attrid="" attritemid="" tag="expandProperty" href="javascript:"><i cg="3-6-10" attrid="" attritemid=""></i>更多</a>
@@ -1095,27 +985,16 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 									<ul>
 										
 											<li><a href="http://s.paipai.com/0,34167-37813,108/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="37813" attritemid="108" attrname="流行元素：磨砂面" cg="3-411-1" title="磨砂面">磨砂面</span></a></li>
-										
 											<li><a href="http://s.paipai.com/0,34167-37813,43/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="37813" attritemid="43" attrname="流行元素：车缝线" cg="3-411-2" title="车缝线">车缝线</span></a></li>
-										
 											<li><a href="http://s.paipai.com/0,34167-37813,46/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="37813" attritemid="46" attrname="流行元素：皮革拼接" cg="3-411-3" title="皮革拼接">皮革拼接</span></a></li>
-										
 											<li><a href="http://s.paipai.com/0,34167-37813,51/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="37813" attritemid="51" attrname="流行元素：交叉绑带" cg="3-411-4" title="交叉绑带">交叉绑带</span></a></li>
-										
 											<li><a href="http://s.paipai.com/0,34167-37813,44/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="37813" attritemid="44" attrname="流行元素：翻边" cg="3-411-5" title="翻边">翻边</span></a></li>
-										
 											<li><a href="http://s.paipai.com/0,34167-37813,3/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="37813" attritemid="3" attrname="流行元素：铆钉" cg="3-411-6" title="铆钉">铆钉</span></a></li>
-										
 											<li><a href="http://s.paipai.com/0,34167-37813,45/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="37813" attritemid="45" attrname="流行元素：金属" cg="3-411-7" title="金属">金属</span></a></li>
-										
 											<li><a href="http://s.paipai.com/0,34167-37813,22/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="37813" attritemid="22" attrname="流行元素：亮片" cg="3-411-8" title="亮片">亮片</span></a></li>
-										
 											<li><a href="http://s.paipai.com/0,34167-37813,6/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="37813" attritemid="6" attrname="流行元素：镂空" cg="3-411-9" title="镂空">镂空</span></a></li>
-										
 											<li><a href="http://s.paipai.com/0,34167-37813,47/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="37813" attritemid="47" attrname="流行元素：图腾" cg="3-411-10" title="图腾">图腾</span></a></li>
-										
 											<li><a href="http://s.paipai.com/0,34167-37813,79/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="37813" attritemid="79" attrname="流行元素：迷彩" cg="3-411-11" title="迷彩">迷彩</span></a></li>
-										
 											<li><a href="http://s.paipai.com/0,34167-37813,80/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html"><span attrid="37813" attritemid="80" attrname="流行元素：荧光" cg="3-411-12" title="荧光">荧光</span></a></li>
 										
 									</ul>
@@ -1151,7 +1030,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			</div>
 			<div class="attr_values">
 				<ul>
-					
 					<li>
 						<!-- ClusterCount (24798) -->
 						<a href="http://s.paipai.com/0,34167-0,232116/s-1wr5kqrtyt--1-60-15-232116--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html" tag="changeClass" title="男士休闲鞋"><span class="atxt" cg="3-12-1" ishot="" classid="232116">男士休闲鞋</span></a>
@@ -1165,8 +1043,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					<li>
 						<!-- ClusterCount (1675) -->
 						<a href="http://s.paipai.com/0,34167-0,246395/s-1wr5kqrtyt--1-60-15-246395--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html" tag="changeClass" title="男士帆布鞋"><span class="atxt" cg="3-12-3" ishot="" classid="246395">男士帆布鞋</span></a>
-					</li>
-					
+					</li>	
 					<li>
 						<!-- ClusterCount (558) -->
 						<a href="http://s.paipai.com/0,34167-0,700064/s-1wr5kqrtyt--1-60-15-700064--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html" tag="changeClass" title="男士凉鞋"><span class="atxt" cg="3-12-4" ishot="" classid="700064">男士凉鞋</span></a>
@@ -1190,8 +1067,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				</ul>
 				<div class="options"><a class="link_more" cg="3-22-1" ishot="" classid="" tag="expandProperty" href="javascript:"><i cg="3-22-1" ishot="" classid=""></i>更多</a></div>
 			</div>
-		</div>
-		
+		</div>	
 	</div>
 	<!-- E 分类 -->
 </div>
@@ -1202,7 +1078,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<ul id="relevantKeywrodList">
 	</ul>
 </div -->
-
 <div class="pp_filter hidden" id="filterAreaBk"></div>
 <!-- E 排序筛选 -->
 <div class="pp_filter" id="filterArea">
@@ -1211,8 +1086,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		<a href="http://s.paipai.com/0,34167/s-1wr5kqrtyt--1-60-24-34167--3-4-3--1500--2-2-512-128-0-0-as,0-bpf,1-cd,0-platform,1-qrw,1-sf,102.html" class="" sort="1" rel="nofollow" cg="5-2">销量<i class="down"></i></a>
 		<a href="http://s.paipai.com/0,34167/s-1wr5kqrtyt--1-60-21-34167--3-4-3--1500--2-2-512-128-0-0-as,0-bpf,1-cd,0-platform,1-qrw,1-sf,102.html" class="" sort="2" rel="nofollow" cg="5-5">人气<i class="down"></i></a>
 		<a href="http://s.paipai.com/0,34167/s-1wr5kqrtyt--1-60-9-34167--3-4-3--1500--2-2-512-128-0-0-as,0-bpf,1-cd,0-platform,1-qrw,1-sf,102.html" class="" sort="3" rel="nofollow" cg="5-4">信用<i class="down"></i></a>
-		<a href="http://s.paipai.com/0,34167/s-1wr5kqrtyt--1-60-6-34167--3-4-3--1500--2-2-512-128-0-0-as,0-bpf,1-cd,0-platform,1-qrw,1-sf,102.html" class=" " sort="4" rel="nofollow" cg="5-3-1">价格<i class="asc"></i><i class="desc"></i></a>
-		
+		<a href="http://s.paipai.com/0,34167/s-1wr5kqrtyt--1-60-6-34167--3-4-3--1500--2-2-512-128-0-0-as,0-bpf,1-cd,0-platform,1-qrw,1-sf,102.html" class=" " sort="4" rel="nofollow" cg="5-3-1">价格<i class="asc"></i><i class="desc"></i></a>	
 		<!-- 升序byasc  倒序bydesc -->
 	</div>
 	<div class="fprice" id="priceArea" cg="5-13-1"><!-- 添加fprice_active激活浮层 -->
@@ -1441,9 +1315,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 							<a href="http://auction1.paipai.com/A82FC5B10000000004010000413D95CF" target="_blank" class="url">
 								<img init_src="http://img0.paipaiimg.com/324fecb9/item-555E6FA2-A82FC5B10000000004010000413D95CF.0.300x300.jpg" class="photo" alt="骆驼男鞋子男款 新款男鞋男士休闲鞋男豆豆鞋男真皮鞋驾车鞋 " leafclassid="238812" pos="0" commid="A82FC5B10000000004010000413D95CF" per="1" cg="6-21-2" src="./ppshoppage_files/item-555E6FA2-A82FC5B10000000004010000413D95CF.0.300x300.jpg" iguid="0">
 							</a>
-							
-
-							<!-- S 商品副图 -->
+			             	<!-- S 商品副图 -->
 							
 							<div class="preview_wrap">
 								<div class="preview_inner">
@@ -1522,9 +1394,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 										<a class="icon_service icon_certified" style="display:none" title="美妆正品联盟，官方授权，100%正品保证"></a>
 										<a class="icon_service icon_kong" style="display:none" title="港啪正品认证，进口数码家电商品全球购">港啪</a>
 									</div>
-								</div>
-
-								
+								</div>								
 				            <p></p>
 
 							<p class="action ">
@@ -1539,8 +1409,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 							<a href="http://auction1.paipai.com/F2662068000000000401000044DBECD1" target="_blank" class="url">
 								<img init_src="http://img2.paipaiimg.com/1de5b70e/item-54B078A5-F2662068000000000401000044DBECD1.0.300x300.jpg" class="photo" alt="骆驼男鞋子男款 高档豆豆鞋男休闲鞋男士休闲皮鞋男驾车鞋潮流新款 " leafclassid="238812" pos="1" commid="F2662068000000000401000044DBECD1" per="1" cg="6-21-2" src="./ppshoppage_files/item-54B078A5-F2662068000000000401000044DBECD1.0.300x300.jpg" iguid="6">
 							</a>
-							
-
 							<!-- S 商品副图 -->
 							
 							<div class="preview_wrap">
@@ -1570,17 +1438,11 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 										<i class="promo_icon promo_icon_dist" pos="1" commid="F2662068000000000401000044DBECD1" leafclassid="238812" per="1">折扣</i>	
 										<i class="promo_icon promo_icon_post" pos="1" commid="F2662068000000000401000044DBECD1" leafclassid="238812" per="1">包邮</i>
 									</span>
-								</span>
-
-								
+								</span>					
 								<span class="promo ">销量<b>863</b></span>
 								
 							</p>
-							<p class="fn_wrap">
-								
-								
-			                	
-			                	
+							<p class="fn_wrap">                	
 			                	<a href="http://auction1.paipai.com/F2662068000000000401000044DBECD1" class="fn" leafclassid="238812" pos="1" commid="F2662068000000000401000044DBECD1" per="1" cg="6-22-2" target="_blank" title="骆驼男鞋子男款 高档豆豆鞋男休闲鞋男士休闲皮鞋男驾车鞋潮流新款 ">骆驼男<em>鞋</em>子男款 高档豆豆<em>鞋</em>男休闲<em>鞋</em>男士休闲皮<em>鞋</em>男<em>驾车鞋</em>潮流新款 </a>
 			              	</p>
 				            <ul class="shopinfo_wrap"> 				            	
@@ -1602,9 +1464,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 										<span class="icon_promo show" data-detail="full" data-pos="31" pos="1" commid="F2662068000000000401000044DBECD1" leafclassid="238812" per="1" cg="6-25-1" ovmark="1">满立减<i class="arr"></i></span>
 										<span class="icon_promo" data-detail="pack" data-pos="77" style="display:none" pos="1" commid="F2662068000000000401000044DBECD1" leafclassid="238812" per="1" cg="6-25-2">红包<i class="arr"></i></span>
 										<!-- span class="icon_promo"  pos="1" commId="F2662068000000000401000044DBECD1" leafClassId="238812" per="1" cg="6-25-4">拍卖<i class="arr"></i></span -->											
-										
-										
-										<a class="icon_service icon_seven" title="7天无理由退货">7</a>
+									    <a class="icon_service icon_seven" title="7天无理由退货">7</a>
 										<!-- a class="icon_service icon_credit"  title="先行赔付">信</a -->
 										<a class="icon_service icon_real" style="display:none" title="正品假一赔三">正</a>
 										<a class="icon_service icon_virtaul" style="display:none" title="虚拟诚保代充">充</a>
@@ -1638,22 +1498,16 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 							<a href="http://auction1.paipai.com/43AAAD8F00000000040100004167A0B8" target="_blank" class="url">
 								<img init_src="http://img3.paipaiimg.com/36edc405/item-552910D9-43AAAD8F00000000040100004167A0B8.0.300x300.jpg" class="photo" alt="蒂诺克2015新款真皮男士休闲豆豆鞋男 懒人透气驾车鞋潮流乐福鞋男 " leafclassid="238812" pos="2" commid="43AAAD8F00000000040100004167A0B8" per="1" cg="6-21-2" src="./ppshoppage_files/item-552910D9-43AAAD8F00000000040100004167A0B8.0.300x300.jpg" iguid="12">
 							</a>
-							
-
-							<!-- S 商品副图 -->
+				            <!-- S 商品副图 -->
 							
 							<div class="preview_wrap">
 								<div class="preview_inner">
 									<ul class="preview_item">
 										
 										<li><a class="cur" href="http://auction1.paipai.com/43AAAD8F00000000040100004167A0B8"><img init_src="http://img3.paipaiimg.com/36edc405/item-552910D9-43AAAD8F00000000040100004167A0B8.0.80x80.jpg" pos="2" commid="43AAAD8F00000000040100004167A0B8" leafclassid="238812" cg="6-32-1" alt="蒂诺克2015新款真皮男士休闲豆豆鞋男 懒人透气驾车鞋潮流乐福鞋男 " tourl="Invalid_ToUrl" src="./ppshoppage_files/item-552910D9-43AAAD8F00000000040100004167A0B8.0.80x80.jpg" iguid="13"></a></li>
-										
 										<li><a href="http://auction1.paipai.com/43AAAD8F00000000040100004167A0B8"><img init_src="http://img3.paipaiimg.com/36edc405/item-552910D9-43AAAD8F00000000040100004167A0B8.1.80x80.jpg" pos="2" commid="43AAAD8F00000000040100004167A0B8" leafclassid="238812" cg="6-32-2" alt="蒂诺克2015新款真皮男士休闲豆豆鞋男 懒人透气驾车鞋潮流乐福鞋男 " tourl="Invalid_ToUrl" src="./ppshoppage_files/item-552910D9-43AAAD8F00000000040100004167A0B8.1.80x80.jpg" iguid="14"></a></li>
-										
-										<li><a href="http://auction1.paipai.com/43AAAD8F00000000040100004167A0B8"><img init_src="http://img3.paipaiimg.com/36edc405/item-552910D9-43AAAD8F00000000040100004167A0B8.2.80x80.jpg" pos="2" commid="43AAAD8F00000000040100004167A0B8" leafclassid="238812" cg="6-32-3" alt="蒂诺克2015新款真皮男士休闲豆豆鞋男 懒人透气驾车鞋潮流乐福鞋男 " tourl="Invalid_ToUrl" src="./ppshoppage_files/item-552910D9-43AAAD8F00000000040100004167A0B8.2.80x80.jpg" iguid="15"></a></li>
-										
-										<li><a href="http://auction1.paipai.com/43AAAD8F00000000040100004167A0B8"><img init_src="http://img3.paipaiimg.com/36edc405/item-552910D9-43AAAD8F00000000040100004167A0B8.3.80x80.jpg" pos="2" commid="43AAAD8F00000000040100004167A0B8" leafclassid="238812" cg="6-32-4" alt="蒂诺克2015新款真皮男士休闲豆豆鞋男 懒人透气驾车鞋潮流乐福鞋男 " tourl="Invalid_ToUrl" src="./ppshoppage_files/item-552910D9-43AAAD8F00000000040100004167A0B8.3.80x80.jpg" iguid="16"></a></li>
-										
+										<li><a href="http://auction1.paipai.com/43AAAD8F00000000040100004167A0B8"><img init_src="http://img3.paipaiimg.com/36edc405/item-552910D9-43AAAD8F00000000040100004167A0B8.2.80x80.jpg" pos="2" commid="43AAAD8F00000000040100004167A0B8" leafclassid="238812" cg="6-32-3" alt="蒂诺克2015新款真皮男士休闲豆豆鞋男 懒人透气驾车鞋潮流乐福鞋男 " tourl="Invalid_ToUrl" src="./ppshoppage_files/item-552910D9-43AAAD8F00000000040100004167A0B8.2.80x80.jpg" iguid="15"></a></li>										
+										<li><a href="http://auction1.paipai.com/43AAAD8F00000000040100004167A0B8"><img init_src="http://img3.paipaiimg.com/36edc405/item-552910D9-43AAAD8F00000000040100004167A0B8.3.80x80.jpg" pos="2" commid="43AAAD8F00000000040100004167A0B8" leafclassid="238812" cg="6-32-4" alt="蒂诺克2015新款真皮男士休闲豆豆鞋男 懒人透气驾车鞋潮流乐福鞋男 " tourl="Invalid_ToUrl" src="./ppshoppage_files/item-552910D9-43AAAD8F00000000040100004167A0B8.3.80x80.jpg" iguid="16"></a></li>										
 										<li><a href="http://auction1.paipai.com/43AAAD8F00000000040100004167A0B8"><img init_src="http://img3.paipaiimg.com/36edc405/item-552910D9-43AAAD8F00000000040100004167A0B8.4.80x80.jpg" pos="2" commid="43AAAD8F00000000040100004167A0B8" leafclassid="238812" cg="6-32-5" alt="蒂诺克2015新款真皮男士休闲豆豆鞋男 懒人透气驾车鞋潮流乐福鞋男 " tourl="Invalid_ToUrl" src="./ppshoppage_files/item-552910D9-43AAAD8F00000000040100004167A0B8.4.80x80.jpg" iguid="17"></a></li>
 										
 									</ul>
@@ -2391,9 +2245,13 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 									<ul class="preview_item">
 										
 										<li><a class="cur" href="http://auction1.paipai.com/AE6E2E1C0000000004010000397F5A52"><img init_src="http://img6.paipaiimg.com/675c226e/item-5567E6E4-AE6E2E1C0000000004010000397F5A52.0.80x80.jpg" pos="12" commid="AE6E2E1C0000000004010000397F5A52" leafclassid="238812" cg="6-32-1" alt="麦尚伦夏季新款真皮舒适男士休闲鞋驾车鞋透气网布系带低帮男鞋透气鞋 " tourl="Invalid_ToUrl" src="./ppshoppage_files/item-5567E6E4-AE6E2E1C0000000004010000397F5A52.0.80x80.jpg" iguid="79"></a></li>
+										
 										<li><a href="http://auction1.paipai.com/AE6E2E1C0000000004010000397F5A52"><img init_src="http://img6.paipaiimg.com/675c226e/item-5567E6E4-AE6E2E1C0000000004010000397F5A52.1.80x80.jpg" pos="12" commid="AE6E2E1C0000000004010000397F5A52" leafclassid="238812" cg="6-32-2" alt="麦尚伦夏季新款真皮舒适男士休闲鞋驾车鞋透气网布系带低帮男鞋透气鞋 " tourl="Invalid_ToUrl" src="./ppshoppage_files/item-5567E6E4-AE6E2E1C0000000004010000397F5A52.1.80x80.jpg" iguid="80"></a></li>
+										
 										<li><a href="http://auction1.paipai.com/AE6E2E1C0000000004010000397F5A52"><img init_src="http://img6.paipaiimg.com/675c226e/item-5567E6E4-AE6E2E1C0000000004010000397F5A52.2.80x80.jpg" pos="12" commid="AE6E2E1C0000000004010000397F5A52" leafclassid="238812" cg="6-32-3" alt="麦尚伦夏季新款真皮舒适男士休闲鞋驾车鞋透气网布系带低帮男鞋透气鞋 " tourl="Invalid_ToUrl" src="./ppshoppage_files/item-5567E6E4-AE6E2E1C0000000004010000397F5A52.2.80x80.jpg" iguid="81"></a></li>
-										<li><a href="http://auction1.paipai.com/AE6E2E1C0000000004010000397F5A52"><img init_src="http://img6.paipaiimg.com/675c226e/item-5567E6E4-AE6E2E1C0000000004010000397F5A52.3.80x80.jpg" pos="12" commid="AE6E2E1C0000000004010000397F5A52" leafclassid="238812" cg="6-32-4" alt="麦尚伦夏季新款真皮舒适男士休闲鞋驾车鞋透气网布系带低帮男鞋透气鞋 " tourl="Invalid_ToUrl" src="./ppshoppage_files/item-5567E6E4-AE6E2E1C0000000004010000397F5A52.3.80x80.jpg" iguid="82"></a></li>										
+										
+										<li><a href="http://auction1.paipai.com/AE6E2E1C0000000004010000397F5A52"><img init_src="http://img6.paipaiimg.com/675c226e/item-5567E6E4-AE6E2E1C0000000004010000397F5A52.3.80x80.jpg" pos="12" commid="AE6E2E1C0000000004010000397F5A52" leafclassid="238812" cg="6-32-4" alt="麦尚伦夏季新款真皮舒适男士休闲鞋驾车鞋透气网布系带低帮男鞋透气鞋 " tourl="Invalid_ToUrl" src="./ppshoppage_files/item-5567E6E4-AE6E2E1C0000000004010000397F5A52.3.80x80.jpg" iguid="82"></a></li>
+										
 										<li><a href="http://auction1.paipai.com/AE6E2E1C0000000004010000397F5A52"><img init_src="http://img6.paipaiimg.com/675c226e/item-5567E6E4-AE6E2E1C0000000004010000397F5A52.4.80x80.jpg" pos="12" commid="AE6E2E1C0000000004010000397F5A52" leafclassid="238812" cg="6-32-5" alt="麦尚伦夏季新款真皮舒适男士休闲鞋驾车鞋透气网布系带低帮男鞋透气鞋 " tourl="Invalid_ToUrl" src="./ppshoppage_files/item-5567E6E4-AE6E2E1C0000000004010000397F5A52.4.80x80.jpg" iguid="83"></a></li>
 										
 									</ul>
@@ -2416,7 +2274,11 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 								
 							</p>
 							<p class="fn_wrap">
-								<a href="http://auction1.paipai.com/AE6E2E1C0000000004010000397F5A52" class="fn" leafclassid="238812" pos="12" commid="AE6E2E1C0000000004010000397F5A52" per="1" cg="6-22-2" target="_blank" title="麦尚伦夏季新款真皮舒适男士休闲鞋驾车鞋透气网布系带低帮男鞋透气鞋 ">麦尚伦夏季新款真皮舒适男士休闲<em>鞋驾车鞋</em>透气网布系带低帮男<em>鞋</em>透气<em>鞋</em> </a>
+								
+								
+			                	
+			                	
+			                	<a href="http://auction1.paipai.com/AE6E2E1C0000000004010000397F5A52" class="fn" leafclassid="238812" pos="12" commid="AE6E2E1C0000000004010000397F5A52" per="1" cg="6-22-2" target="_blank" title="麦尚伦夏季新款真皮舒适男士休闲鞋驾车鞋透气网布系带低帮男鞋透气鞋 ">麦尚伦夏季新款真皮舒适男士休闲<em>鞋驾车鞋</em>透气网布系带低帮男<em>鞋</em>透气<em>鞋</em> </a>
 			              	</p>
 				            <ul class="shopinfo_wrap"> 				            	
 				              	<li class="seller ">
@@ -2433,6 +2295,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 								<!-- new -->
 								</p><div class="promo_wrap" tag="promoteParams" value="" uin="472805038" itemauctionurl="">
 									<div class="promo_inner">										
+										
+										
 										<a class="icon_service icon_seven" title="7天无理由退货">7</a>
 										<!-- a class="icon_service icon_credit"  title="先行赔付">信</a -->
 										<a class="icon_service icon_real" style="display:none" title="正品假一赔三">正</a>
@@ -2480,6 +2344,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 										<li><a href="http://auction1.paipai.com/8B5CF63200000000040100004A0FDA0F"><img init_src="http://img3.paipaiimg.com/3d9dcfef/item-5516161C-8B5CF63200000000040100004A0FDA0F.3.80x80.jpg" pos="13" commid="8B5CF63200000000040100004A0FDA0F" leafclassid="238812" cg="6-32-4" alt="【TBLS汤铂莱斯】头层牛皮手工皮鞋 男士驾车鞋 休闲英伦男鞋 " tourl="Invalid_ToUrl" src="./ppshoppage_files/item-5516161C-8B5CF63200000000040100004A0FDA0F.3.80x80.jpg" iguid="88"></a></li>
 										
 										<li><a href="http://auction1.paipai.com/8B5CF63200000000040100004A0FDA0F"><img init_src="http://img3.paipaiimg.com/3d9dcfef/item-5516161C-8B5CF63200000000040100004A0FDA0F.4.80x80.jpg" pos="13" commid="8B5CF63200000000040100004A0FDA0F" leafclassid="238812" cg="6-32-5" alt="【TBLS汤铂莱斯】头层牛皮手工皮鞋 男士驾车鞋 休闲英伦男鞋 " tourl="Invalid_ToUrl" src="./ppshoppage_files/item-5516161C-8B5CF63200000000040100004A0FDA0F.4.80x80.jpg" iguid="89"></a></li>
+										
 									</ul>
 								</div>
 							</div>
@@ -2508,6 +2373,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				              	<a href="http://shop.paipai.com/855006347" uin="855006347" data-detail="rate" pos="13" commid="8B5CF63200000000040100004A0FDA0F" leafclassid="238812" per="1" cg="6-23-2" target="_blank" title="汤铂莱斯官方旗舰店 ">汤铂莱斯官方旗舰店 </a>
 				              	</li>
 				              	<li class="seller hidden "><a href="http://shop.paipai.com/855006347" title="汤铂莱斯官方旗舰店 " pos="13" commid="8B5CF63200000000040100004A0FDA0F" leafclassid="238812" per="1" cg="6-23-3" target="_blank">汤铂莱斯官方旗舰店 </a></li>
+				
 				              	<li class="location " pos="13" commid="8B5CF63200000000040100004A0FDA0F" leafclassid="238812" per="1" cg="6-21-2" tourl="http://auction1.paipai.com/8B5CF63200000000040100004A0FDA0F">福建泉州</li>
 				            </ul>
 				            <p class="other" pos="13" commid="8B5CF63200000000040100004A0FDA0F" leafclassid="238812" per="1" cg="6-21-2" tourl="Invalid_ToUrl">
@@ -2515,7 +2381,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
 								<!-- new -->
 								</p><div class="promo_wrap" tag="promoteParams" value="" uin="855006347" itemauctionurl="">
-									<div class="promo_inner">												
+									<div class="promo_inner">										
+										
+										
 										<a class="icon_service icon_seven" style="display:none" title="7天无理由退货">7</a>
 										<!-- a class="icon_service icon_credit"  title="先行赔付">信</a -->
 										<a class="icon_service icon_real" style="display:none" title="正品假一赔三">正</a>
@@ -2533,6 +2401,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 									</div>
 								</div>
 				            <p></p>
+
 							<p class="action ">
 								<a class="link_shopincart" href="http://s.paipai.com/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-PTAG=20567.38.60&,20084.2.2-as,0-bpf,0-cd,0-platform,1-sf,102.html###" tag="addCart" cg="6-26" per="1" leafclassid="238812" pos="13" commid="8B5CF63200000000040100004A0FDA0F">加入购物车</a>
 								<a class="link_detail" href="http://auction1.paipai.com/8B5CF63200000000040100004A0FDA0F" target="_blank" per="1" leafclassid="238812" pos="13" commid="8B5CF63200000000040100004A0FDA0F" cg="6-28">查看详情</a>
@@ -2544,9 +2413,12 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				<!-- E 商品列表 大图 -->		
 				<!-- S 分页 -->	
 				<div class="pp_pagination">
-					<ul id="btmPager">	
+					<ul id="btmPager">
+						
+						
 							<li class="disabled"><a class="prev" href="http://s.paipai.com/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-PTAG=20567.38.60&,20084.2.2-as,0-bpf,0-cd,0-platform,1-sf,102.html###"><i></i>上一页</a></li>
 							<li class="active"><a>1</a></li>
+
 								<li><a href="http://s.paipai.com/0,34167/s-1wr5kqrtyt--61-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html" pagetag="go" cg="7-2-2" pos="2">2</a></li>
 								<li><a href="http://s.paipai.com/0,34167/s-1wr5kqrtyt--121-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html" pagetag="go" cg="7-2-3" pos="3">3</a></li>
 								<li><a href="http://s.paipai.com/0,34167/s-1wr5kqrtyt--181-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html" pagetag="go" cg="7-2-4" pos="4">4</a></li>	
@@ -2560,7 +2432,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 						<span>页</span>
 						<button pagetag="jumper" id="jumpPageBtn" value="go" cg="7-4">确定</button>
 					</div>
-				</div>		
+				</div>
+				
 				<!-- E 分页 -->
 				<!--  你是不是想找(底) -->
 				<div class="pp_box" id="relevantKeywordArea2">
@@ -2576,6 +2449,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 						</div>
 					</div>
 				</div>
+
 				<!-- 您可能感兴趣的商品 -->
 				<div class="pp_box pp_tuijian" id="btmRecommendArea">
 					<div class="pp_box_hd" id="btmRecmdTitle"><h3>您可能感兴趣的商品</h3></div>
@@ -2586,6 +2460,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					</div>
 				</div>
 			</div>
+			
 			<!-- S 侧栏 -->
 			<div class="pp_sub">
 	<!-- S 卖家推荐商品 -->
@@ -2613,9 +2488,11 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		</div>
 	</div>
 	<!-- S 卖家推荐商品 -->
+
 	<!-- S 专辑或活动直达 -->
 	<div class="pp_box" id="albumBlock" style="display:none;"></div>
 	<!-- E 专辑或活动直达 -->
+
 	<!-- S 最近浏览 -->
 	<div class="pp_box" id="historyViewedArea" style="display: none;">
 		<div class="pp_box_hd"><h3>最近浏览</h3></div>
@@ -2628,6 +2505,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	</div>
 	<!-- E 最近浏览 -->
 </div>
+
+
 			<!-- E 侧栏 -->
 		</div>
 	</div>
@@ -2659,6 +2538,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		</div>
 	</div>
 </div>
+
 <!-- 促销浮层 -->
 <div class="vip_detail" style="display:none;" id="promoteFloat1">
 	<div class="vip_full" id="mlsPromote"><ul><li>有效期：<span class="num">2015-05-09 - 2015-06-30</span></li><li>每笔订单满<span class="num">139元</span>减<em>5</em>元！</li><li>满<span class="num">199元</span>减<em>15</em>元！</li><li>满<span class="num">299元</span>减<em>30</em>元！</li></ul></div>
@@ -2712,8 +2592,16 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	</div>
 </div>
 
+
+
+
 <!-- S 显示旗舰店入口banner 相关 模板-->
+
+
 <!-- E 显示旗舰店入口banner 相关 模板-->
+
+
+
 <script type="text/javascript" src="./ppshoppage_files/jquery.1.8.js"></script>
 <script>window["PP.search.greyItem.time"]=[new Date()]</script>
 <script id="legos:22302" ver="22302:20150408:20150408105640" name="PP.search.greyItem" src="./ppshoppage_files/pp.search.greyItem.20150408.js" charset="gbk"></script><!--[if !IE]>|xGv00|8f1b03e5d0b2e2446f73e9818f21fbc6<![endif]-->
@@ -2728,10 +2616,15 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <div class="mod_site_new">
 			<h4><i></i>新手指南</h4>
 			<ul>
+
 				<li><a href="http://www.paipai.com/fresher/?PTAG=20316.38.1" target="_blank">新人购物指南</a></li>
+
 				<li><a href="http://fuwu.paipai.com/?PTAG=20316.38.1" target="_blank">商户服务平台</a></li>
+
 				<li><a href="http://guize.paipai.com/v2/index.shtml?PTAG=20316.38.1" target="_blank">拍拍规则平台</a></li>
+
 				<li><a href="http://aq.paipai.com/?PTAG=20316.38.1" target="_blank">拍拍安全中心</a></li>
+
 			</ul>
 		</div>
 
@@ -2739,10 +2632,16 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <div class="mod_site_plan">
 			<h4><i></i>诚信保证计划</h4>
 			<ul>
+
 				<li><a href="http://www.paipai.com/trust/chengbao.shtml?tab=1&PTAG=20316.38.1" target="_blank">先行赔付</a></li>
+
+
 				<li><a href="http://www.paipai.com/trust/chengbao.shtml?tab=2&PTAG=20316.38.1" target="_blank">7天包退</a></li>
+
 				<li><a href="http://www.paipai.com/trust/chengbao.shtml?tab=3&PTAG=20316.38.1" target="_blank">诚保代充</a></li>
+
 				<li><a href="http://www.paipai.com/trust/plan/?tab=8&PTAG=20316.38.1" target="_blank">快速发货</a></li>
+
 			</ul>
 		</div>
 

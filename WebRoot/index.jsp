@@ -24,8 +24,8 @@
 		</ul>
 
 		 <ul class="mod_user">
-<c:if test="${username != null}">
-<li id="J_headUser" class="mod_user_more mod_user_my">
+              <c:if test="${username != null}">
+                <li id="J_headUser" class="mod_user_more mod_user_my">
 				<a href="#" target="_blank" class="mod_user_more_btn">
 					<span> <strong>当前用户:</strong>
                            <strong>${username}</strong> </span>
@@ -36,14 +36,12 @@
           			<a href="#" target="_blank">账户设置</a>
 				</div>
 			</li>
-</c:if>
-<c:if test="${username == null}"> 
-       <li id="J_headLogin" class="mod_user_login">
-            <a href="${pageContext.request.contextPath}/user/Login.jsp" target="_self">登录</a>
-       </li>
-</c:if>
-      
-
+            </c:if>
+            <c:if test="${username == null}"> 
+               <li id="J_headLogin" class="mod_user_login">
+                 <a href="${pageContext.request.contextPath}/user/Login.jsp" target="_self">登录</a>
+               </li>
+            </c:if>
 			<li id="J_headLogout" class="mod_user_login hide"></li>
 
 			<li class="mod_user_gap"></li>
