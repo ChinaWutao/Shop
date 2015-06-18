@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* 图标 CSS */
+
+.ico-span{
+	display:inline-block;
+	display:-moz-inline-stack;
+	zoom:1;
+	*display:inline;
+	vertical-align:middle;
+	width:16px;
+	height:16px;
+	background:url(http://static.paipaiimg.com/module/ppicons.png?t=20130326) no-repeat;
+}
+/* 身份认证 */
+.ico-licence1{
+	width:32px;
+	height:18px;
+	background-position:0 0;
+}
+/* 商家认证 - 废弃 */
+.ico-licence2{
+	width:32px;
+	height:18px;
+	background-position:-32px 0;
+}
+/* 诚保认证 */
+.ico-licence3{
+	width:32px;
+	height:18px;
+	background-position:-64px 0;
+}
+/* 营业执照 */
+.ico-licence4{
+	width:32px;
+	height:18px;
+	background-position:-96px 0;
+}
+/* QQ商城认证 */
+.ico-licence5{
+	width:94px;
+	height:18px;
+	background-position:0 -20px;
+}
+/* QQ商城认证2 */
+.ico-licence6{
+	width:16px;
+	background-position:-96px -20px;
+}
+/* 诚保 - 废弃
+.ico-cb{
+	background-position:0 -40px;
+}
+*/
+/* 先行赔付 */
+.ico-amends{
+	background-position:-16px -40px;
+}
+/* 7天包退 */
+.ico-return{
+	background-position:-32px -40px;
+}
+/* 诚保代充 */
+.ico-charge{
+	background-position:-64px -40px;
+}
+/* 正品保证 假一赔三 */
+.ico-really{
+	background-position:-48px -40px;
+}
+/* 7天免邮包退 */
+.ico-returned{
+	background-position:0 -40px;
+}
+/* 货到付款 */
+.ico-cod{
+	background-position:-80px -40px;
+}
+/* 视频商品 */
+.ico-video{
+	background-position:-64px -60px;
+}
+/* 官字 */
+.ico-guan{
+	background-position:-16px -60px;
+}
+/* 裳品廊 */
+.ico-dress{
+	background-position:-32px -60px;
+}
+/* 财付通 */
+.ico-tenpay{
+	background-position:-48px -60px;
+}
+/* 红包 */
+.ico-hongbao{
+	background-position:0 -60px;
+}
+/* QCC */
+.ico-qcc{
+	background-position:-80px -60px;
+}
+/* 自动发货 */
+.ico-autocard {
+	background-position:-96px -60px;
+}
+/* 预存卡密自动发货 */
+.ico-autocard1{
+	background-position:-96px -60px;
+}
+/* 平台预存款自动发货 */
+.ico-autocard2{
+	background-position:-96px -60px;
+}
+/* 平台代充 */
+.ico-chong {
+	background-position:-112px -40px;
+}
+/* 满立减 满立送 */
+.ico-man{
+	background-position:0 -80px;
+}
+/* 今日特价 */
+.ico-atasale{
+	background-position:-16px -80px;
+}
+/* 尚品会 */
+.ico-shang{
+	background-position:-32px -80px;
+}
+/* 信用卡 */
+.ico-creditcard{
+	background-position:-48px -80px;
+}
+/* 他人代付 */
+.ico-replacepay{
+	background-position:-64px -80px;
+}
+/* 快速发货 */
+.ico-rushdelivery {
+	background-position:-96px -40px;
+}
+
+/* 进口商品 */
+.ico-inlet{
+    width: 29px;
+    height: 16px;
+    background-position: -80px -80px;
+}
+
+/* 一点通&快捷支付 */
+.ico-ydt{
+    background-position: -112px -80px;
+}
