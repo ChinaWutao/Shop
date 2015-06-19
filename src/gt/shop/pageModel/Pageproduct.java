@@ -7,6 +7,7 @@ public class Pageproduct {
      private String name;
      private String description;
      private String shop;
+     private String color;
      private String shopaddress;
      private double price;
 	public String getId() {
@@ -44,6 +45,13 @@ public class Pageproduct {
 	}
 	public void setShopaddress(String shopaddress) {
 		this.shopaddress = shopaddress;
+	}
+	
+	public String getColor() {
+		return color;
+	}
+	public void setColor(String color) {
+		this.color = color;
 	}
 	public double getPrice() {
 		return price;
