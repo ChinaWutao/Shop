@@ -83,7 +83,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				</div>
 			</li>
 			<li class="mod_user_cart">
-				<a href="http://auction.paipai.com/cgi-bin/shopcart/detail?PTAG=20316.1.11" id="comdyNum">
+				<a href="${pageContext.request.contextPath}/user/shopbus.jsp" id="comdyNum">
 					<i class="mod_user_cart_ico"></i>
 					<span>购物车</span>
 				</a>

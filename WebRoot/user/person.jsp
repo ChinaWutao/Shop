@@ -123,7 +123,7 @@
 	</div>
 	</li>
 	<li id="J_MiniCart" class="J_Menu menu mini-cart" data-fn-name="fn-mini-cart" data-spm="1997525049">
-	<div class="menu-hd"><a href="http://cart.taobao.com/cart.htm?from=mini&ad_id=&am_id=&cm_id=&pm_id=1501036000a02c5c3739" target="_top" id="mc-menu-hd">
+	<div class="menu-hd"><a href="${pageContext.request.contextPath}/user/shopbus.jsp" target="_top" id="mc-menu-hd">
 	<span class="g-icon"></span>
 	<span>购物车</span>
 	<strong id="J_MiniCartNum" class="h">1</strong></a>
@@ -137,7 +137,8 @@
 	<div class="menu-bd menu-list"><div class="menu-bd-panel"><a href="http://mai.taobao.com/seller_admin.htm" target="_top">免费开店</a><a href="http://trade.taobao.com/trade/itemlist/list_sold_items.htm" target="_top">已卖出的宝贝</a><a href="http://sell.taobao.com/auction/goods/goods_on_sale.htm" target="_top">出售中的宝贝</a><a href="http://fuwu.taobao.com/?tracelog=tbdd" target="_top">卖家服务市场</a><a href="http://daxue.taobao.com/" target="_top">卖家培训中心</a></div></div></li><li class="menu service" data-spm="754895749">
 	<div class="menu-hd"><a href="http://service.taobao.com/support/main/service_center.htm" target="_top">联系客服</a></div></li>
 	<li id="J_SiteMap" class="J_Menu menu site-map" data-fn-name="fn-site-map" data-spm="1997525077"><div class="menu-hd"><a href="http://www.taobao.com/sitemap.php?id=sitemap2" target="_top"><span class="g-icon"></span>
-	<span>网站导航</span></a><span class="arrow-icon-wrapper"><span class="g-icon arrow-icon"></span></span></div>
+	<span>网站导航</span></a>
+	<span class="arrow-icon-wrapper"><span class="g-icon arrow-icon"></span></span></div>
 	<div class="menu-bd"><div id="J_SiteMapBd" class="menu-bd-panel"></div></div></li></ul>
   </div>
 </div>
@@ -201,8 +202,7 @@ visibility: hidden;
                                             <em>
                                                 ◆
                                             </em>
-                                            <span>
-												◆
+                                            <span>	◆
                                             </span>
                                         </div>
                                         <ul class="medal-list-inner">
@@ -233,8 +233,7 @@ visibility: hidden;
 							<a class="nav-link " href="">
 								我的主页
 							</a>
-						</li>
-																																																																								
+						</li>																																																																			
 					</ul>
 				</div>
 			</div>
@@ -470,6 +469,7 @@ visibility: hidden;
 <div id="ks-content-ks-component68" class="my-guide-edit-overlay-content"></div>
 </div>
 <div id="J_TbcFixtool" class="tbc-fixtool"><a class="tbc-fixtool-box old-home" target="_blank" href="http://my.taobao.com/homepage/like_list.htm?spm=a310q.2282149.0.0.zYbOLh&user_code=MM8QWvmMHMmNSvC*hMGk4v0c4PC-IvkRzMFxGMGMzPmkT&type=1#"><span class="tbc-fixtool-small">回老版</span>
-<span class="tbc-fixtool-large">返 回<br>老主页</span></a><a class="tbc-fixtool-box tbc-fixtool-feedback" href="http://ur.taobao.com/survey/view.htm?id=1684" id="J_TbcFixtool_Feedback" target="_blank"><span class="tbc-fixtool-small">提建议</span><span class="tbc-fixtool-large">意见<br>反馈</span></a><a class="tbc-fixtool-box tbc-fixtool-gotop tbc-fixtool-hidden" href="" id="J_TbcFixtool_Gotop"><span class="tbc-fixtool-small">回顶部</span>
+<span class="tbc-fixtool-large">返 回<br>老主页</span></a><a class="tbc-fixtool-box tbc-fixtool-feedback" href="http://ur.taobao.com/survey/view.htm?id=1684" id="J_TbcFixtool_Feedback" target="_blank"><span class="tbc-fixtool-small">提建议</span><span class="tbc-fixtool-large">意见<br>反馈</span></a>
+<a class="tbc-fixtool-box tbc-fixtool-gotop tbc-fixtool-hidden" href="" id="J_TbcFixtool_Gotop"><span class="tbc-fixtool-small">回顶部</span>
 <span class="tbc-fixtool-large">回到<br>顶部</span></a></div><div id="J_UmppUserContainer" style="height:1px;width:1px;overflow:hidden;position:absolute;bottom:1px"><embed src="http://g.alicdn.com/tbc/umpp/1.4.35/trinity.swf" width="1" height="1" id="ks-flash-88" name="umpp-trinity-name" type="application/x-shockwave-flash" allowscriptaccess="always" flashvars="jsentry=_umpp_trinity_&amp;swfid=UM_gt180865255491433297191192&amp;group=gt18086525549"></div>
 <iframe src="" id="J_Um_Iframe" frameborder="0" scrolling="no" width="1" height="1" style="position: absolute;"></iframe></body></html>

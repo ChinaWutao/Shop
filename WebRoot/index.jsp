@@ -60,7 +60,7 @@
 			</li>
 			<li class="mod_user_gap"></li>
 			<li class="mod_user_cart">
-				<a href="#" id="comdyNum">
+				<a href="${pageContext.request.contextPath}/user/shopbus.jsp" id="comdyNum">
 					<i class="mod_user_cart_ico"></i>
 					<span>购物车</span>
 				</a>
