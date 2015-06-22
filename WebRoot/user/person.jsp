@@ -11,7 +11,7 @@
 	<meta name="data-spm" content="a310q">
     <meta name="viewport" content="width=device-width, initial-scale=1 minimum-scale=1">
 		<!-- S GLOBAL JS
-<script src="personfiles/saved_resource(1)"></script> -->
+<script src="person/saved_resource(1)"></script> -->
 <!-- E GLOBAL JS -->
 <title>个人主页</title>
     <meta charset="GBK">
@@ -19,17 +19,17 @@
 	<meta name="data-spm" content="a310q">
     <meta name="viewport" content="width=device-width, initial-scale=1 minimum-scale=1">  
 	<!-- S GLOBAL CSS -->
-	<link rel="stylesheet" type="text/css" href="personfiles/global-min.css">
-<link rel="stylesheet" type="text/css" href="personfiles/a.css">
-<link rel="stylesheet" type="text/css" href="personfiles/index_002.css">
-<link rel="stylesheet" type="text/css" href="personfiles/index-min_003.css">
-<link rel="stylesheet" type="text/css" href="personfiles/index-min.1.0.0.css">
+	<link rel="stylesheet" type="text/css" href="person/global-min.css">
+<link rel="stylesheet" type="text/css" href="person/a.css">
+<link rel="stylesheet" type="text/css" href="person/index_002.css">
+<link rel="stylesheet" type="text/css" href="person/index-min_003.css">
+<link rel="stylesheet" type="text/css" href="person/index-min.1.0.0.css">
 
 <!-- S GLOBAL CSS -->
 		<!-- S GLOBAL JS -->
 <!-- E GLOBAL JS -->
-<link rel="stylesheet" type="text/css" href="personfiles/index1.css">
-<link rel="stylesheet" type="text/css" href="personfiles/index.css">
+<link rel="stylesheet" type="text/css" href="person/index1.css">
+<link rel="stylesheet" type="text/css" href="person/index.css">
     <!--[if lte IE 6]>
     <style>
         html {
@@ -118,7 +118,6 @@
 	<a href="http://lu.taobao.com/newMyPath.htm" target="_top">我的足迹</a>
 	<a href="http://dongtai.taobao.com/hub/new_arrival.htm?scm=1046.1.7.1" target="_top">我的上新</a>
 	<a href="http://guang.taobao.com/?scm=2022.1.1.1" target="_top">爱逛街 <em class="J_GuangCount guang-count"></em></a><a href="http://daren.taobao.com/" target="_top">淘宝达人</a>
-	<a href="http://love.taobao.com/" target="_top">新欢</a>
 	</div>
 	</div>
 	</li>
@@ -174,7 +173,7 @@ visibility: hidden;
 				<div class="cm-bd">
 			<div class="hp-user-info">
 				<div class="hd">
-					<img class="user-pic" src="personfiles/getAvatar.jpg" alt="#">
+					<img class="user-pic" src="person/getAvatar.jpg" alt="#">
 				</div>
 				<div class="bd">
 					<div class="info">
@@ -183,8 +182,7 @@ visibility: hidden;
 						<a target="_blank">
 						</a>
 						</p>
-						<p class="line">
-							
+						<p class="line">		
 						</p>
 						<div class="line">
 							男														<i class="dot"></i>
@@ -288,7 +286,7 @@ visibility: hidden;
 							<div class="exception" id="J_Exception">
     <div class="exception-hd">
         <p class="exception-title">
-       <img class="taogongzai" src="personfiles/T141OmXtFXXXXfNwfm-71-78.png">
+       <img class="taogongzai" src="person/T141OmXtFXXXXfNwfm-71-78.png">
             				哎呀，这个主人太懒了，居然啥都没有！先去看看其他人吧~
        </p>
     </div>

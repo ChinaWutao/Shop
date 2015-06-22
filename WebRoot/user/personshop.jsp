@@ -31,7 +31,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
      <span class="J_Tmsg_Button_CheckAll_Wrap tmsg_button_check-all_wrap"> 
      <a class="J_Tmsg_Button_CheckAll tmsg_button_check-all" href="http://i.taobao.com/my_taobao.htm?spm=1.7274553.1997525045.1.YnRDiL#" target="_blank">查看全部</a>   </span></div></div></div></div><div class="J_Tmsg_Panels tmsg_panels"><div class="J_Tmsg_Panel_Detail tmsg_panel_detail"></div><div class="J_Tmsg_Panel_history tmsg_panel_history"></div><div class="J_Tmsg_Panel_Strong tmsg_panel_strong"></div><div class="J_Tmsg_Panel_Setting tmsg_panel_setting"></div></div></li><li class="menu mobile" data-spm="1997563273"><div class="menu-hd"><a href="http://www.taobao.com/m" target="_top">手机逛淘宝</a></div></li><li id="J_Weekend" class="menu weekend" data-spm="1996803849"></li></ul>
     <ul id="J_SiteNavBdR" class="site-nav-bd-r"><li class="menu home" data-spm="1581860521"><div class="menu-hd"><a href="${pageContext.request.contextPath}/index.jsp" target="_top" class="h">商城首页</a></div></li>
-    <li class="J_Menu menu my-taobao" data-spm="1997525045"><div class="menu-hd J_MenuMyTaobao"><a href="${pageContext.request.contextPath}/user/personshop.jsp" target="_top">我的淘宝</a>
+    <li class="J_Menu menu my-taobao" data-spm="1997525045">
+    <div class="menu-hd J_MenuMyTaobao">
     <span class="arrow-icon-wrapper"><span class="g-icon arrow-icon"></span></span></div><div class="menu-bd menu-list">
     <div class="menu-bd-panel">
     <a href="http://trade.taobao.com/trade/itemlist/list_bought_items.htm" target="_top">已买到的宝贝</a>
@@ -42,7 +43,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     </div>
     </li>
     <li id="J_MiniCart" class="J_Menu menu mini-cart" data-fn-name="fn-mini-cart" data-spm="1997525049"><div class="menu-hd">
-    <a href="http://cart.taobao.com/cart.htm?from=mini&ad_id=&am_id=&cm_id=&pm_id=1501036000a02c5c3739" target="_top" id="mc-menu-hd"><span class="g-icon"></span><span>购物车</span><strong id="J_MiniCartNum" class="h">1</strong></a><span class="arrow-icon-wrapper"><span class="g-icon arrow-icon"></span></span></div><div class="menu-bd"><div class="menu-bd-panel"></div></div></li>
+    <a href="${pageContext.request.contextPath}/user/shopbus.jsp" target="_top" id="mc-menu-hd"><span class="g-icon"></span><span>购物车</span><strong id="J_MiniCartNum" class="h">1</strong></a><span class="arrow-icon-wrapper"><span class="g-icon arrow-icon"></span></span></div><div class="menu-bd"><div class="menu-bd-panel"></div></div></li>
     <li class="J_Menu menu favorite" data-spm="1997525053"><div class="menu-hd"><a href="http://shoucang.taobao.com/shop_collect_list.htm" target="_top"><span class="g-icon"></span><span>收藏夹</span></a><span class="arrow-icon-wrapper"><span class="g-icon arrow-icon"></span></span></div><div class="menu-bd menu-list"><div class="menu-bd-panel"><a href="http://shoucang.taobao.com/item_collect.htm" target="_top">收藏的宝贝</a>
     <a href="http://shoucang.taobao.com/shop_collect_list.htm" target="_top">收藏的店铺</a></div></div></li><li class="menu guide" data-spm="1997563209"><div class="menu-hd"><a href="http://list.taobao.com/browse/cat-0.htm?taobao_from=6" target="_top">商品分类</a></div></li><li class="site-nav-pipe">|</li><li class="J_Menu menu seller-center" data-spm="1997525073">
     <div class="menu-hd"><a href="http://mai.taobao.com/seller_admin.htm" target="_top">卖家中心</a><span class="arrow-icon-wrapper"><span class="g-icon arrow-icon"></span></span></div><div class="menu-bd menu-list">
@@ -66,9 +67,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 </div>       
     <header class="mt-header" data-spm="a210b">
     <article>
-        <div class="mt-logo">
-            <a title="我的淘宝" href="http://i.taobao.com/my_taobao.htm?nekot=1433331969976&tracelog=newmytb_logodianji" class="mt-tblogo" data-spm="d1000351"></a>
-        </div>
         <nav class="mt-nav">
             <ul id="J_MtMainNav">
                 <li class="selected">
@@ -83,17 +81,15 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                <div class="search" id="p_search">
                     <div class="search-panel search-sns-panel-field">
                         <form target="_blank" action="http://s.taobao.com/search" name="search" id="J_TSearchForm" class="search-panel-focused">
+                            <input type="text" name="keyword" style="width:248px;height:26px"/>
                             <div class="search-button">
-                                <button class="btn-search" type="submit">搜 索</button>
+                               <button class="btn-search" type="submit">搜 索</button>
                             </div>
                            
                             <input type="hidden" name="commend" value="all">
                             <input type="hidden" name="ssid" value="s5-e" autocomplete="off">
                             <input type="hidden" name="search_type" value="mall" autocomplete="off">
-                            <input type="hidden" name="sourceId" value="tb.index">
-                            <input type="hidden" name="spm" value="a1z02.1.6856637.d4910789">
-                            <!--[if lt IE 9]><s class="search-fix search-fix-panellt"></s><s class="search-fix search-fix-panellb"></s>
-                            <![endif]-->
+                    
                         </form>
                     </div>
                 </div>
@@ -795,7 +791,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
  </div>
         </div>
         <section id="J_Col_Sub" class="col-sub">
-		<div class="mt-menu-tree"><dl class="mt-menu-item" data-spm="a2109"><dt class="fs14 mt-btn-go-setings" id="MTB_ItemsSetings">全部功能<span class="mt-menu-right-arr"><em></em></span></dt><dd class="mt-menu-sub unfold fold J_MtSideTree"><a href="http://cart.taobao.com/cart.htm" data-spm="d1000367">我的购物车</a></dd><dd class="mt-menu-sub unfold J_MtSideTree"><a href="http://trade.taobao.com/trade/itemlist/list_bought_items.htm" data-spm="d1000368">已买到宝贝</a><b class="mt-indicator J_MtIndicator" data-navigationid="201">-</b><ul class="mt-menu-sub-content"><li><a href="http://paimai.taobao.com/auctionList/my_auction_list.htm" data-spm="d1000369">我的拍卖</a></li><li><a href="http://jipiao.alitrip.com/order_manager.htm" data-spm="d1000370">机票酒店保险</a></li><li><a href="http://caipiao.taobao.com/lottery/order/my_all_lottery_order.htm" data-spm="d1000371">我的彩票</a></li><li><a href="http://game.taobao.com/gamecenter/played.htm" data-spm="d1000372">我的游戏</a></li><li><a href="http://ebook.taobao.com/myebook/my_items_list.htm" data-spm="d1000384">我的电子书</a></li><li><a href="http://buyer.trade.taobao.com/trade/itemlist/list_bought_items.htm?event_submit_do_query=1&action=itemlist%2FQueryAction&user_type=0&queryBizType=3000&refine=false" data-spm="8">我的理财</a></li></ul></dd><dd class="mt-menu-sub unfold fold J_MtSideTree"><a href="http://favorite.taobao.com/bought_shop_list.htm?itemtype=0" data-spm="d1000373">购买过的店铺</a></dd>
+		<div class="mt-menu-tree"><dl class="mt-menu-item" data-spm="a2109"><dt class="fs14 mt-btn-go-setings" id="MTB_ItemsSetings">全部功能<span class="mt-menu-right-arr"><em></em></span></dt><dd class="mt-menu-sub unfold fold J_MtSideTree"><a href="${pageContext.request.contextPath}/user/shopbus.jsp" data-spm="d1000367">我的购物车</a></dd><dd class="mt-menu-sub unfold J_MtSideTree">
+		<a href="http://trade.taobao.com/trade/itemlist/list_bought_items.htm" data-spm="d1000368">已买到宝贝</a><b class="mt-indicator J_MtIndicator" data-navigationid="201">-</b><ul class="mt-menu-sub-content"><li><a href="http://paimai.taobao.com/auctionList/my_auction_list.htm" data-spm="d1000369">我的拍卖</a></li><li><a href="http://jipiao.alitrip.com/order_manager.htm" data-spm="d1000370">机票酒店保险</a></li><li><a href="http://caipiao.taobao.com/lottery/order/my_all_lottery_order.htm" data-spm="d1000371">我的彩票</a></li><li><a href="http://game.taobao.com/gamecenter/played.htm" data-spm="d1000372">我的游戏</a></li><li><a href="http://ebook.taobao.com/myebook/my_items_list.htm" data-spm="d1000384">我的电子书</a></li><li><a href="http://buyer.trade.taobao.com/trade/itemlist/list_bought_items.htm?event_submit_do_query=1&action=itemlist%2FQueryAction&user_type=0&queryBizType=3000&refine=false" data-spm="8">我的理财</a></li></ul></dd><dd class="mt-menu-sub unfold fold J_MtSideTree"><a href="http://favorite.taobao.com/bought_shop_list.htm?itemtype=0" data-spm="d1000373">购买过的店铺</a></dd>
 		<dd class="mt-menu-sub unfold fold J_MtSideTree"><a href="http://shoucang.taobao.com/collectList.htm" data-spm="d1000374">我的收藏</a></dd><dd class="mt-menu-sub unfold fold J_MtSideTree"><a href="http://vip.tmall.com/vip/index.htm" data-spm="d4912025">天猫积分</a></dd><dd class="mt-menu-sub unfold fold J_MtSideTree"><a href="http://taoquan.taobao.com/framework/got_bonus.htm?nekot=1410939138028" data-spm="d1000376">我的优惠信息</a></dd><dd class="mt-menu-sub unfold fold J_MtSideTree"><a href="http://rate.taobao.com/myRate.htm" data-spm="d1000377">我的评价</a></dd><dd class="mt-menu-sub unfold fold J_MtSideTree"><a href="http://i.taobao.com/my_taobao.htm?spm=1.7274553.1997525045.1.YnRDiL#" class="J_MtIndicator" data-spm="d1000379">退款维权</a><b class="mt-indicator J_MtIndicator" data-navigationid="401">-</b><ul class="mt-menu-sub-content"><li><a href="http://refund.taobao.com/refund_list.htm?nekot=1410939138028" data-spm="d1000379">退款管理</a></li><li><a href="http://support.taobao.com/myservice/aftersales/buyer_rights_list.htm?nekot=1410939138028" data-spm="d1000380">售后管理</a></li><li><a href="http://support.taobao.com/myservice/rules/buyer_rules_list.htm?nekot=1410939138028" data-spm="d1000383">投诉管理</a></li><li><a href="http://archer.taobao.com/myservice/report/report_i_posted_list.htm?type=2&user_role=2&isarchive=false&nekot=1410939138028" data-spm="d1000381">举报管理</a></li>
 		<li><a href="http://service.taobao.com/support/leave_word_list.htm?nekot=1410939138028" data-spm="d1000382">咨询回复</a></li></ul></dd><dd class="mt-menu-sub unfold fold J_MtSideTree"><a href="http://lu.taobao.com/newMyPath.htm" data-spm="d1000391">我的足迹</a></dd></dl><dl data-spm="1998049103" class="mt-menu-item" style="display: block;"><dt>最近访问</dt>
 		</dl></div>

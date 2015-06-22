@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <title>登录</title>
   <jsp:include page="../init.jsp"></jsp:include>
-  <link href="./files1/login_all.css" rel="stylesheet" type="text/css">
+  <link href="./Login/login_all.css" rel="stylesheet" type="text/css">
 <style>
 .logo{display:block;height:36px;width:113px;float:left;margin-left:10px;background-position:0 0;margin-top:5px;display:inline;outline:0}
 .module-header .navs{padding:0 0 3px 25px;height:45px;float:left;width:400px;padding-bottom:0!important}
@@ -77,11 +77,11 @@ line-height:48px}
 <div class="disk-lyt-bd rlv clearfix" id="sysBody">
 <div class="disk-lyt-bx disk-lyt-bg-shad" id="sysShadWrapper">
 <div class="disk-lyt-bg-hd rlv">
-<img  alt="" style="display: none;" tabindex="0" width="100%" src="./files1/bg_shad_top_1.jpg">
-<img  alt="" style="display: block;" tabindex="1" width="100%" src="./files1/bg_shad_top_2.jpg">
+<img  alt="" style="display: none;" tabindex="0" width="100%" src="./Login/bg_shad_top_1.jpg">
+<img  alt="" style="display: block;" tabindex="1" width="100%" src="./Login/bg_shad_top_2.jpg">
 </div>
 <div class="disk-lyt-bg-bd rlv">
-<img style="display: block;" tabindex="1" width="100%" src="./files1/bg_shad_bottom_2.jpg">
+<img style="display: block;" tabindex="1" width="100%" src="./Login/bg_shad_bottom_2.jpg">
 </div>
 </div>
 <div class="disk-lyt-sec-i">

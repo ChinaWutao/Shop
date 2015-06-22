@@ -4,8 +4,8 @@
 	background-color:#e3e2e2
 }
 
-.ico_sel,.mod_user_gap,.mod_user_cart_ico,.mod_s_frm_btn,.mod_s_detail_btn_all,.mod_s_detail_btn_shop,.mod_s_chn_btn,.mod_promo_close,.mod_user_pp_ico,.mod_pt_pp_tit i,.mod_site i,.mod_copy_lk1,.mod_copy_lk2,.mod_copy_lk3,.mod_site_ewm p{
-	background-image:url("../../base/img/hdft.png?v=201502111627");
+.ico_sel,.mod_user_gap,.mod_user_cart_ico,.mod_s_detail_btn_all,.mod_s_detail_btn_shop,.mod_s_hai_btn_hai,.mod_s_hai_btn_all,.mod_promo_close,.mod_user_pp_ico,.mod_pt_pp_tit i,.mod_site i,.mod_copy_lk1,.mod_copy_lk2,.mod_copy_lk3,.mod_site_ewm p{
+	background-image:url("../../base/img/hdft.png?v=20150205");
 	background-repeat:no-repeat
 }
 
@@ -228,46 +228,6 @@
 	color:#FFF!important
 }
 
-.mod_user_pp{
-	position:relative;
-	z-index:105
-}
-
-.mod_user_pp a{
-	cursor:default
-}
-
-.mod_user_pp a:hover{
-	text-decoration:none
-}
-
-.mod_user_pp_pop{
-	display:none;
-	position:absolute;
-	left:-56px;
-	top:29px;
-	padding:5px;
-	width:150px;
-	height:150px;
-	border:1px solid #CCC;
-	background-color:#FFF
-}
-
-.mod_user_pp_ico{
-	overflow:hidden;
-	position:absolute;
-	left:50%;
-	top:-6px;
-	margin-left:-6px;
-	width:11px;
-	height:6px;
-	background-position:0 -40px
-}
-
-.mod_user_pp_on .mod_user_pp_pop{
-	display:block
-}
-
 .mod_promo{
 	overflow:hidden;
 	position:relative;
@@ -410,20 +370,61 @@
 }
 
 .mod_s{
+	position:relative;
+	z-index:101;
 	float:right;
 	margin-top:27px;
 	width:450px
 }
 
+.mod_s_normal{
+	margin-top:42px
+}
+
 .mod_s_frm{
-	padding:3px 60px 3px 3px;
+	position:relative;
+	padding:3px 85px 3px 3px;
 	height:29px;
 	background-color:#e12228
 }
 
+.mod_s_frm button{
+	overflow:hidden;
+	border:0 none;
+	text-indent:-999px
+}
 
 .mod_s_frm input:focus,.mod_s_frm button:focus{
 	outline:0
+}
+
+.mod_s_type{
+	position:absolute;
+	top:-24px;
+	left:0
+}
+
+.mod_s_type li{
+	float:left;
+	width:50px;
+	text-align:center;
+	cursor:default;
+	height:23px;
+	line-height:23px;
+	padding:1px 1px 0
+}
+
+.mod_s_type li:hover{
+	color:#e12229;
+	border:1px solid #ddd;
+	background:#fff;
+	padding:0
+}
+
+.mod_s_type li.on{
+	color:#fff;
+	background:#e12229;
+	border-color:#e12229
 }
 
 .mod_s_frm_sel{
@@ -478,7 +479,7 @@
 .mod_s_frm_phd{
 	cursor:text;
 	position:absolute;
-	left:88px;
+	left:13px;
 	top:3px;
 	line-height:29px;
 	color:#CCC
@@ -489,7 +490,7 @@
 	_top:3px;
 	float:left;
 	padding:6px 0;
-	width:92%;
+	width:100%;
 	height:17px;
 	border:0 none;
 	background-color:#FFF;
@@ -499,11 +500,12 @@
 	border-radius:0
 }
 
-.mod_s_frm_btn{
+.mod_s_frm .mod_s_frm_btn{
 	position:absolute;
-	width:6.5%;
-	height:32px;
-	border:0px;
+	right:0;
+	top:0;
+	width:85px;
+	height:35px;
 	text-align:center;
 	color:#fff;
 	font-size:16px;
@@ -515,7 +517,7 @@
 
 .mod_s_key{
 	overflow:hidden;
-	padding-top:10px;
+	padding-top:6px;
 	margin-right:-15px;
 	height:18px;
 	line-height:18px
@@ -537,8 +539,8 @@
 }
 
 .mod_s_pop ul{
-	margin:0 39px 0 77px;
 	padding:5px 0;
+	margin:0 85px 0 0;
 	border:1px solid #e1e1e1;
 	border-top:0;
 	background-color:#FFF
@@ -619,12 +621,7 @@
 }
 
 .mod_s_detail .mod_s_frm{
-	padding-left:3px;
 	padding-right:141px
-}
-
-.mod_s_detail .mod_s_frm_phd{
-	left:13px
 }
 
 .mod_s_detail .mod_s_pop ul{
@@ -655,58 +652,11 @@
 	background-position:0 -200px
 }
 
-.mod_s_chn .mod_s_frm{
-	padding-left:3px;
+.mod_s_hai .mod_s_frm{
 	padding-right:165px
 }
 
-.mod_s_chn .mod_s_frm_phd{
-	left:13px
-}
-
-.mod_s_chn .mod_s_pop ul{
-	margin:0 165px 0 0
-}
-
-.mod_s_chn_btns{
-	position:absolute;
-	right:0;
-	top:0;
-	width:165px;
-	height:35px;
-	background-color:#FFF
-}
-
-.mod_s_chn_btn{
-	width:94px;
-	height:35px;
-	float:left
-}
-
-.mod_s_chn_btn_all{
-	width:70px;
-	float:right;
-	background-position:0 -200px
-}
-
-.mod_s_chn_btn_hai{
-	background-position:0 -240px
-}
-
-.mod_s_chn_btn_travel{
-	background-position:0 -300px
-}
-
-.mod_s_travel .mod_s_frm{
-	padding-left:3px;
-	padding-right:165px
-}
-
-.mod_s_travel .mod_s_frm_phd{
-	left:13px
-}
-
-.mod_s_travel .mod_s_pop ul{
+.mod_s_hai .mod_s_pop ul{
 	margin:0 165px 0 0
 }
 
@@ -861,17 +811,6 @@
 .mod_copy_lk3{
 	width:63px;
 	background-position:-65px -110px
-}
-
-@media(max-width:1210px){
-	.mod_site{
-		width:570px
-	}
-
-}
-
-.p_mini .mod_site{
-	width:570px
 }
 
 @charset "utf-8";
