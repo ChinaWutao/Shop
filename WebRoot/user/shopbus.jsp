@@ -30,8 +30,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <div class="p_tb">
 	<div class="grid_c1">
 		<ul class="mod_pt">
-			<li><a href="http://dc2.jd.com/auto.php?service=transfer&amp;type=dmp&amp;from=dmp&amp;kid=73&amp;klid=11730&amp;to=http://www.jd.com" target="_blank">京东</a></li>
-			<li><a href="http://www.yixun.com/?YTAG=0.280400001300000&amp;PTAG=20316.1.9" target="_blank">易迅</a></li>
+			<li><a href="http://dc2.jd.com/" target="_blank">京东</a></li>
+			<li><a href="http://www.yixun.com/" target="_blank">易迅</a></li>
 		</ul>
 		<ul class="mod_user">
 			<li id="J_ppIndex" class="mod_user_home"><a href="http://www.paipai.com/?ptag=20316.1.13" class="c_tx1">商城首页</a></li>
@@ -70,9 +70,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					<a href="http://fuwu.paipai.com/?PTAG=20316.1.12" target="_blank">卖家服务市场</a>
 					<a href="http://my.paipai.com/message/info.html?tab=1&amp;ptag=20316.1.12" target="_blank" id="sellerMsg" style="display:none;"></a>
 				</div>
-			</li>
-			<li class="mod_user_join">
-				<a href="http://zhaoshang.paipai.com/?ptag=20316.1.14" target="_blank">商家入驻</a>
 			</li>
 			<li class="mod_user_gap"></li>
 			<li class="mod_user_join">

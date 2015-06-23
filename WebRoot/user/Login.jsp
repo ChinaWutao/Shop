@@ -1,7 +1,9 @@
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <!-- saved from url=(0021)http://yun.baidu.com/ -->
-<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <title>登录</title>
   <jsp:include page="../init.jsp"></jsp:include>
@@ -102,7 +104,7 @@ line-height:48px}
 <table id="logintable">
 <tr>
 <td style="width:15px;">
-<img class="imgtext" src="files1/yun_login_logo.png"></td>
+<img class="imgtext" src="Login/yun_login_logo.png"></td>
 <td> 
 
 <input  type="text" name="username" id="username" class="pass-text-input pass-text-input-userName" autocomplete="off" placeholder="手机/邮箱/用户名" onblur="checkName();">
@@ -110,7 +112,7 @@ line-height:48px}
 </tr>
 <tr>
 <td style="width:15px;">
-<img class="imgtext" src="files1/sprite_1.png">
+<img class="imgtext" src="Login/sprite_1.png">
 </td>
 <td>
 
@@ -122,7 +124,7 @@ line-height:48px}
 
 <br/>
 <center>
-<input name="loginAnniu" type="image" src="files1/login.png"/>
+<input name="loginAnniu" type="image" src="Login/login.png"/>
 </center>
 
 <p  class="pass-form-item pass-form-item-memberPass">
@@ -135,7 +137,7 @@ line-height:48px}
 </form>
 <a href="Register.jsp">
 <center>
-<input name="registerAnniu" type="image" src="files1/register.png" style="width:425px"/>
+<input name="registerAnniu" type="image" src="Login/register.png" style="width:425px"/>
 </center>
 </a>
 </div>
