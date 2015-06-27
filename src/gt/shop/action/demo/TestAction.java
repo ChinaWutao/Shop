@@ -2,6 +2,8 @@ package gt.shop.action.demo;
 
 import java.util.UUID;
 
+import gt.shop.dao.base.BaseDao;
+import gt.shop.model.Product;
 import gt.shop.model.User;
 import gt.shop.services.TestService;
 
@@ -31,13 +33,14 @@ public void setTest(TestService test) {
 
 
 public void test(){
-	User u=new User();
-	u.setUserId(UUID.randomUUID().toString());
-	u.setUsername("nibei");
-	u.setPassword("1111");
-	u.setPhone("18086525549");
-	u.setAddress("武昌理工");
-
-	test.test11(u);
+//	User u=new User();
+//	
+//	u.setUserId(UUID.randomUUID().toString());
+//	u.setUsername("nibei");
+//	u.setPassword("1111");
+//	u.setPhone("18086525549");
+//	u.setAddress("武昌理工");
+	  
+        System.out.println("ceshicheog");
   }
 }

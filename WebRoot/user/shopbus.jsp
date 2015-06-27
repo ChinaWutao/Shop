@@ -15,7 +15,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <link rel="stylesheet" href="shopbus_files/paipai.css" type="text/css" media="screen">
     <link rel="stylesheet" href="shopbus_files/gb_fit_v4.css" type="text/css" media="screen"><!--[if !IE]>|xGv00|6bd931cbb88207699b0d90f1c95c8462<![endif]-->
     
-    <link rel="stylesheet" href="shopbus_files/shopping_cart.css"><!--[if !IE]>|xGv00|7163a701bcbe3acd55b2c912234ccb44<![endif]-->
+    <link rel="stylesheet" href="shopbus_files/shopping_cart.css">
     <link rel="stylesheet" href="shopbus_files/ppicons.css">
     <jsp:include page="../init.jsp"></jsp:include>
     <script type="text/javascript">
@@ -57,7 +57,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			<li class="mod_user_gap"></li>
 
 			<li id="J_headSeller" class="mod_user_more mod_user_seller hide">
-				<a href="http://my.paipai.com/cgi-bin/myppindex/seller?PTAG=20316.1.12" class="mod_user_more_btn" target="_blank">
+		 		<a href="http://my.paipai.com/cgi-bin/myppindex/seller?PTAG=20316.1.12" class="mod_user_more_btn" target="_blank">
 					<span>我是卖家</span>
 					<span id="msgNum"></span>
 					<i class="ico_sel"></i>
@@ -384,5 +384,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 </div>
 <!-- E 收藏提示浮层 -->
 
-</body></html>
+</body>
+</html>
 <!--[if !IE]>|xGv00|e2f4da7b3740441476ef46ab55816d20<![endif]-->

@@ -153,8 +153,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				<!--<![endif]-->
 				<span class="hide">拍拍</span></a></h1><div class="mod_logo_extra" id="J_logo_extra"></div></div>	
 		<div class="mod_chnn">
-			
-			
 			<div class="mod_chnn_more" id="J_headChnn">
 				<a href="http://s.paipai.com/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-PTAG=20567.38.60&,20084.2.2-as,0-bpf,0-cd,0-platform,1-sf,102.html#" class="mod_chnn_more_btn"><span>更多分类</span><i class="ico_sel"></i></a>
 				<div class="mod_chnn_more_pop">
@@ -168,8 +166,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				<a href="http://www.paipai.com/ershou/index.html?ptag=20316.39.1" class="c_tx1" target="_blank">拍拍拍</a>
 				<a href="http://tuan.paipai.com/?PTAG=20316.39.1" class="c_tx1" target="_blank">聚精品</a>	
 				<a href="http://3.paipai.com/index.shtml?ptag=20316.39.1" class="c_tx1" target="_blank">优品闪购</a>
-			
-		
+	
 	</dd>
 </dl><!--WEBPAGEEND@5199--><!--[if !IE]>|xGv00|910a3341903c707fc54d6f5be8884150<![endif]-->
 					<!--WEBPAGEBEGIN@5197--><dl>
@@ -1032,21 +1029,25 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				<ul>
 					<li>
 						<!-- ClusterCount (24798) -->
-						<a href="http://s.paipai.com/0,34167-0,232116/s-1wr5kqrtyt--1-60-15-232116--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html" tag="changeClass" title="男士休闲鞋"><span class="atxt" cg="3-12-1" ishot="" classid="232116">男士休闲鞋</span></a>
+						<a href="http://s.paipai.com/0,34167-0,232116/s-1wr5kqrtyt--1-60-15-232116--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html" tag="changeClass" title="男士休闲鞋">
+						<span class="atxt" cg="3-12-1" ishot="" classid="232116">男士休闲鞋</span></a>
 					</li>
 					
 					<li>
 						<!-- ClusterCount (1925) -->
-						<a href="http://s.paipai.com/0,34167-0,232115/s-1wr5kqrtyt--1-60-15-232115--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html" tag="changeClass" title="男士皮鞋"><span class="atxt" cg="3-12-2" ishot="" classid="232115">男士皮鞋</span></a>
+						<a href="http://s.paipai.com/0,34167-0,232115/s-1wr5kqrtyt--1-60-15-232115--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html" tag="changeClass" title="男士皮鞋">
+						<span class="atxt" cg="3-12-2" ishot="" classid="232115">男士皮鞋</span></a>
 					</li>
 					
 					<li>
 						<!-- ClusterCount (1675) -->
-						<a href="http://s.paipai.com/0,34167-0,246395/s-1wr5kqrtyt--1-60-15-246395--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html" tag="changeClass" title="男士帆布鞋"><span class="atxt" cg="3-12-3" ishot="" classid="246395">男士帆布鞋</span></a>
+						<a href="http://s.paipai.com/0,34167-0,246395/s-1wr5kqrtyt--1-60-15-246395--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html" tag="changeClass" title="男士帆布鞋">
+						<span class="atxt" cg="3-12-3" ishot="" classid="246395">男士帆布鞋</span></a>
 					</li>	
 					<li>
 						<!-- ClusterCount (558) -->
-						<a href="http://s.paipai.com/0,34167-0,700064/s-1wr5kqrtyt--1-60-15-700064--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html" tag="changeClass" title="男士凉鞋"><span class="atxt" cg="3-12-4" ishot="" classid="700064">男士凉鞋</span></a>
+						<a href="http://s.paipai.com/0,34167-0,700064/s-1wr5kqrtyt--1-60-15-700064--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html" tag="changeClass" title="男士凉鞋">
+						<span class="atxt" cg="3-12-4" ishot="" classid="700064">男士凉鞋</span></a>
 					</li>
 					
 					<li>
@@ -1098,8 +1099,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			</div>
 			<div class="btns">
 				<button class="submit" id="confirmPrice" cg="5-13-2">确定</button><button class="cancel" id="clearPrice">取消</button>
-			</div>
-			
+			</div>		
 		</div>
 	</div>
 
@@ -1164,7 +1164,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 								<a href="http://s.paipai.com/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-PTAG=20567.38.60&,20084.2.2-as,0-bpf,0-cd,0-platform,1-sf,102.html#h" addr="河南" pos="19" cg="5-16-20">河南</a>
 								<a href="http://s.paipai.com/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-PTAG=20567.38.60&,20084.2.2-as,0-bpf,0-cd,0-platform,1-sf,102.html#h" addr="黑龙江" pos="20" cg="5-16-21">黑龙江</a>
 								<a href="http://s.paipai.com/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-PTAG=20567.38.60&,20084.2.2-as,0-bpf,0-cd,0-platform,1-sf,102.html#h" addr="湖北" pos="21" cg="5-16-22">湖北</a>
-								<a href="http://s.paipai.com/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-PTAG=20567.38.60&,20084.2.2-as,0-bpf,0-cd,0-platform,1-sf,102.html#h" addr="湖南" pos="22" cg="5-16-23">湖南</a>
+								<a href="#" addr="湖南" pos="22" cg="5-16-23">湖南</a>
 							</span>
 						</li>
 						<li>
@@ -1244,18 +1244,26 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	</div>
 
 	<div class="fbox" id="fBoxBlock" cg="5-8" canhover="1" ovmark="0">
-		<div class="inner">
-			
+		<div class="inner">		
 			<!-- label class="c0" for="wxpLab"><input type="checkbox"  id="wxpLab" tarurl="http://s.paipai.com/0,34167/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-1125899906842752-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html" cg="5-9-9"/>扫码优惠</label -->
-			<label class="c1" for="noExp"><input type="checkbox" id="noExp" tarurl="http://s.paipai.com/0,34167/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-144-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html" cg="5-9-1">包邮</label>
-			<label class="c2" for="cashForDeli"><input type="checkbox" id="cashForDeli" tarurl="http://s.paipai.com/0,34167/s-1wr5kqrtyt--1-60-15-34167--3-6-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html" cg="5-9-2">货到付款</label>
-			<label class="c4" for="oversea"><input type="checkbox" id="oversea" tarurl="http://s.paipai.com/0,34167/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-4503599627370624-0-0-as,0-bpf,0-cd,0-platform,1-qrw,0-sf,102.html" cg="5-9-15">海外购</label>
-			<label class="c1" for="secondHander"><input type="checkbox" id="secondHander" tarurl="http://s.paipai.com/0,34167/s-1wr5kqrtyt--1-60-15-34167--3-4-2----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,0-sf,102.html" cg="5-9-14">二手</label>
-			<label class="c1" for="redEnvLab"><input type="checkbox" id="redEnvLab" tarurl="http://s.paipai.com/0,34167/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-192-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html" cg="5-9-4">红包</label>
-			<label class="c1" for="discountLab"><input type="checkbox" id="discountLab" tarurl="http://s.paipai.com/0,34167/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-140737488355456-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html" cg="5-9-3">折扣</label>
-			<label class="c3" for="manlijianLab"><input type="checkbox" id="manlijianLab" tarurl="http://s.paipai.com/0,34167/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-67108992-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html" cg="5-9-8">满立减满立送</label>
-			<label class="c4" for="yfx"><input type="checkbox" id="YunfeixianLab" tarurl="http://s.paipai.com/0,34167/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-2305843009213694080-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html" cg="5-9-16">运费险</label>
-			<label class="c2" for="jdTransport"><input type="checkbox" id="jdTransport" tarurl="http://s.paipai.com/0,34167/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-262272-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html" cg="5-9-17">京东配送</label>
+			<label class="c1" for="noExp">
+			<input type="checkbox" id="noExp" tarurl="http://s.paipai.com/0,34167/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-144-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html" cg="5-9-1">包邮</label>
+			<label class="c2" for="cashForDeli">
+			<input type="checkbox" id="cashForDeli" tarurl="http://s.paipai.com/0,34167/s-1wr5kqrtyt--1-60-15-34167--3-6-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html" cg="5-9-2">货到付款</label>
+			<label class="c4" for="oversea">
+			<input type="checkbox" id="oversea" tarurl="http://s.paipai.com/0,34167/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-4503599627370624-0-0-as,0-bpf,0-cd,0-platform,1-qrw,0-sf,102.html" cg="5-9-15">海外购</label>
+			<label class="c1" for="secondHander">
+			<input type="checkbox" id="secondHander" tarurl="http://s.paipai.com/0,34167/s-1wr5kqrtyt--1-60-15-34167--3-4-2----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,0-sf,102.html" cg="5-9-14">二手</label>
+			<label class="c1" for="redEnvLab">
+			<input type="checkbox" id="redEnvLab" tarurl="http://s.paipai.com/0,34167/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-192-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html" cg="5-9-4">红包</label>
+			<label class="c1" for="discountLab">
+			<input type="checkbox" id="discountLab" tarurl="http://s.paipai.com/0,34167/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-140737488355456-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html" cg="5-9-3">折扣</label>
+			<label class="c3" for="manlijianLab">
+			<input type="checkbox" id="manlijianLab" tarurl="http://s.paipai.com/0,34167/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-67108992-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html" cg="5-9-8">满立减满立送</label>
+			<label class="c4" for="yfx">
+			<input type="checkbox" id="YunfeixianLab" tarurl="http://s.paipai.com/0,34167/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-2305843009213694080-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html" cg="5-9-16">运费险</label>
+			<label class="c2" for="jdTransport">
+			<input type="checkbox" id="jdTransport" tarurl="http://s.paipai.com/0,34167/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-262272-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html" cg="5-9-17">京东配送</label>
 			<!--label class="c3" for="preferentialLab"><input type="checkbox"  id="preferentialLab" tarurl="" cg="5-9-7"/>优惠套餐</label-->			
 			<i class="arrow"></i>
 		</div>
@@ -1300,111 +1308,13 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <!--[if !IE]>|xGv00|81d873a4bb05bc1ed31116d760179a34<![endif]-->
 				<!-- E 头部属性项 -->
 				<!-- S 单维度排序时默认不展示超低价商品提示 -->
-				
-				<!-- E 单维度排序时默认不展示超低价商品提示 -->
-			
+            	<!-- E 单维度排序时默认不展示超低价商品提示 -->
 				<script>speedTimePoint.push(new Date()); //首屏 ok </script>
-
 				<!-- S 商品列表 大图 -->
 				<div class="pp_itemview" id="commArea">
 					<div class="pp_itemview_wrap" id="commList">
-										
-					
-						<div class="hproduct" pos="0" commid="A82FC5B10000000004010000413D95CF" leafclassid="238812" per="1" cg="6-21-2" tourl="http://auction1.paipai.com/A82FC5B10000000004010000413D95CF">
-							<div class="props">
-							<a href="http://auction1.paipai.com/A82FC5B10000000004010000413D95CF" target="_blank" class="url">
-								<img init_src="http://img0.paipaiimg.com/324fecb9/item-555E6FA2-A82FC5B10000000004010000413D95CF.0.300x300.jpg" class="photo" alt="骆驼男鞋子男款 新款男鞋男士休闲鞋男豆豆鞋男真皮鞋驾车鞋 " leafclassid="238812" pos="0" commid="A82FC5B10000000004010000413D95CF" per="1" cg="6-21-2" src="./shoppage/item-555E6FA2-A82FC5B10000000004010000413D95CF.0.300x300.jpg" iguid="0">
-							</a>
-			             	<!-- S 商品副图 -->
-							
-							<div class="preview_wrap">
-								<div class="preview_inner">
-									<ul class="preview_item">
-										
-										<li><a class="cur" href="http://auction1.paipai.com/A82FC5B10000000004010000413D95CF"><img init_src="http://img0.paipaiimg.com/324fecb9/item-555E6FA2-A82FC5B10000000004010000413D95CF.0.80x80.jpg" pos="0" commid="A82FC5B10000000004010000413D95CF" leafclassid="238812" cg="6-32-1" alt="骆驼男鞋子男款 新款男鞋男士休闲鞋男豆豆鞋男真皮鞋驾车鞋 " tourl="Invalid_ToUrl" src="./shoppage/item-555E6FA2-A82FC5B10000000004010000413D95CF.0.80x80.jpg" iguid="1"></a></li>
-										
-										<li><a href="http://auction1.paipai.com/A82FC5B10000000004010000413D95CF"><img init_src="http://img0.paipaiimg.com/324fecb9/item-555E6FA2-A82FC5B10000000004010000413D95CF.1.80x80.jpg" pos="0" commid="A82FC5B10000000004010000413D95CF" leafclassid="238812" cg="6-32-2" alt="骆驼男鞋子男款 新款男鞋男士休闲鞋男豆豆鞋男真皮鞋驾车鞋 " tourl="Invalid_ToUrl" src="./shoppage/item-555E6FA2-A82FC5B10000000004010000413D95CF.1.80x80.jpg" iguid="2"></a></li>
-										
-										<li><a href="http://auction1.paipai.com/A82FC5B10000000004010000413D95CF">
-										<img init_src="http://img0.paipaiimg.com/324fecb9/item-555E6FA2-A82FC5B10000000004010000413D95CF.2.80x80.jpg" pos="0" commid="A82FC5B10000000004010000413D95CF" leafclassid="238812" cg="6-32-3" alt="骆驼男鞋子男款 新款男鞋男士休闲鞋男豆豆鞋男真皮鞋驾车鞋 " tourl="Invalid_ToUrl" src="./shoppage/item-555E6FA2-A82FC5B10000000004010000413D95CF.2.80x80.jpg" iguid="3"></a></li>
-										
-										<li><a href="http://auction1.paipai.com/A82FC5B10000000004010000413D95CF"><img init_src="http://img0.paipaiimg.com/324fecb9/item-555E6FA2-A82FC5B10000000004010000413D95CF.3.80x80.jpg" pos="0" commid="A82FC5B10000000004010000413D95CF" leafclassid="238812" cg="6-32-4" alt="骆驼男鞋子男款 新款男鞋男士休闲鞋男豆豆鞋男真皮鞋驾车鞋 " tourl="Invalid_ToUrl" src="./shoppage/item-555E6FA2-A82FC5B10000000004010000413D95CF.3.80x80.jpg" iguid="4"></a></li>
-										
-										<li><a href="http://auction1.paipai.com/A82FC5B10000000004010000413D95CF"><img init_src="http://img0.paipaiimg.com/324fecb9/item-555E6FA2-A82FC5B10000000004010000413D95CF.4.80x80.jpg" pos="0" commid="A82FC5B10000000004010000413D95CF" leafclassid="238812" cg="6-32-5" alt="骆驼男鞋子男款 新款男鞋男士休闲鞋男豆豆鞋男真皮鞋驾车鞋 " tourl="Invalid_ToUrl" src="./shoppage/item-555E6FA2-A82FC5B10000000004010000413D95CF.4.80x80.jpg" iguid="5"></a></li>
-										
-									</ul>
-								</div>
-							</div>
-							
-
-							<p class="price_wrap" pos="0" commid="A82FC5B10000000004010000413D95CF" leafclassid="238812" per="1" cg="6-21-2" tourl="http://auction1.paipai.com/A82FC5B10000000004010000413D95CF">
-								<span class="price">￥ 188.00</span>
-													
-								<span class="promo_tool">
-									<span class="promo_tool_inner">
-										<i class="promo_icon promo_icon_dist" pos="0" commid="A82FC5B10000000004010000413D95CF" leafclassid="238812" per="1">折扣</i>	
-										<i class="promo_icon promo_icon_post" pos="0" commid="A82FC5B10000000004010000413D95CF" leafclassid="238812" per="1">包邮</i>
-									</span>
-								</span>
-
-								
-								<span class="promo ">销量<b>1069</b></span>
-								
-							</p>
-							<p class="fn_wrap">
-								
-								
-			                	
-			                	
-			                	<a href="http://auction1.paipai.com/A82FC5B10000000004010000413D95CF" class="fn" leafclassid="238812" pos="0" commid="A82FC5B10000000004010000413D95CF" per="1" cg="6-22-2" target="_blank" title="骆驼男鞋子男款 新款男鞋男士休闲鞋男豆豆鞋男真皮鞋驾车鞋 ">骆驼男<em>鞋</em>子男款 新款男<em>鞋</em>男士休闲<em>鞋</em>男豆豆<em>鞋</em>男真皮<em>鞋驾车鞋</em> </a>
-			              	</p>
-				            <ul class="shopinfo_wrap"> 				            	
-				              	<li class="seller ">
-
-				              	<a href="http://shop.paipai.com/2982490024" uin="2982490024" data-detail="rate" pos="0" commid="A82FC5B10000000004010000413D95CF" leafclassid="238812" per="1" cg="6-23-2" target="_blank" title="camel骆驼授权店 ">camel骆驼授权店 </a>
-				              	</li>
-				              	<li class="seller hidden "><a href="http://shop.paipai.com/2982490024" title="camel骆驼授权店 " pos="0" commid="A82FC5B10000000004010000413D95CF" leafclassid="238812" per="1" cg="6-23-3" target="_blank">camel骆驼授权店 </a></li>
-				
-				              	<li class="location " pos="0" commid="A82FC5B10000000004010000413D95CF" leafclassid="238812" per="1" cg="6-21-2" tourl="http://auction1.paipai.com/A82FC5B10000000004010000413D95CF">福建泉州</li>
-				            </ul>
-				            <p class="other" pos="0" commid="A82FC5B10000000004010000413D95CF" leafclassid="238812" per="1" cg="6-21-2" tourl="Invalid_ToUrl">
-				            	<!-- span class="icon_promo mark_wxprice hidden" pos="0" commId="A82FC5B10000000004010000413D95CF" leafClassId="238812" per="1" cg="6-25-4" uin="2982490024" price="188.00">扫码优惠<i class="arr"></i></span -->
-
-								<!-- new -->
-								</p><div class="promo_wrap" tag="promoteParams" value="1|1,2,187.10:3,4,186.10:5,6,185.20|" uin="2982490024" itemauctionurl="">
-									<div class="promo_inner">										
-										
-										<span class="icon_promo show" data-detail="full" data-pos="31" pos="0" commid="A82FC5B10000000004010000413D95CF" leafclassid="238812" per="1" cg="6-25-1" ovmark="1">满立减<i class="arr"></i></span>
-										<span class="icon_promo" data-detail="pack" data-pos="77" style="display:none" pos="0" commid="A82FC5B10000000004010000413D95CF" leafclassid="238812" per="1" cg="6-25-2">红包<i class="arr"></i></span>
-										<!-- span class="icon_promo"  pos="0" commId="A82FC5B10000000004010000413D95CF" leafClassId="238812" per="1" cg="6-25-4">拍卖<i class="arr"></i></span -->											
-										
-										
-										<a class="icon_service icon_seven" title="7天无理由退货">7</a>
-										<!-- a class="icon_service icon_credit"  title="先行赔付">信</a -->
-										<a class="icon_service icon_real" style="display:none" title="正品假一赔三">正</a>
-										<a class="icon_service icon_virtaul" style="display:none" title="虚拟诚保代充">充</a>
-										<a class="icon_service icon_replace" style="display:none" title="7天包邮退">包</a>
-										<a class="icon_service icon_fast" title="快速发货">快</a>
-										<a class="icon_service icon_cash" title="货到付款">到</a>
-										<a class="icon_service icon_yfx" style="display:none" title="卖家赠送运费险，退货有保障">运</a>
-										<a class="icon_service icon_abroad" style="display:none" title="海外购" href="http://www.paipai.com/haiwaigou/index.shtml">海</a>
-										<a class="icon_service icon_second" style="display:none" title="二手">二</a>
-										<a class="icon_service icon_realtime" style="display:none" title="实时充值" href="http://guize.paipai.com/v2/detail_news_3226.shtml">充</a>
-										<a class="icon_service icon_jd" style="display:none" title="请在下单时联系卖家确认配送方式">京东配送</a>
-										<a class="icon_service icon_certified" style="display:none" title="美妆正品联盟，官方授权，100%正品保证"></a>
-										<a class="icon_service icon_kong" style="display:none" title="港啪正品认证，进口数码家电商品全球购">港啪</a>
-									</div>
-								</div>								
-				            <p></p>
-
-							<p class="action ">
-								<a class="link_shopincart" href="http://s.paipai.com/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-PTAG=20567.38.60&,20084.2.2-as,0-bpf,0-cd,0-platform,1-sf,102.html###" tag="addCart" cg="6-26" per="1" leafclassid="238812" pos="0" commid="A82FC5B10000000004010000413D95CF">加入购物车</a>
-								<a class="link_detail" href="http://auction1.paipai.com/A82FC5B10000000004010000413D95CF" target="_blank" per="1" leafclassid="238812" pos="0" commid="A82FC5B10000000004010000413D95CF" cg="6-28">查看详情</a>
-							</p>
-							</div>
-						</div>
-					
-						<div class="hproduct" pos="1" commid="F2662068000000000401000044DBECD1" leafclassid="238812" per="1" cg="6-21-2" tourl="http://auction1.paipai.com/F2662068000000000401000044DBECD1">
+                      
+                     <div class="hproduct" pos="1" commid="F2662068000000000401000044DBECD1" leafclassid="238812" per="1" cg="6-21-2" tourl="http://auction1.paipai.com/F2662068000000000401000044DBECD1">
 							<div class="props">
 							<a href="http://auction1.paipai.com/F2662068000000000401000044DBECD1" target="_blank" class="url">
 								<img init_src="http://img2.paipaiimg.com/1de5b70e/item-54B078A5-F2662068000000000401000044DBECD1.0.300x300.jpg" class="photo" alt="骆驼男鞋子男款 高档豆豆鞋男休闲鞋男士休闲皮鞋男驾车鞋潮流新款 " leafclassid="238812" pos="1" commid="F2662068000000000401000044DBECD1" per="1" cg="6-21-2" src="./shoppage/item-54B078A5-F2662068000000000401000044DBECD1.0.300x300.jpg" iguid="6">
@@ -1493,944 +1403,34 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 							</div>
 						</div>
 					
-						<div class="hproduct" pos="2" commid="43AAAD8F00000000040100004167A0B8" leafclassid="238812" per="1" cg="6-21-2" tourl="http://auction1.paipai.com/43AAAD8F00000000040100004167A0B8">
-							<div class="props">
-							<a href="http://auction1.paipai.com/43AAAD8F00000000040100004167A0B8" target="_blank" class="url">
-								<img init_src="http://img3.paipaiimg.com/36edc405/item-552910D9-43AAAD8F00000000040100004167A0B8.0.300x300.jpg" class="photo" alt="蒂诺克2015新款真皮男士休闲豆豆鞋男 懒人透气驾车鞋潮流乐福鞋男 " leafclassid="238812" pos="2" commid="43AAAD8F00000000040100004167A0B8" per="1" cg="6-21-2" src="./shoppage/item-552910D9-43AAAD8F00000000040100004167A0B8.0.300x300.jpg" iguid="12">
-							</a>
-				            <!-- S 商品副图 -->
-							
-							<div class="preview_wrap">
-								<div class="preview_inner">
-									<ul class="preview_item">
-										
-										<li><a class="cur" href="http://auction1.paipai.com/43AAAD8F00000000040100004167A0B8"><img init_src="http://img3.paipaiimg.com/36edc405/item-552910D9-43AAAD8F00000000040100004167A0B8.0.80x80.jpg" pos="2" commid="43AAAD8F00000000040100004167A0B8" leafclassid="238812" cg="6-32-1" alt="蒂诺克2015新款真皮男士休闲豆豆鞋男 懒人透气驾车鞋潮流乐福鞋男 " tourl="Invalid_ToUrl" src="./shoppage/item-552910D9-43AAAD8F00000000040100004167A0B8.0.80x80.jpg" iguid="13"></a></li>
-										<li><a href="http://auction1.paipai.com/43AAAD8F00000000040100004167A0B8"><img init_src="http://img3.paipaiimg.com/36edc405/item-552910D9-43AAAD8F00000000040100004167A0B8.1.80x80.jpg" pos="2" commid="43AAAD8F00000000040100004167A0B8" leafclassid="238812" cg="6-32-2" alt="蒂诺克2015新款真皮男士休闲豆豆鞋男 懒人透气驾车鞋潮流乐福鞋男 " tourl="Invalid_ToUrl" src="./shoppage/item-552910D9-43AAAD8F00000000040100004167A0B8.1.80x80.jpg" iguid="14"></a></li>
-										<li><a href="http://auction1.paipai.com/43AAAD8F00000000040100004167A0B8"><img init_src="http://img3.paipaiimg.com/36edc405/item-552910D9-43AAAD8F00000000040100004167A0B8.2.80x80.jpg" pos="2" commid="43AAAD8F00000000040100004167A0B8" leafclassid="238812" cg="6-32-3" alt="蒂诺克2015新款真皮男士休闲豆豆鞋男 懒人透气驾车鞋潮流乐福鞋男 " tourl="Invalid_ToUrl" src="./shoppage/item-552910D9-43AAAD8F00000000040100004167A0B8.2.80x80.jpg" iguid="15"></a></li>										
-										<li><a href="http://auction1.paipai.com/43AAAD8F00000000040100004167A0B8"><img init_src="http://img3.paipaiimg.com/36edc405/item-552910D9-43AAAD8F00000000040100004167A0B8.3.80x80.jpg" pos="2" commid="43AAAD8F00000000040100004167A0B8" leafclassid="238812" cg="6-32-4" alt="蒂诺克2015新款真皮男士休闲豆豆鞋男 懒人透气驾车鞋潮流乐福鞋男 " tourl="Invalid_ToUrl" src="./shoppage/item-552910D9-43AAAD8F00000000040100004167A0B8.3.80x80.jpg" iguid="16"></a></li>										
-										<li><a href="http://auction1.paipai.com/43AAAD8F00000000040100004167A0B8"><img init_src="http://img3.paipaiimg.com/36edc405/item-552910D9-43AAAD8F00000000040100004167A0B8.4.80x80.jpg" pos="2" commid="43AAAD8F00000000040100004167A0B8" leafclassid="238812" cg="6-32-5" alt="蒂诺克2015新款真皮男士休闲豆豆鞋男 懒人透气驾车鞋潮流乐福鞋男 " tourl="Invalid_ToUrl" src="./shoppage/item-552910D9-43AAAD8F00000000040100004167A0B8.4.80x80.jpg" iguid="17"></a></li>
-										
-									</ul>
-								</div>
-							</div>
-							
-
-							<p class="price_wrap" pos="2" commid="43AAAD8F00000000040100004167A0B8" leafclassid="238812" per="1" cg="6-21-2" tourl="http://auction1.paipai.com/43AAAD8F00000000040100004167A0B8">
-								<span class="price">￥ 128.00</span>
-													
-								<span class="promo_tool">
-									<span class="promo_tool_inner">
-										<i class="promo_icon promo_icon_dist" pos="2" commid="43AAAD8F00000000040100004167A0B8" leafclassid="238812" per="1">折扣</i>	
-										<i class="promo_icon promo_icon_post" pos="2" commid="43AAAD8F00000000040100004167A0B8" leafclassid="238812" per="1">包邮</i>
-									</span>
-								</span>
-
-								
-								<span class="promo ">销量<b>34</b></span>
-								
-							</p>
-							<p class="fn_wrap">
-								
-								
-			                	
-			                	
-			                	<a href="http://auction1.paipai.com/43AAAD8F00000000040100004167A0B8" class="fn" leafclassid="238812" pos="2" commid="43AAAD8F00000000040100004167A0B8" per="1" cg="6-22-2" target="_blank" title="蒂诺克2015新款真皮男士休闲豆豆鞋男 懒人透气驾车鞋潮流乐福鞋男 ">蒂诺克2015新款真皮男士休闲豆豆<em>鞋</em>男 懒人透气<em>驾车鞋</em>潮流乐福<em>鞋</em>男 </a>
-			              	</p>
-				            <ul class="shopinfo_wrap"> 				            	
-				              	<li class="seller ">
-
-				              	<a href="http://shop.paipai.com/2410523203" uin="2410523203" data-detail="rate" pos="2" commid="43AAAD8F00000000040100004167A0B8" leafclassid="238812" per="1" cg="6-23-2" target="_blank" title="蒂诺克DEALYORK旗舰店 ">蒂诺克DEALYORK旗舰店 </a>
-				              	</li>
-				              	<li class="seller hidden "><a href="http://shop.paipai.com/2410523203" title="蒂诺克DEALYORK旗舰店 " pos="2" commid="43AAAD8F00000000040100004167A0B8" leafclassid="238812" per="1" cg="6-23-3" target="_blank">蒂诺克DEALYORK旗舰店 </a></li>
-				
-				              	<li class="location " pos="2" commid="43AAAD8F00000000040100004167A0B8" leafclassid="238812" per="1" cg="6-21-2" tourl="http://auction1.paipai.com/43AAAD8F00000000040100004167A0B8">福建泉州</li>
-				            </ul>
-				            <p class="other" pos="2" commid="43AAAD8F00000000040100004167A0B8" leafclassid="238812" per="1" cg="6-21-2" tourl="Invalid_ToUrl">
-				            	<!-- span class="icon_promo mark_wxprice hidden" pos="2" commId="43AAAD8F00000000040100004167A0B8" leafClassId="238812" per="1" cg="6-25-4" uin="2410523203" price="128.00">扫码优惠<i class="arr"></i></span -->
-
-								<!-- new -->
-								</p><div class="promo_wrap" tag="promoteParams" value="" uin="2410523203" itemauctionurl="">
-									<div class="promo_inner">										
-										
-										
-										<a class="icon_service icon_seven" title="7天无理由退货">7</a>
-										<!-- a class="icon_service icon_credit"  title="先行赔付">信</a -->
-										<a class="icon_service icon_real" style="display:none" title="正品假一赔三">正</a>
-										<a class="icon_service icon_virtaul" style="display:none" title="虚拟诚保代充">充</a>
-										<a class="icon_service icon_replace" style="display:none" title="7天包邮退">包</a>
-										<a class="icon_service icon_fast" style="display:none" title="快速发货">快</a>
-										<a class="icon_service icon_cash" title="货到付款">到</a>
-										<a class="icon_service icon_yfx" style="display:none" title="卖家赠送运费险，退货有保障">运</a>
-										<a class="icon_service icon_abroad" style="display:none" title="海外购" href="http://www.paipai.com/haiwaigou/index.shtml">海</a>
-										<a class="icon_service icon_second" style="display:none" title="二手">二</a>
-										<a class="icon_service icon_realtime" style="display:none" title="实时充值" href="http://guize.paipai.com/v2/detail_news_3226.shtml">充</a>
-										<a class="icon_service icon_jd" title="请在下单时联系卖家确认配送方式">京东配送</a>
-										<a class="icon_service icon_certified" style="display:none" title="美妆正品联盟，官方授权，100%正品保证"></a>
-										<a class="icon_service icon_kong" style="display:none" title="港啪正品认证，进口数码家电商品全球购">港啪</a>
-									</div>
-								</div>
-
-							
-				            <p></p>
-
-							<p class="action ">
-								<a class="link_shopincart" href="http://s.paipai.com/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-PTAG=20567.38.60&,20084.2.2-as,0-bpf,0-cd,0-platform,1-sf,102.html###" tag="addCart" cg="6-26" per="1" leafclassid="238812" pos="2" commid="43AAAD8F00000000040100004167A0B8">加入购物车</a>
-								<a class="link_detail" href="http://auction1.paipai.com/43AAAD8F00000000040100004167A0B8" target="_blank" per="1" leafclassid="238812" pos="2" commid="43AAAD8F00000000040100004167A0B8" cg="6-28">查看详情</a>
-							</p>
-							</div>
-						</div>
-					
-						<div class="hproduct" pos="3" commid="3D88E32100000000040100004FEE884A" leafclassid="238812" per="1" cg="6-21-2" tourl="http://auction1.paipai.com/3D88E32100000000040100004FEE884A">
-							<div class="props">
-							<a href="http://auction1.paipai.com/3D88E32100000000040100004FEE884A" target="_blank" class="url">
-								<img init_src="http://img5.paipaiimg.com/45ebd97a/item-55688CBA-3D88E32100000000040100004FEE884A.0.300x300.jpg" class="photo" alt="露派夏季潮鞋男鞋男士透气豆豆鞋套脚懒人鞋真皮驾车鞋英伦休闲鞋板鞋 " leafclassid="238812" pos="3" commid="3D88E32100000000040100004FEE884A" per="1" cg="6-21-2" src="./shoppage/item-55688CBA-3D88E32100000000040100004FEE884A.0.300x300.jpg" iguid="18">
-							</a>
-							
-
-							<!-- S 商品副图 -->
-							
-							<div class="preview_wrap">
-								<div class="preview_inner">
-									<ul class="preview_item">
-										
-										<li><a class="cur" href="http://auction1.paipai.com/3D88E32100000000040100004FEE884A"><img init_src="http://img5.paipaiimg.com/45ebd97a/item-55688CBA-3D88E32100000000040100004FEE884A.0.80x80.jpg" pos="3" commid="3D88E32100000000040100004FEE884A" leafclassid="238812" cg="6-32-1" alt="露派夏季潮鞋男鞋男士透气豆豆鞋套脚懒人鞋真皮驾车鞋英伦休闲鞋板鞋 " tourl="Invalid_ToUrl" src="./shoppage/item-55688CBA-3D88E32100000000040100004FEE884A.0.80x80.jpg" iguid="19"></a></li>
-										
-										<li><a href="http://auction1.paipai.com/3D88E32100000000040100004FEE884A"><img init_src="http://img5.paipaiimg.com/45ebd97a/item-55688CBA-3D88E32100000000040100004FEE884A.1.80x80.jpg" pos="3" commid="3D88E32100000000040100004FEE884A" leafclassid="238812" cg="6-32-2" alt="露派夏季潮鞋男鞋男士透气豆豆鞋套脚懒人鞋真皮驾车鞋英伦休闲鞋板鞋 " tourl="Invalid_ToUrl" src="./shoppage/item-55688CBA-3D88E32100000000040100004FEE884A.1.80x80.jpg" iguid="20"></a></li>
-										
-										<li><a href="http://auction1.paipai.com/3D88E32100000000040100004FEE884A"><img init_src="http://img5.paipaiimg.com/45ebd97a/item-55688CBA-3D88E32100000000040100004FEE884A.2.80x80.jpg" pos="3" commid="3D88E32100000000040100004FEE884A" leafclassid="238812" cg="6-32-3" alt="露派夏季潮鞋男鞋男士透气豆豆鞋套脚懒人鞋真皮驾车鞋英伦休闲鞋板鞋 " tourl="Invalid_ToUrl" src="./shoppage/item-55688CBA-3D88E32100000000040100004FEE884A.2.80x80.jpg" iguid="21"></a></li>
-										
-										<li><a href="http://auction1.paipai.com/3D88E32100000000040100004FEE884A"><img init_src="http://img5.paipaiimg.com/45ebd97a/item-55688CBA-3D88E32100000000040100004FEE884A.3.80x80.jpg" pos="3" commid="3D88E32100000000040100004FEE884A" leafclassid="238812" cg="6-32-4" alt="露派夏季潮鞋男鞋男士透气豆豆鞋套脚懒人鞋真皮驾车鞋英伦休闲鞋板鞋 " tourl="Invalid_ToUrl" src="./shoppage/item-55688CBA-3D88E32100000000040100004FEE884A.3.80x80.jpg" iguid="22"></a></li>
-										
-										<li><a href="http://auction1.paipai.com/3D88E32100000000040100004FEE884A"><img init_src="http://img5.paipaiimg.com/45ebd97a/item-55688CBA-3D88E32100000000040100004FEE884A.4.80x80.jpg" pos="3" commid="3D88E32100000000040100004FEE884A" leafclassid="238812" cg="6-32-5" alt="露派夏季潮鞋男鞋男士透气豆豆鞋套脚懒人鞋真皮驾车鞋英伦休闲鞋板鞋 " tourl="Invalid_ToUrl" src="./shoppage/item-55688CBA-3D88E32100000000040100004FEE884A.4.80x80.jpg" iguid="23"></a></li>
-										
-									</ul>
-								</div>
-							</div>
-							
-
-							<p class="price_wrap" pos="3" commid="3D88E32100000000040100004FEE884A" leafclassid="238812" per="1" cg="6-21-2" tourl="http://auction1.paipai.com/3D88E32100000000040100004FEE884A">
-								<span class="price">￥ 89.00</span>
-													
-								<span class="promo_tool">
-									<span class="promo_tool_inner">
-										<i class="promo_icon promo_icon_dist" pos="3" commid="3D88E32100000000040100004FEE884A" leafclassid="238812" per="1">折扣</i>	
-										<i class="promo_icon promo_icon_post" pos="3" commid="3D88E32100000000040100004FEE884A" leafclassid="238812" per="1">包邮</i>
-									</span>
-								</span>
-
-								
-								<span class="promo ">销量<b>24</b></span>
-								
-							</p>
-							<p class="fn_wrap">
-								
-								
-			                	
-			                	
-			                	<a href="http://auction1.paipai.com/3D88E32100000000040100004FEE884A" class="fn" leafclassid="238812" pos="3" commid="3D88E32100000000040100004FEE884A" per="1" cg="6-22-2" target="_blank" title="露派夏季潮鞋男鞋男士透气豆豆鞋套脚懒人鞋真皮驾车鞋英伦休闲鞋板鞋 ">露派夏季潮<em>鞋</em>男<em>鞋</em>男士透气豆豆<em>鞋</em>套脚懒人<em>鞋</em>真皮<em>驾车鞋</em>英伦休闲<em>鞋</em>板<em>鞋</em> </a>
-			              	</p>
-				            <ul class="shopinfo_wrap"> 				            	
-				              	<li class="seller ">
-
-				              	<a href="http://shop.paipai.com/568559677" uin="568559677" data-detail="rate" pos="3" commid="3D88E32100000000040100004FEE884A" leafclassid="238812" per="1" cg="6-23-2" target="_blank" title="露派皮鞋专卖店 ">露派皮鞋专卖店 </a>
-				              	</li>
-				              	<li class="seller hidden "><a href="http://shop.paipai.com/568559677" title="露派皮鞋专卖店 " pos="3" commid="3D88E32100000000040100004FEE884A" leafclassid="238812" per="1" cg="6-23-3" target="_blank">露派皮鞋专卖店 </a></li>
-				
-				              	<li class="location " pos="3" commid="3D88E32100000000040100004FEE884A" leafclassid="238812" per="1" cg="6-21-2" tourl="http://auction1.paipai.com/3D88E32100000000040100004FEE884A">浙江温州</li>
-				            </ul>
-				            <p class="other" pos="3" commid="3D88E32100000000040100004FEE884A" leafclassid="238812" per="1" cg="6-21-2" tourl="Invalid_ToUrl">
-				            	<!-- span class="icon_promo mark_wxprice hidden" pos="3" commId="3D88E32100000000040100004FEE884A" leafClassId="238812" per="1" cg="6-25-4" uin="568559677" price="89.00">扫码优惠<i class="arr"></i></span -->
-
-								<!-- new -->
-								</p><div class="promo_wrap" tag="promoteParams" value="1|1,2,88.10:3,4,87.20:5,6,86.30|" uin="568559677" itemauctionurl="">
-									<div class="promo_inner">										
-										
-										<span class="icon_promo show" data-detail="full" data-pos="31" pos="3" commid="3D88E32100000000040100004FEE884A" leafclassid="238812" per="1" cg="6-25-1" ovmark="1">满立减<i class="arr"></i></span>
-										<span class="icon_promo" data-detail="pack" data-pos="77" style="display:none" pos="3" commid="3D88E32100000000040100004FEE884A" leafclassid="238812" per="1" cg="6-25-2">红包<i class="arr"></i></span>
-										<!-- span class="icon_promo"  pos="3" commId="3D88E32100000000040100004FEE884A" leafClassId="238812" per="1" cg="6-25-4">拍卖<i class="arr"></i></span -->											
-										
-										
-										<a class="icon_service icon_seven" title="7天无理由退货">7</a>
-										<!-- a class="icon_service icon_credit"  title="先行赔付">信</a -->
-										<a class="icon_service icon_real" style="display:none" title="正品假一赔三">正</a>
-										<a class="icon_service icon_virtaul" style="display:none" title="虚拟诚保代充">充</a>
-										<a class="icon_service icon_replace" style="display:none" title="7天包邮退">包</a>
-										<a class="icon_service icon_fast" title="快速发货">快</a>
-										<a class="icon_service icon_cash" title="货到付款">到</a>
-										<a class="icon_service icon_yfx" style="display:none" title="卖家赠送运费险，退货有保障">运</a>
-										<a class="icon_service icon_abroad" style="display:none" title="海外购" href="http://www.paipai.com/haiwaigou/index.shtml">海</a>
-										<a class="icon_service icon_second" style="display:none" title="二手">二</a>
-										<a class="icon_service icon_realtime" style="display:none" title="实时充值" href="http://guize.paipai.com/v2/detail_news_3226.shtml">充</a>
-										<a class="icon_service icon_jd" style="display:none" title="请在下单时联系卖家确认配送方式">京东配送</a>
-										<a class="icon_service icon_certified" style="display:none" title="美妆正品联盟，官方授权，100%正品保证"></a>
-										<a class="icon_service icon_kong" style="display:none" title="港啪正品认证，进口数码家电商品全球购">港啪</a>
-									</div>
-								</div>
-
-								
-				            <p></p>
-
-							<p class="action ">
-								<a class="link_shopincart" href="http://s.paipai.com/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-PTAG=20567.38.60&,20084.2.2-as,0-bpf,0-cd,0-platform,1-sf,102.html###" tag="addCart" cg="6-26" per="1" leafclassid="238812" pos="3" commid="3D88E32100000000040100004FEE884A">加入购物车</a>
-								<a class="link_detail" href="http://auction1.paipai.com/3D88E32100000000040100004FEE884A" target="_blank" per="1" leafclassid="238812" pos="3" commid="3D88E32100000000040100004FEE884A" cg="6-28">查看详情</a>
-							</p>
-							</div>
-						</div>
-					
-						<div class="hproduct" pos="4" commid="43AAAD8F00000000040100003BC6621B" leafclassid="238812" per="1" cg="6-21-2" tourl="http://auction1.paipai.com/43AAAD8F00000000040100003BC6621B">
-							<div class="props">
-							<a href="http://auction1.paipai.com/43AAAD8F00000000040100003BC6621B" target="_blank" class="url">
-								<img init_src="http://img3.paipaiimg.com/4d2f27d7/item-53FC2CD2-43AAAD8F00000000040100003BC6621B.0.300x300.jpg" class="photo" alt="蒂诺克新品男士休闲鞋驾车鞋真皮韩版透气潮流男鞋豆豆鞋 " leafclassid="238812" pos="4" commid="43AAAD8F00000000040100003BC6621B" per="1" cg="6-21-2" src="./shoppage/item-53FC2CD2-43AAAD8F00000000040100003BC6621B.0.300x300.jpg" iguid="24">
-							</a>
-							
-
-							<!-- S 商品副图 -->
-							
-							<div class="preview_wrap">
-								<div class="preview_inner">
-									<ul class="preview_item">
-										
-										<li><a class="cur" href="http://auction1.paipai.com/43AAAD8F00000000040100003BC6621B"><img init_src="http://img3.paipaiimg.com/4d2f27d7/item-53FC2CD2-43AAAD8F00000000040100003BC6621B.0.80x80.jpg" pos="4" commid="43AAAD8F00000000040100003BC6621B" leafclassid="238812" cg="6-32-1" alt="蒂诺克新品男士休闲鞋驾车鞋真皮韩版透气潮流男鞋豆豆鞋 " tourl="Invalid_ToUrl" src="./shoppage/item-53FC2CD2-43AAAD8F00000000040100003BC6621B.0.80x80.jpg" iguid="32"></a></li>
-										
-										<li><a href="http://auction1.paipai.com/43AAAD8F00000000040100003BC6621B"><img init_src="http://img3.paipaiimg.com/4d2f27d7/item-53FC2CD2-43AAAD8F00000000040100003BC6621B.1.80x80.jpg" pos="4" commid="43AAAD8F00000000040100003BC6621B" leafclassid="238812" cg="6-32-2" alt="蒂诺克新品男士休闲鞋驾车鞋真皮韩版透气潮流男鞋豆豆鞋 " tourl="Invalid_ToUrl" src="./shoppage/item-53FC2CD2-43AAAD8F00000000040100003BC6621B.1.80x80.jpg" iguid="33"></a></li>
-										
-										<li><a href="http://auction1.paipai.com/43AAAD8F00000000040100003BC6621B"><img init_src="http://img3.paipaiimg.com/4d2f27d7/item-53FC2CD2-43AAAD8F00000000040100003BC6621B.2.80x80.jpg" pos="4" commid="43AAAD8F00000000040100003BC6621B" leafclassid="238812" cg="6-32-3" alt="蒂诺克新品男士休闲鞋驾车鞋真皮韩版透气潮流男鞋豆豆鞋 " tourl="Invalid_ToUrl" src="./shoppage/item-53FC2CD2-43AAAD8F00000000040100003BC6621B.2.80x80.jpg" iguid="34"></a></li>
-										
-										<li><a href="http://auction1.paipai.com/43AAAD8F00000000040100003BC6621B"><img init_src="http://img3.paipaiimg.com/4d2f27d7/item-53FC2CD2-43AAAD8F00000000040100003BC6621B.3.80x80.jpg" pos="4" commid="43AAAD8F00000000040100003BC6621B" leafclassid="238812" cg="6-32-4" alt="蒂诺克新品男士休闲鞋驾车鞋真皮韩版透气潮流男鞋豆豆鞋 " tourl="Invalid_ToUrl" src="./shoppage/item-53FC2CD2-43AAAD8F00000000040100003BC6621B.3.80x80.jpg" iguid="35"></a></li>
-										
-										<li><a href="http://auction1.paipai.com/43AAAD8F00000000040100003BC6621B"><img init_src="http://img3.paipaiimg.com/4d2f27d7/item-53FC2CD2-43AAAD8F00000000040100003BC6621B.4.80x80.jpg" pos="4" commid="43AAAD8F00000000040100003BC6621B" leafclassid="238812" cg="6-32-5" alt="蒂诺克新品男士休闲鞋驾车鞋真皮韩版透气潮流男鞋豆豆鞋 " tourl="Invalid_ToUrl" src="./shoppage/item-53FC2CD2-43AAAD8F00000000040100003BC6621B.4.80x80.jpg" iguid="36"></a></li>
-										
-									</ul>
-								</div>
-							</div>
-							
-
-							<p class="price_wrap" pos="4" commid="43AAAD8F00000000040100003BC6621B" leafclassid="238812" per="1" cg="6-21-2" tourl="http://auction1.paipai.com/43AAAD8F00000000040100003BC6621B">
-								<span class="price">￥ 138.00</span>
-													
-								<span class="promo_tool">
-									<span class="promo_tool_inner">
-										<i class="promo_icon promo_icon_dist" pos="4" commid="43AAAD8F00000000040100003BC6621B" leafclassid="238812" per="1">折扣</i>	
-										<i class="promo_icon promo_icon_post" pos="4" commid="43AAAD8F00000000040100003BC6621B" leafclassid="238812" per="1">包邮</i>
-									</span>
-								</span>
-
-								
-								<span class="promo ">销量<b>44</b></span>
-								
-							</p>
-							<p class="fn_wrap">
-								
-								
-			                	
-			                	
-			                	<a href="http://auction1.paipai.com/43AAAD8F00000000040100003BC6621B" class="fn" leafclassid="238812" pos="4" commid="43AAAD8F00000000040100003BC6621B" per="1" cg="6-22-2" target="_blank" title="蒂诺克新品男士休闲鞋驾车鞋真皮韩版透气潮流男鞋豆豆鞋 ">蒂诺克新品男士休闲<em>鞋驾车鞋</em>真皮韩版透气潮流男<em>鞋</em>豆豆<em>鞋</em> </a>
-			              	</p>
-				            <ul class="shopinfo_wrap"> 				            	
-				              	<li class="seller ">
-
-				              	<a href="http://shop.paipai.com/2410523203" uin="2410523203" data-detail="rate" pos="4" commid="43AAAD8F00000000040100003BC6621B" leafclassid="238812" per="1" cg="6-23-2" target="_blank" title="蒂诺克DEALYORK旗舰店 ">蒂诺克DEALYORK旗舰店 </a>
-				              	</li>
-				              	<li class="seller hidden "><a href="http://shop.paipai.com/2410523203" title="蒂诺克DEALYORK旗舰店 " pos="4" commid="43AAAD8F00000000040100003BC6621B" leafclassid="238812" per="1" cg="6-23-3" target="_blank">蒂诺克DEALYORK旗舰店 </a></li>
-				
-				              	<li class="location " pos="4" commid="43AAAD8F00000000040100003BC6621B" leafclassid="238812" per="1" cg="6-21-2" tourl="http://auction1.paipai.com/43AAAD8F00000000040100003BC6621B">福建泉州</li>
-				            </ul>
-				            <p class="other" pos="4" commid="43AAAD8F00000000040100003BC6621B" leafclassid="238812" per="1" cg="6-21-2" tourl="Invalid_ToUrl">
-				            	<!-- span class="icon_promo mark_wxprice hidden" pos="4" commId="43AAAD8F00000000040100003BC6621B" leafClassId="238812" per="1" cg="6-25-4" uin="2410523203" price="138.00">扫码优惠<i class="arr"></i></span -->
-
-								<!-- new -->
-								</p><div class="promo_wrap" tag="promoteParams" value="" uin="2410523203" itemauctionurl="">
-									<div class="promo_inner">										
-										
-										
-										<a class="icon_service icon_seven" title="7天无理由退货">7</a>
-										<!-- a class="icon_service icon_credit"  title="先行赔付">信</a -->
-										<a class="icon_service icon_real" style="display:none" title="正品假一赔三">正</a>
-										<a class="icon_service icon_virtaul" style="display:none" title="虚拟诚保代充">充</a>
-										<a class="icon_service icon_replace" style="display:none" title="7天包邮退">包</a>
-										<a class="icon_service icon_fast" style="display:none" title="快速发货">快</a>
-										<a class="icon_service icon_cash" title="货到付款">到</a>
-										<a class="icon_service icon_yfx" style="display:none" title="卖家赠送运费险，退货有保障">运</a>
-										<a class="icon_service icon_abroad" style="display:none" title="海外购" href="http://www.paipai.com/haiwaigou/index.shtml">海</a>
-										<a class="icon_service icon_second" style="display:none" title="二手">二</a>
-										<a class="icon_service icon_realtime" style="display:none" title="实时充值" href="http://guize.paipai.com/v2/detail_news_3226.shtml">充</a>
-										<a class="icon_service icon_jd" title="请在下单时联系卖家确认配送方式">京东配送</a>
-										<a class="icon_service icon_certified" style="display:none" title="美妆正品联盟，官方授权，100%正品保证"></a>
-										<a class="icon_service icon_kong" style="display:none" title="港啪正品认证，进口数码家电商品全球购">港啪</a>
-									</div>
-								</div>
-
-								
-				            <p></p>
-
-							<p class="action ">
-								<a class="link_shopincart" href="http://s.paipai.com/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-PTAG=20567.38.60&,20084.2.2-as,0-bpf,0-cd,0-platform,1-sf,102.html###" tag="addCart" cg="6-26" per="1" leafclassid="238812" pos="4" commid="43AAAD8F00000000040100003BC6621B">加入购物车</a>
-								<a class="link_detail" href="http://auction1.paipai.com/43AAAD8F00000000040100003BC6621B" target="_blank" per="1" leafclassid="238812" pos="4" commid="43AAAD8F00000000040100003BC6621B" cg="6-28">查看详情</a>
-							</p>
-							</div>
-						</div>				
-						<div class="hproduct" pos="6" commid="FD0E54AD00000000040100004609A5C3" leafclassid="238812" per="1" cg="6-21-2" tourl="http://auction1.paipai.com/FD0E54AD00000000040100004609A5C3">
-							<div class="props">
-							<a href="http://auction1.paipai.com/FD0E54AD00000000040100004609A5C3" target="_blank" class="url">
-								<img init_src="http://img5.paipaiimg.com/ae2fd1f4/item-54B58154-FD0E54AD00000000040100004609A5C3.0.300x300.jpg" class="photo" alt="骆驼新款男鞋子男款男士休闲鞋男皮鞋豆豆鞋男驾车鞋韩版鞋八爪鱼 " leafclassid="238812" pos="6" commid="FD0E54AD00000000040100004609A5C3" per="1" cg="6-21-2" src="./shoppage/item-54B58154-FD0E54AD00000000040100004609A5C3.0.300x300.jpg" iguid="26">
-							</a>
-							
-
-							<!-- S 商品副图 -->
-							
-							<div class="preview_wrap">
-								<div class="preview_inner">
-									<ul class="preview_item">
-										
-										<li><a class="cur" href="http://auction1.paipai.com/FD0E54AD00000000040100004609A5C3"><img init_src="http://img5.paipaiimg.com/ae2fd1f4/item-54B58154-FD0E54AD00000000040100004609A5C3.0.80x80.jpg" pos="6" commid="FD0E54AD00000000040100004609A5C3" leafclassid="238812" cg="6-32-1" alt="骆驼新款男鞋子男款男士休闲鞋男皮鞋豆豆鞋男驾车鞋韩版鞋八爪鱼 " tourl="Invalid_ToUrl" src="./shoppage/item-54B58154-FD0E54AD00000000040100004609A5C3.0.80x80.jpg" iguid="42"></a></li>
-										
-										<li><a href="http://auction1.paipai.com/FD0E54AD00000000040100004609A5C3"><img init_src="http://img5.paipaiimg.com/ae2fd1f4/item-54B58154-FD0E54AD00000000040100004609A5C3.1.80x80.jpg" pos="6" commid="FD0E54AD00000000040100004609A5C3" leafclassid="238812" cg="6-32-2" alt="骆驼新款男鞋子男款男士休闲鞋男皮鞋豆豆鞋男驾车鞋韩版鞋八爪鱼 " tourl="Invalid_ToUrl" src="./shoppage/item-54B58154-FD0E54AD00000000040100004609A5C3.1.80x80.jpg" iguid="43"></a></li>
-										
-										<li><a href="http://auction1.paipai.com/FD0E54AD00000000040100004609A5C3"><img init_src="http://img5.paipaiimg.com/ae2fd1f4/item-54B58154-FD0E54AD00000000040100004609A5C3.2.80x80.jpg" pos="6" commid="FD0E54AD00000000040100004609A5C3" leafclassid="238812" cg="6-32-3" alt="骆驼新款男鞋子男款男士休闲鞋男皮鞋豆豆鞋男驾车鞋韩版鞋八爪鱼 " tourl="Invalid_ToUrl" src="./shoppage/item-54B58154-FD0E54AD00000000040100004609A5C3.2.80x80.jpg" iguid="44"></a></li>
-										
-										<li><a href="http://auction1.paipai.com/FD0E54AD00000000040100004609A5C3"><img init_src="http://img5.paipaiimg.com/ae2fd1f4/item-54B58154-FD0E54AD00000000040100004609A5C3.3.80x80.jpg" pos="6" commid="FD0E54AD00000000040100004609A5C3" leafclassid="238812" cg="6-32-4" alt="骆驼新款男鞋子男款男士休闲鞋男皮鞋豆豆鞋男驾车鞋韩版鞋八爪鱼 " tourl="Invalid_ToUrl" src="./shoppage/item-54B58154-FD0E54AD00000000040100004609A5C3.3.80x80.jpg" iguid="45"></a></li>
-										
-										<li><a href="http://auction1.paipai.com/FD0E54AD00000000040100004609A5C3"><img init_src="http://img5.paipaiimg.com/ae2fd1f4/item-54B58154-FD0E54AD00000000040100004609A5C3.4.80x80.jpg" pos="6" commid="FD0E54AD00000000040100004609A5C3" leafclassid="238812" cg="6-32-5" alt="骆驼新款男鞋子男款男士休闲鞋男皮鞋豆豆鞋男驾车鞋韩版鞋八爪鱼 " tourl="Invalid_ToUrl" src="./shoppage/item-54B58154-FD0E54AD00000000040100004609A5C3.4.80x80.jpg" iguid="46"></a></li>
-										
-									</ul>
-								</div>
-							</div>
-							
-
-							<p class="price_wrap" pos="6" commid="FD0E54AD00000000040100004609A5C3" leafclassid="238812" per="1" cg="6-21-2" tourl="http://auction1.paipai.com/FD0E54AD00000000040100004609A5C3">
-								<span class="price">￥ 188.00</span>
-													
-								<span class="promo_tool">
-									<span class="promo_tool_inner">
-										<i class="promo_icon promo_icon_dist" pos="6" commid="FD0E54AD00000000040100004609A5C3" leafclassid="238812" per="1">折扣</i>	
-										<i class="promo_icon promo_icon_post" pos="6" commid="FD0E54AD00000000040100004609A5C3" leafclassid="238812" per="1">包邮</i>
-									</span>
-								</span>
-
-								
-								<span class="promo ">销量<b>871</b></span>
-								
-							</p>
-							<p class="fn_wrap">
-								
-								
-			                	
-			                	
-			                	<a href="http://auction1.paipai.com/FD0E54AD00000000040100004609A5C3" class="fn" leafclassid="238812" pos="6" commid="FD0E54AD00000000040100004609A5C3" per="1" cg="6-22-2" target="_blank" title="骆驼新款男鞋子男款男士休闲鞋男皮鞋豆豆鞋男驾车鞋韩版鞋八爪鱼 ">骆驼新款男<em>鞋</em>子男款男士休闲<em>鞋</em>男皮<em>鞋</em>豆豆<em>鞋</em>男<em>驾车鞋</em>韩版<em>鞋</em>八爪鱼 </a>
-			              	</p>
-				            <ul class="shopinfo_wrap"> 				            	
-				              	<li class="seller ">
-
-				              	<a href="http://shop.paipai.com/2907967229" uin="2907967229" data-detail="rate" pos="6" commid="FD0E54AD00000000040100004609A5C3" leafclassid="238812" per="1" cg="6-23-2" target="_blank" title="品质男鞋专营店 ">品质男鞋专营店 </a>
-				              	</li>
-				              	<li class="seller hidden "><a href="http://shop.paipai.com/2907967229" title="品质男鞋专营店 " pos="6" commid="FD0E54AD00000000040100004609A5C3" leafclassid="238812" per="1" cg="6-23-3" target="_blank">品质男鞋专营店 </a></li>
-				
-				              	<li class="location " pos="6" commid="FD0E54AD00000000040100004609A5C3" leafclassid="238812" per="1" cg="6-21-2" tourl="http://auction1.paipai.com/FD0E54AD00000000040100004609A5C3">福建泉州</li>
-				            </ul>
-				            <p class="other" pos="6" commid="FD0E54AD00000000040100004609A5C3" leafclassid="238812" per="1" cg="6-21-2" tourl="Invalid_ToUrl">
-				            	<!-- span class="icon_promo mark_wxprice hidden" pos="6" commId="FD0E54AD00000000040100004609A5C3" leafClassId="238812" per="1" cg="6-25-4" uin="2907967229" price="188.00">扫码优惠<i class="arr"></i></span -->
-
-								<!-- new -->
-								</p><div class="promo_wrap" tag="promoteParams" value="1|1,2,187.10:3,4,186.10:5,6,185.20|" uin="2907967229" itemauctionurl="">
-									<div class="promo_inner">										
-										
-										<span class="icon_promo show" data-detail="full" data-pos="31" pos="6" commid="FD0E54AD00000000040100004609A5C3" leafclassid="238812" per="1" cg="6-25-1" ovmark="1">满立减<i class="arr"></i></span>
-										<span class="icon_promo" data-detail="pack" data-pos="77" style="display:none" pos="6" commid="FD0E54AD00000000040100004609A5C3" leafclassid="238812" per="1" cg="6-25-2">红包<i class="arr"></i></span>
-										<!-- span class="icon_promo"  pos="6" commId="FD0E54AD00000000040100004609A5C3" leafClassId="238812" per="1" cg="6-25-4">拍卖<i class="arr"></i></span -->											
-										
-										
-										<a class="icon_service icon_seven" title="7天无理由退货">7</a>
-										<!-- a class="icon_service icon_credit"  title="先行赔付">信</a -->
-										<a class="icon_service icon_real" style="display:none" title="正品假一赔三">正</a>
-										<a class="icon_service icon_virtaul" style="display:none" title="虚拟诚保代充">充</a>
-										<a class="icon_service icon_replace" style="display:none" title="7天包邮退">包</a>
-										<a class="icon_service icon_fast" title="快速发货">快</a>
-										<a class="icon_service icon_cash" title="货到付款">到</a>
-										<a class="icon_service icon_yfx" style="display:none" title="卖家赠送运费险，退货有保障">运</a>
-										<a class="icon_service icon_abroad" style="display:none" title="海外购" href="http://www.paipai.com/haiwaigou/index.shtml">海</a>
-										<a class="icon_service icon_second" style="display:none" title="二手">二</a>
-										<a class="icon_service icon_realtime" style="display:none" title="实时充值" href="http://guize.paipai.com/v2/detail_news_3226.shtml">充</a>
-										<a class="icon_service icon_jd" style="display:none" title="请在下单时联系卖家确认配送方式">京东配送</a>
-										<a class="icon_service icon_certified" style="display:none" title="美妆正品联盟，官方授权，100%正品保证"></a>
-										<a class="icon_service icon_kong" style="display:none" title="港啪正品认证，进口数码家电商品全球购">港啪</a>
-									</div>
-								</div>
-				            <p></p>
-
-							<p class="action ">
-								<a class="link_shopincart" href="http://s.paipai.com/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-PTAG=20567.38.60&,20084.2.2-as,0-bpf,0-cd,0-platform,1-sf,102.html###" tag="addCart" cg="6-26" per="1" leafclassid="238812" pos="6" commid="FD0E54AD00000000040100004609A5C3">加入购物车</a>
-								<a class="link_detail" href="http://auction1.paipai.com/FD0E54AD00000000040100004609A5C3" target="_blank" per="1" leafclassid="238812" pos="6" commid="FD0E54AD00000000040100004609A5C3" cg="6-28">查看详情</a>
-							</p>
-							</div>
-						</div>
-					
-						<div class="hproduct" pos="7" commid="E9BF4E1D00000000040100003B62F682" leafclassid="238812" per="1" cg="6-21-2" tourl="http://auction1.paipai.com/E9BF4E1D00000000040100003B62F682">
-							<div class="props">
-							<a href="http://auction1.paipai.com/E9BF4E1D00000000040100003B62F682" target="_blank" class="url">
-								<img init_src="http://img1.paipaiimg.com/7b385c06/item-5410FD1D-E9BF4E1D00000000040100003B62F682.0.300x300.jpg" class="photo" alt="欣清2015春秋季新款男士一脚蹬帆布鞋懒人休闲鞋驾车鞋潮流乞丐鞋子 " leafclassid="238812" pos="7" commid="E9BF4E1D00000000040100003B62F682" per="1" cg="6-21-2" src="./shoppage/item-5410FD1D-E9BF4E1D00000000040100003B62F682.0.300x300.jpg" iguid="27">
-							</a>
-							
-
-							<!-- S 商品副图 -->
-							
-							<div class="preview_wrap">
-								<div class="preview_inner">
-									<ul class="preview_item">
-										
-										<li><a class="cur" href="http://auction1.paipai.com/E9BF4E1D00000000040100003B62F682"><img init_src="http://img1.paipaiimg.com/7b385c06/item-5410FD1D-E9BF4E1D00000000040100003B62F682.0.80x80.jpg" pos="7" commid="E9BF4E1D00000000040100003B62F682" leafclassid="238812" cg="6-32-1" alt="欣清2015春秋季新款男士一脚蹬帆布鞋懒人休闲鞋驾车鞋潮流乞丐鞋子 " tourl="Invalid_ToUrl" src="./shoppage/item-5410FD1D-E9BF4E1D00000000040100003B62F682.0.80x80.jpg" iguid="47"></a></li>
-										
-										<li><a href="http://auction1.paipai.com/E9BF4E1D00000000040100003B62F682"><img init_src="http://img1.paipaiimg.com/7b385c06/item-5410FD1D-E9BF4E1D00000000040100003B62F682.1.80x80.jpg" pos="7" commid="E9BF4E1D00000000040100003B62F682" leafclassid="238812" cg="6-32-2" alt="欣清2015春秋季新款男士一脚蹬帆布鞋懒人休闲鞋驾车鞋潮流乞丐鞋子 " tourl="Invalid_ToUrl" src="./shoppage/item-5410FD1D-E9BF4E1D00000000040100003B62F682.1.80x80.jpg" iguid="48"></a></li>
-										
-										<li><a href="http://auction1.paipai.com/E9BF4E1D00000000040100003B62F682"><img init_src="http://img1.paipaiimg.com/7b385c06/item-5410FD1D-E9BF4E1D00000000040100003B62F682.2.80x80.jpg" pos="7" commid="E9BF4E1D00000000040100003B62F682" leafclassid="238812" cg="6-32-3" alt="欣清2015春秋季新款男士一脚蹬帆布鞋懒人休闲鞋驾车鞋潮流乞丐鞋子 " tourl="Invalid_ToUrl" src="./shoppage/item-5410FD1D-E9BF4E1D00000000040100003B62F682.2.80x80.jpg" iguid="49"></a></li>
-										
-										<li><a href="http://auction1.paipai.com/E9BF4E1D00000000040100003B62F682"><img init_src="http://img1.paipaiimg.com/7b385c06/item-5410FD1D-E9BF4E1D00000000040100003B62F682.3.80x80.jpg" pos="7" commid="E9BF4E1D00000000040100003B62F682" leafclassid="238812" cg="6-32-4" alt="欣清2015春秋季新款男士一脚蹬帆布鞋懒人休闲鞋驾车鞋潮流乞丐鞋子 " tourl="Invalid_ToUrl" src="./shoppage/item-5410FD1D-E9BF4E1D00000000040100003B62F682.3.80x80.jpg" iguid="50"></a></li>
-										
-										<li><a href="http://auction1.paipai.com/E9BF4E1D00000000040100003B62F682"><img init_src="http://img1.paipaiimg.com/7b385c06/item-5410FD1D-E9BF4E1D00000000040100003B62F682.4.80x80.jpg" pos="7" commid="E9BF4E1D00000000040100003B62F682" leafclassid="238812" cg="6-32-5" alt="欣清2015春秋季新款男士一脚蹬帆布鞋懒人休闲鞋驾车鞋潮流乞丐鞋子 " tourl="Invalid_ToUrl" src="./shoppage/item-5410FD1D-E9BF4E1D00000000040100003B62F682.4.80x80.jpg" iguid="51"></a></li>
-										
-									</ul>
-								</div>
-							</div>
-							
-
-							<p class="price_wrap" pos="7" commid="E9BF4E1D00000000040100003B62F682" leafclassid="238812" per="1" cg="6-21-2" tourl="http://auction1.paipai.com/E9BF4E1D00000000040100003B62F682">
-								<span class="price">￥ 98.70</span>
-													
-								<span class="promo_tool">
-									<span class="promo_tool_inner">
-										<i class="promo_icon promo_icon_dist" pos="7" commid="E9BF4E1D00000000040100003B62F682" leafclassid="238812" per="1">折扣</i>	
-										<i class="promo_icon promo_icon_post" pos="7" commid="E9BF4E1D00000000040100003B62F682" leafclassid="238812" per="1">包邮</i>
-									</span>
-								</span>
-
-								
-								<span class="promo ">销量<b>8</b></span>
-								
-							</p>
-							<p class="fn_wrap">
-								
-								
-			                	
-			                	
-			                	<a href="http://auction1.paipai.com/E9BF4E1D00000000040100003B62F682" class="fn" leafclassid="238812" pos="7" commid="E9BF4E1D00000000040100003B62F682" per="1" cg="6-22-2" target="_blank" title="欣清2015春秋季新款男士一脚蹬帆布鞋懒人休闲鞋驾车鞋潮流乞丐鞋子 ">欣清2015春秋季新款男士一脚蹬帆布<em>鞋</em>懒人休闲<em>鞋驾车鞋</em>潮流乞丐<em>鞋</em>子 </a>
-			              	</p>
-				            <ul class="shopinfo_wrap"> 				            	
-				              	<li class="seller ">
-
-				              	<a href="http://shop.paipai.com/491700201" uin="491700201" data-detail="rate" pos="7" commid="E9BF4E1D00000000040100003B62F682" leafclassid="238812" per="1" cg="6-23-2" target="_blank" title="XQ欣清官方旗舰店 ">XQ欣清官方旗舰店 </a>
-				              	</li>
-				              	<li class="seller hidden "><a href="http://shop.paipai.com/491700201" title="XQ欣清官方旗舰店 " pos="7" commid="E9BF4E1D00000000040100003B62F682" leafclassid="238812" per="1" cg="6-23-3" target="_blank">XQ欣清官方旗舰店 </a></li>
-				
-				              	<li class="location " pos="7" commid="E9BF4E1D00000000040100003B62F682" leafclassid="238812" per="1" cg="6-21-2" tourl="http://auction1.paipai.com/E9BF4E1D00000000040100003B62F682">湖北襄樊</li>
-				            </ul>
-				            <p class="other" pos="7" commid="E9BF4E1D00000000040100003B62F682" leafclassid="238812" per="1" cg="6-21-2" tourl="Invalid_ToUrl">
-				            	<!-- span class="icon_promo mark_wxprice hidden" pos="7" commId="E9BF4E1D00000000040100003B62F682" leafClassId="238812" per="1" cg="6-25-4" uin="491700201" price="98.70">扫码优惠<i class="arr"></i></span -->
-
-								<!-- new -->
-								</p><div class="promo_wrap" tag="promoteParams" value="" uin="491700201" itemauctionurl="">
-									<div class="promo_inner">										
-										
-										
-										<a class="icon_service icon_seven" title="7天无理由退货">7</a>
-										<!-- a class="icon_service icon_credit"  title="先行赔付">信</a -->
-										<a class="icon_service icon_real" style="display:none" title="正品假一赔三">正</a>
-										<a class="icon_service icon_virtaul" style="display:none" title="虚拟诚保代充">充</a>
-										<a class="icon_service icon_replace" style="display:none" title="7天包邮退">包</a>
-										<a class="icon_service icon_fast" style="display:none" title="快速发货">快</a>
-										<a class="icon_service icon_cash" title="货到付款">到</a>
-										<a class="icon_service icon_yfx" style="display:none" title="卖家赠送运费险，退货有保障">运</a>
-										<a class="icon_service icon_abroad" style="display:none" title="海外购" href="http://www.paipai.com/haiwaigou/index.shtml">海</a>
-										<a class="icon_service icon_second" style="display:none" title="二手">二</a>
-										<a class="icon_service icon_realtime" style="display:none" title="实时充值" href="http://guize.paipai.com/v2/detail_news_3226.shtml">充</a>
-										<a class="icon_service icon_jd" title="请在下单时联系卖家确认配送方式">京东配送</a>
-										<a class="icon_service icon_certified" style="display:none" title="美妆正品联盟，官方授权，100%正品保证"></a>
-										<a class="icon_service icon_kong" style="display:none" title="港啪正品认证，进口数码家电商品全球购">港啪</a>
-									</div>
-								</div>
-				            <p></p>
-
-							<p class="action ">
-								<a class="link_shopincart" href="http://s.paipai.com/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-PTAG=20567.38.60&,20084.2.2-as,0-bpf,0-cd,0-platform,1-sf,102.html###" tag="addCart" cg="6-26" per="1" leafclassid="238812" pos="7" commid="E9BF4E1D00000000040100003B62F682">加入购物车</a>
-								<a class="link_detail" href="http://auction1.paipai.com/E9BF4E1D00000000040100003B62F682" target="_blank" per="1" leafclassid="238812" pos="7" commid="E9BF4E1D00000000040100003B62F682" cg="6-28">查看详情</a>
-							</p>
-							</div>
-						</div>
-					
-						<div class="hproduct" pos="8" commid="8B5CF6320000000004010000280596FA" leafclassid="238812" per="1" cg="6-21-2" tourl="http://auction1.paipai.com/8B5CF6320000000004010000280596FA">
-							<div class="props">
-							<a href="http://auction1.paipai.com/8B5CF6320000000004010000280596FA" target="_blank" class="url">
-								<img init_src="http://img3.paipaiimg.com/53e95aca/item-544B6D35-8B5CF6320000000004010000280596FA.0.300x300.jpg" class="photo" alt="【TBLS汤铂莱斯】头层皮休闲透气鞋缕空板鞋夏季低帮男鞋驾车鞋 " leafclassid="238812" pos="8" commid="8B5CF6320000000004010000280596FA" per="1" cg="6-21-2" src="./shoppage/item-544B6D35-8B5CF6320000000004010000280596FA.0.300x300.jpg" iguid="53">
-							</a>
-							
-
-							<!-- S 商品副图 -->
-							
-							<div class="preview_wrap">
-								<div class="preview_inner">
-									<ul class="preview_item">
-										
-										<li><a class="cur" href="http://auction1.paipai.com/8B5CF6320000000004010000280596FA"><img init_src="http://img3.paipaiimg.com/53e95aca/item-544B6D35-8B5CF6320000000004010000280596FA.0.80x80.jpg" pos="8" commid="8B5CF6320000000004010000280596FA" leafclassid="238812" cg="6-32-1" alt="【TBLS汤铂莱斯】头层皮休闲透气鞋缕空板鞋夏季低帮男鞋驾车鞋 " tourl="Invalid_ToUrl" src="./shoppage/item-544B6D35-8B5CF6320000000004010000280596FA.0.80x80.jpg" iguid="58"></a></li>
-										
-										<li><a href="http://auction1.paipai.com/8B5CF6320000000004010000280596FA"><img init_src="http://img3.paipaiimg.com/53e95aca/item-544B6D35-8B5CF6320000000004010000280596FA.1.80x80.jpg" pos="8" commid="8B5CF6320000000004010000280596FA" leafclassid="238812" cg="6-32-2" alt="【TBLS汤铂莱斯】头层皮休闲透气鞋缕空板鞋夏季低帮男鞋驾车鞋 " tourl="Invalid_ToUrl" src="./shoppage/item-544B6D35-8B5CF6320000000004010000280596FA.1.80x80.jpg" iguid="59"></a></li>
-										
-										<li><a href="http://auction1.paipai.com/8B5CF6320000000004010000280596FA"><img init_src="http://img3.paipaiimg.com/53e95aca/item-544B6D35-8B5CF6320000000004010000280596FA.2.80x80.jpg" pos="8" commid="8B5CF6320000000004010000280596FA" leafclassid="238812" cg="6-32-3" alt="【TBLS汤铂莱斯】头层皮休闲透气鞋缕空板鞋夏季低帮男鞋驾车鞋 " tourl="Invalid_ToUrl" src="./shoppage/item-544B6D35-8B5CF6320000000004010000280596FA.2.80x80.jpg" iguid="60"></a></li>
-										
-										<li><a href="http://auction1.paipai.com/8B5CF6320000000004010000280596FA"><img init_src="http://img3.paipaiimg.com/53e95aca/item-544B6D35-8B5CF6320000000004010000280596FA.3.80x80.jpg" pos="8" commid="8B5CF6320000000004010000280596FA" leafclassid="238812" cg="6-32-4" alt="【TBLS汤铂莱斯】头层皮休闲透气鞋缕空板鞋夏季低帮男鞋驾车鞋 " tourl="Invalid_ToUrl" src="./shoppage/item-544B6D35-8B5CF6320000000004010000280596FA.3.80x80.jpg" iguid="61"></a></li>
-										
-										<li><a href="http://auction1.paipai.com/8B5CF6320000000004010000280596FA"><img init_src="http://img3.paipaiimg.com/53e95aca/item-544B6D35-8B5CF6320000000004010000280596FA.4.80x80.jpg" pos="8" commid="8B5CF6320000000004010000280596FA" leafclassid="238812" cg="6-32-5" alt="【TBLS汤铂莱斯】头层皮休闲透气鞋缕空板鞋夏季低帮男鞋驾车鞋 " tourl="Invalid_ToUrl" src="./shoppage/item-544B6D35-8B5CF6320000000004010000280596FA.4.80x80.jpg" iguid="62"></a></li>
-										
-									</ul>
-								</div>
-							</div>
-							
-
-							<p class="price_wrap" pos="8" commid="8B5CF6320000000004010000280596FA" leafclassid="238812" per="1" cg="6-21-2" tourl="http://auction1.paipai.com/8B5CF6320000000004010000280596FA">
-								<span class="price">￥ 159.00</span>
-													
-								<span class="promo_tool">
-									<span class="promo_tool_inner">
-										<i class="promo_icon promo_icon_dist" pos="8" commid="8B5CF6320000000004010000280596FA" leafclassid="238812" per="1">折扣</i>	
-										<i class="promo_icon promo_icon_post" pos="8" commid="8B5CF6320000000004010000280596FA" leafclassid="238812" per="1">包邮</i>
-									</span>
-								</span>
-
-								
-								<span class="promo ">销量<b>4923</b></span>
-								
-							</p>
-							<p class="fn_wrap">
-								
-								
-			                	
-			                	
-			                	<a href="http://auction1.paipai.com/8B5CF6320000000004010000280596FA" class="fn" leafclassid="238812" pos="8" commid="8B5CF6320000000004010000280596FA" per="1" cg="6-22-2" target="_blank" title="【TBLS汤铂莱斯】头层皮休闲透气鞋缕空板鞋夏季低帮男鞋驾车鞋 ">【TBLS汤铂莱斯】头层皮休闲透气<em>鞋</em>缕空板<em>鞋</em>夏季低帮男<em>鞋驾车鞋</em> </a>
-			              	</p>
-				            <ul class="shopinfo_wrap"> 				            	
-				              	<li class="seller ">
-
-				              	<a href="http://shop.paipai.com/855006347" uin="855006347" data-detail="rate" pos="8" commid="8B5CF6320000000004010000280596FA" leafclassid="238812" per="1" cg="6-23-2" target="_blank" title="汤铂莱斯官方旗舰店 ">汤铂莱斯官方旗舰店 </a>
-				              	</li>
-				              	<li class="seller hidden "><a href="http://shop.paipai.com/855006347" title="汤铂莱斯官方旗舰店 " pos="8" commid="8B5CF6320000000004010000280596FA" leafclassid="238812" per="1" cg="6-23-3" target="_blank">汤铂莱斯官方旗舰店 </a></li>
-				
-				              	<li class="location " pos="8" commid="8B5CF6320000000004010000280596FA" leafclassid="238812" per="1" cg="6-21-2" tourl="http://auction1.paipai.com/8B5CF6320000000004010000280596FA">福建厦门</li>
-				            </ul>
-				            <p class="other" pos="8" commid="8B5CF6320000000004010000280596FA" leafclassid="238812" per="1" cg="6-21-2" tourl="Invalid_ToUrl">
-				            	<!-- span class="icon_promo mark_wxprice hidden" pos="8" commId="8B5CF6320000000004010000280596FA" leafClassId="238812" per="1" cg="6-25-4" uin="855006347" price="159.00">扫码优惠<i class="arr"></i></span -->
-
-								<!-- new -->
-								</p><div class="promo_wrap" tag="promoteParams" value="" uin="855006347" itemauctionurl="">
-									<div class="promo_inner">										
-										
-										
-										<a class="icon_service icon_seven" style="display:none" title="7天无理由退货">7</a>
-										<!-- a class="icon_service icon_credit"  title="先行赔付">信</a -->
-										<a class="icon_service icon_real" style="display:none" title="正品假一赔三">正</a>
-										<a class="icon_service icon_virtaul" style="display:none" title="虚拟诚保代充">充</a>
-										<a class="icon_service icon_replace" style="display:none" title="7天包邮退">包</a>
-										<a class="icon_service icon_fast" style="display:none" title="快速发货">快</a>
-										<a class="icon_service icon_cash" title="货到付款">到</a>
-										<a class="icon_service icon_yfx" style="display:none" title="卖家赠送运费险，退货有保障">运</a>
-										<a class="icon_service icon_abroad" style="display:none" title="海外购" href="http://www.paipai.com/haiwaigou/index.shtml">海</a>
-										<a class="icon_service icon_second" style="display:none" title="二手">二</a>
-										<a class="icon_service icon_realtime" style="display:none" title="实时充值" href="http://guize.paipai.com/v2/detail_news_3226.shtml">充</a>
-										<a class="icon_service icon_jd" title="请在下单时联系卖家确认配送方式">京东配送</a>
-										<a class="icon_service icon_certified" style="display:none" title="美妆正品联盟，官方授权，100%正品保证"></a>
-										<a class="icon_service icon_kong" style="display:none" title="港啪正品认证，进口数码家电商品全球购">港啪</a>
-									</div>
-								</div>
-
-			
-				            <p></p>
-
-							<p class="action ">
-								<a class="link_shopincart" href="http://s.paipai.com/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-PTAG=20567.38.60&,20084.2.2-as,0-bpf,0-cd,0-platform,1-sf,102.html###" tag="addCart" cg="6-26" per="1" leafclassid="238812" pos="8" commid="8B5CF6320000000004010000280596FA">加入购物车</a>
-								<a class="link_detail" href="http://auction1.paipai.com/8B5CF6320000000004010000280596FA" target="_blank" per="1" leafclassid="238812" pos="8" commid="8B5CF6320000000004010000280596FA" cg="6-28">查看详情</a>
-							</p>
-							</div>
-						</div>
-					
-						<div class="hproduct" pos="9" commid="43AAAD8F00000000040100003780C024" leafclassid="238812" per="1" cg="6-21-2" tourl="http://auction1.paipai.com/43AAAD8F00000000040100003780C024">
-							<div class="props">
-							<a href="http://auction1.paipai.com/43AAAD8F00000000040100003780C024" target="_blank" class="url">
-								<img init_src="http://img3.paipaiimg.com/7204d72a/item-53F07A84-43AAAD8F00000000040100003780C024.0.300x300.jpg" class="photo" alt="蒂诺克2015春夏新款驾车鞋豆豆鞋男鞋子真皮韩版潮休闲皮鞋透气驾车鞋 " leafclassid="238812" pos="9" commid="43AAAD8F00000000040100003780C024" per="1" cg="6-21-2" src="./shoppage/item-53F07A84-43AAAD8F00000000040100003780C024.0.300x300.jpg" iguid="54">
-							</a>
-							
-
-							<!-- S 商品副图 -->
-							
-							<div class="preview_wrap">
-								<div class="preview_inner">
-									<ul class="preview_item">
-										
-										<li><a class="cur" href="http://auction1.paipai.com/43AAAD8F00000000040100003780C024"><img init_src="http://img3.paipaiimg.com/7204d72a/item-53F07A84-43AAAD8F00000000040100003780C024.0.80x80.jpg" pos="9" commid="43AAAD8F00000000040100003780C024" leafclassid="238812" cg="6-32-1" alt="蒂诺克2015春夏新款驾车鞋豆豆鞋男鞋子真皮韩版潮休闲皮鞋透气驾车鞋 " tourl="Invalid_ToUrl" src="./shoppage/item-53F07A84-43AAAD8F00000000040100003780C024.0.80x80.jpg" iguid="63"></a></li>
-										
-										<li><a href="http://auction1.paipai.com/43AAAD8F00000000040100003780C024"><img init_src="http://img3.paipaiimg.com/7204d72a/item-53F07A84-43AAAD8F00000000040100003780C024.1.80x80.jpg" pos="9" commid="43AAAD8F00000000040100003780C024" leafclassid="238812" cg="6-32-2" alt="蒂诺克2015春夏新款驾车鞋豆豆鞋男鞋子真皮韩版潮休闲皮鞋透气驾车鞋 " tourl="Invalid_ToUrl" src="./shoppage/item-53F07A84-43AAAD8F00000000040100003780C024.1.80x80.jpg" iguid="64"></a></li>
-										
-										<li><a href="http://auction1.paipai.com/43AAAD8F00000000040100003780C024"><img init_src="http://img3.paipaiimg.com/7204d72a/item-53F07A84-43AAAD8F00000000040100003780C024.2.80x80.jpg" pos="9" commid="43AAAD8F00000000040100003780C024" leafclassid="238812" cg="6-32-3" alt="蒂诺克2015春夏新款驾车鞋豆豆鞋男鞋子真皮韩版潮休闲皮鞋透气驾车鞋 " tourl="Invalid_ToUrl" src="./shoppage/item-53F07A84-43AAAD8F00000000040100003780C024.2.80x80.jpg" iguid="65"></a></li>
-										
-										<li><a href="http://auction1.paipai.com/43AAAD8F00000000040100003780C024"><img init_src="http://img3.paipaiimg.com/7204d72a/item-53F07A84-43AAAD8F00000000040100003780C024.3.80x80.jpg" pos="9" commid="43AAAD8F00000000040100003780C024" leafclassid="238812" cg="6-32-4" alt="蒂诺克2015春夏新款驾车鞋豆豆鞋男鞋子真皮韩版潮休闲皮鞋透气驾车鞋 " tourl="Invalid_ToUrl" src="./shoppage/item-53F07A84-43AAAD8F00000000040100003780C024.3.80x80.jpg" iguid="66"></a></li>
-										
-										<li><a href="http://auction1.paipai.com/43AAAD8F00000000040100003780C024"><img init_src="http://img3.paipaiimg.com/7204d72a/item-53F07A84-43AAAD8F00000000040100003780C024.4.80x80.jpg" pos="9" commid="43AAAD8F00000000040100003780C024" leafclassid="238812" cg="6-32-5" alt="蒂诺克2015春夏新款驾车鞋豆豆鞋男鞋子真皮韩版潮休闲皮鞋透气驾车鞋 " tourl="Invalid_ToUrl" src="./shoppage/item-53F07A84-43AAAD8F00000000040100003780C024.4.80x80.jpg" iguid="67"></a></li>
-										
-									</ul>
-								</div>
-							</div>
-							
-
-							<p class="price_wrap" pos="9" commid="43AAAD8F00000000040100003780C024" leafclassid="238812" per="1" cg="6-21-2" tourl="http://auction1.paipai.com/43AAAD8F00000000040100003780C024">
-								<span class="price">￥ 128.00</span>
-													
-								<span class="promo_tool">
-									<span class="promo_tool_inner">
-										<i class="promo_icon promo_icon_dist" pos="9" commid="43AAAD8F00000000040100003780C024" leafclassid="238812" per="1">折扣</i>	
-										<i class="promo_icon promo_icon_post" pos="9" commid="43AAAD8F00000000040100003780C024" leafclassid="238812" per="1">包邮</i>
-									</span>
-								</span>
-
-								
-								<span class="promo ">销量<b>19</b></span>
-								
-							</p>
-							<p class="fn_wrap">
-								
-								
-			                	
-			                	
-			                	<a href="http://auction1.paipai.com/43AAAD8F00000000040100003780C024" class="fn" leafclassid="238812" pos="9" commid="43AAAD8F00000000040100003780C024" per="1" cg="6-22-2" target="_blank" title="蒂诺克2015春夏新款驾车鞋豆豆鞋男鞋子真皮韩版潮休闲皮鞋透气驾车鞋 ">蒂诺克2015春夏新款<em>驾车鞋</em>豆豆<em>鞋</em>男<em>鞋</em>子真皮韩版潮休闲皮<em>鞋</em>透气<em>驾车鞋</em> </a>
-			              	</p>
-				            <ul class="shopinfo_wrap"> 				            	
-				              	<li class="seller ">
-
-				              	<a href="http://shop.paipai.com/2410523203" uin="2410523203" data-detail="rate" pos="9" commid="43AAAD8F00000000040100003780C024" leafclassid="238812" per="1" cg="6-23-2" target="_blank" title="蒂诺克DEALYORK旗舰店 ">蒂诺克DEALYORK旗舰店 </a>
-				              	</li>
-				              	<li class="seller hidden "><a href="http://shop.paipai.com/2410523203" title="蒂诺克DEALYORK旗舰店 " pos="9" commid="43AAAD8F00000000040100003780C024" leafclassid="238812" per="1" cg="6-23-3" target="_blank">蒂诺克DEALYORK旗舰店 </a></li>
-				
-				              	<li class="location " pos="9" commid="43AAAD8F00000000040100003780C024" leafclassid="238812" per="1" cg="6-21-2" tourl="http://auction1.paipai.com/43AAAD8F00000000040100003780C024">福建泉州</li>
-				            </ul>
-				            <p class="other" pos="9" commid="43AAAD8F00000000040100003780C024" leafclassid="238812" per="1" cg="6-21-2" tourl="Invalid_ToUrl">
-				            	<!-- span class="icon_promo mark_wxprice hidden" pos="9" commId="43AAAD8F00000000040100003780C024" leafClassId="238812" per="1" cg="6-25-4" uin="2410523203" price="128.00">扫码优惠<i class="arr"></i></span -->
-
-								<!-- new -->
-								</p><div class="promo_wrap" tag="promoteParams" value="" uin="2410523203" itemauctionurl="">
-									<div class="promo_inner">										
-										
-										
-										<a class="icon_service icon_seven" title="7天无理由退货">7</a>
-										<!-- a class="icon_service icon_credit"  title="先行赔付">信</a -->
-										<a class="icon_service icon_real" style="display:none" title="正品假一赔三">正</a>
-										<a class="icon_service icon_virtaul" style="display:none" title="虚拟诚保代充">充</a>
-										<a class="icon_service icon_replace" style="display:none" title="7天包邮退">包</a>
-										<a class="icon_service icon_fast" style="display:none" title="快速发货">快</a>
-										<a class="icon_service icon_cash" title="货到付款">到</a>
-										<a class="icon_service icon_yfx" style="display:none" title="卖家赠送运费险，退货有保障">运</a>
-										<a class="icon_service icon_abroad" style="display:none" title="海外购" href="http://www.paipai.com/haiwaigou/index.shtml">海</a>
-										<a class="icon_service icon_second" style="display:none" title="二手">二</a>
-										<a class="icon_service icon_realtime" style="display:none" title="实时充值" href="http://guize.paipai.com/v2/detail_news_3226.shtml">充</a>
-										<a class="icon_service icon_jd" title="请在下单时联系卖家确认配送方式">京东配送</a>
-										<a class="icon_service icon_certified" style="display:none" title="美妆正品联盟，官方授权，100%正品保证"></a>
-										<a class="icon_service icon_kong" style="display:none" title="港啪正品认证，进口数码家电商品全球购">港啪</a>
-									</div>
-								</div>
-
-				            <p></p>
-
-							<p class="action ">
-								<a class="link_shopincart" href="http://s.paipai.com/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-PTAG=20567.38.60&,20084.2.2-as,0-bpf,0-cd,0-platform,1-sf,102.html###" tag="addCart" cg="6-26" per="1" leafclassid="238812" pos="9" commid="43AAAD8F00000000040100003780C024">加入购物车</a>
-								<a class="link_detail" href="http://auction1.paipai.com/43AAAD8F00000000040100003780C024" target="_blank" per="1" leafclassid="238812" pos="9" commid="43AAAD8F00000000040100003780C024" cg="6-28">查看详情</a>
-							</p>
-							</div>
-						</div>
-					
-						<div class="hproduct" pos="11" commid="BAC07A320000000004010000432107E4" leafclassid="238812" per="1" cg="6-21-2" tourl="http://auction1.paipai.com/BAC07A320000000004010000432107E4">
-							<div class="props">
-							<a href="http://auction1.paipai.com/BAC07A320000000004010000432107E4" target="_blank" class="url">
-								<img init_src="http://img2.paipaiimg.com/f5ff0c80/item-55445E9C-BAC07A320000000004010000432107E4.0.300x300.jpg" class="photo" alt="骆驼男士休闲皮鞋 休闲鞋男款真皮豆豆鞋驾车鞋新款男鞋夏季男士休闲鞋 " leafclassid="238812" pos="11" commid="BAC07A320000000004010000432107E4" per="1" cg="6-21-2" src="./shoppage/item-55445E9C-BAC07A320000000004010000432107E4.0.300x300.jpg" iguid="56">
-							</a>
-							
-
-							<!-- S 商品副图 -->
-							
-							<div class="preview_wrap">
-								<div class="preview_inner">
-									<ul class="preview_item">
-										
-										<li><a class="cur" href="http://auction1.paipai.com/BAC07A320000000004010000432107E4"><img init_src="http://img2.paipaiimg.com/f5ff0c80/item-55445E9C-BAC07A320000000004010000432107E4.0.80x80.jpg" pos="11" commid="BAC07A320000000004010000432107E4" leafclassid="238812" cg="6-32-1" alt="骆驼男士休闲皮鞋 休闲鞋男款真皮豆豆鞋驾车鞋新款男鞋夏季男士休闲鞋 " tourl="Invalid_ToUrl" src="./shoppage/item-55445E9C-BAC07A320000000004010000432107E4.0.80x80.jpg" iguid="73"></a></li>
-										
-										<li><a href="http://auction1.paipai.com/BAC07A320000000004010000432107E4"><img init_src="http://img2.paipaiimg.com/f5ff0c80/item-55445E9C-BAC07A320000000004010000432107E4.1.80x80.jpg" pos="11" commid="BAC07A320000000004010000432107E4" leafclassid="238812" cg="6-32-2" alt="骆驼男士休闲皮鞋 休闲鞋男款真皮豆豆鞋驾车鞋新款男鞋夏季男士休闲鞋 " tourl="Invalid_ToUrl" src="./shoppage/item-55445E9C-BAC07A320000000004010000432107E4.1.80x80.jpg" iguid="74"></a></li>
-										
-										<li><a href="http://auction1.paipai.com/BAC07A320000000004010000432107E4"><img init_src="http://img2.paipaiimg.com/f5ff0c80/item-55445E9C-BAC07A320000000004010000432107E4.2.80x80.jpg" pos="11" commid="BAC07A320000000004010000432107E4" leafclassid="238812" cg="6-32-3" alt="骆驼男士休闲皮鞋 休闲鞋男款真皮豆豆鞋驾车鞋新款男鞋夏季男士休闲鞋 " tourl="Invalid_ToUrl" src="./shoppage/item-55445E9C-BAC07A320000000004010000432107E4.2.80x80.jpg" iguid="75"></a></li>
-										
-										<li><a href="http://auction1.paipai.com/BAC07A320000000004010000432107E4"><img init_src="http://img2.paipaiimg.com/f5ff0c80/item-55445E9C-BAC07A320000000004010000432107E4.3.80x80.jpg" pos="11" commid="BAC07A320000000004010000432107E4" leafclassid="238812" cg="6-32-4" alt="骆驼男士休闲皮鞋 休闲鞋男款真皮豆豆鞋驾车鞋新款男鞋夏季男士休闲鞋 " tourl="Invalid_ToUrl" src="./shoppage/item-55445E9C-BAC07A320000000004010000432107E4.3.80x80.jpg" iguid="76"></a></li>
-										
-										<li><a href="http://auction1.paipai.com/BAC07A320000000004010000432107E4"><img init_src="http://img2.paipaiimg.com/f5ff0c80/item-55445E9C-BAC07A320000000004010000432107E4.4.80x80.jpg" pos="11" commid="BAC07A320000000004010000432107E4" leafclassid="238812" cg="6-32-5" alt="骆驼男士休闲皮鞋 休闲鞋男款真皮豆豆鞋驾车鞋新款男鞋夏季男士休闲鞋 " tourl="Invalid_ToUrl" src="./shoppage/item-55445E9C-BAC07A320000000004010000432107E4.4.80x80.jpg" iguid="77"></a></li>
-										
-									</ul>
-								</div>
-							</div>
-							
-
-							<p class="price_wrap" pos="11" commid="BAC07A320000000004010000432107E4" leafclassid="238812" per="1" cg="6-21-2" tourl="http://auction1.paipai.com/BAC07A320000000004010000432107E4">
-								<span class="price">￥ 188.00</span>
-													
-								<span class="promo_tool">
-									<span class="promo_tool_inner">
-										<i class="promo_icon promo_icon_dist" pos="11" commid="BAC07A320000000004010000432107E4" leafclassid="238812" per="1">折扣</i>	
-										<i class="promo_icon promo_icon_post" pos="11" commid="BAC07A320000000004010000432107E4" leafclassid="238812" per="1">包邮</i>
-									</span>
-								</span>
-
-								
-								<span class="promo ">销量<b>844</b></span>
-								
-							</p>
-							<p class="fn_wrap">
-								
-								
-			                	
-			                	
-			                	<a href="http://auction1.paipai.com/BAC07A320000000004010000432107E4" class="fn" leafclassid="238812" pos="11" commid="BAC07A320000000004010000432107E4" per="1" cg="6-22-2" target="_blank" title="骆驼男士休闲皮鞋 休闲鞋男款真皮豆豆鞋驾车鞋新款男鞋夏季男士休闲鞋 ">骆驼男士休闲皮<em>鞋</em> 休闲<em>鞋</em>男款真皮豆豆<em>鞋驾车鞋</em>新款男<em>鞋</em>夏季男士休闲<em>鞋</em> </a>
-			              	</p>
-				            <ul class="shopinfo_wrap"> 				            	
-				              	<li class="seller ">
-
-				              	<a href="http://shop.paipai.com/846905530" uin="846905530" data-detail="rate" pos="11" commid="BAC07A320000000004010000432107E4" leafclassid="238812" per="1" cg="6-23-2" target="_blank" title="品牌骆驼专柜店 ">品牌骆驼专柜店 </a>
-				              	</li>
-				              	<li class="seller hidden "><a href="http://shop.paipai.com/846905530" title="品牌骆驼专柜店 " pos="11" commid="BAC07A320000000004010000432107E4" leafclassid="238812" per="1" cg="6-23-3" target="_blank">品牌骆驼专柜店 </a></li>
-				
-				              	<li class="location " pos="11" commid="BAC07A320000000004010000432107E4" leafclassid="238812" per="1" cg="6-21-2" tourl="http://auction1.paipai.com/BAC07A320000000004010000432107E4">福建泉州</li>
-				            </ul>
-				            <p class="other" pos="11" commid="BAC07A320000000004010000432107E4" leafclassid="238812" per="1" cg="6-21-2" tourl="Invalid_ToUrl">
-				            	<!-- span class="icon_promo mark_wxprice hidden" pos="11" commId="BAC07A320000000004010000432107E4" leafClassId="238812" per="1" cg="6-25-4" uin="846905530" price="188.00">扫码优惠<i class="arr"></i></span -->
-
-								<!-- new -->
-								</p><div class="promo_wrap" tag="promoteParams" value="" uin="846905530" itemauctionurl="">
-									<div class="promo_inner">										
-										
-										
-										<a class="icon_service icon_seven" title="7天无理由退货">7</a>
-										<!-- a class="icon_service icon_credit"  title="先行赔付">信</a -->
-										<a class="icon_service icon_real" style="display:none" title="正品假一赔三">正</a>
-										<a class="icon_service icon_virtaul" style="display:none" title="虚拟诚保代充">充</a>
-										<a class="icon_service icon_replace" style="display:none" title="7天包邮退">包</a>
-										<a class="icon_service icon_fast" title="快速发货">快</a>
-										<a class="icon_service icon_cash" title="货到付款">到</a>
-										<a class="icon_service icon_yfx" style="display:none" title="卖家赠送运费险，退货有保障">运</a>
-										<a class="icon_service icon_abroad" style="display:none" title="海外购" href="http://www.paipai.com/haiwaigou/index.shtml">海</a>
-										<a class="icon_service icon_second" style="display:none" title="二手">二</a>
-										<a class="icon_service icon_realtime" style="display:none" title="实时充值" href="http://guize.paipai.com/v2/detail_news_3226.shtml">充</a>
-										<a class="icon_service icon_jd" style="display:none" title="请在下单时联系卖家确认配送方式">京东配送</a>
-										<a class="icon_service icon_certified" style="display:none" title="美妆正品联盟，官方授权，100%正品保证"></a>
-										<a class="icon_service icon_kong" style="display:none" title="港啪正品认证，进口数码家电商品全球购">港啪</a>
-									</div>
-								</div>
-				            <p></p>
-
-							<p class="action ">
-								<a class="link_shopincart" href="http://s.paipai.com/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-PTAG=20567.38.60&,20084.2.2-as,0-bpf,0-cd,0-platform,1-sf,102.html###" tag="addCart" cg="6-26" per="1" leafclassid="238812" pos="11" commid="BAC07A320000000004010000432107E4">加入购物车</a>
-								<a class="link_detail" href="http://auction1.paipai.com/BAC07A320000000004010000432107E4" target="_blank" per="1" leafclassid="238812" pos="11" commid="BAC07A320000000004010000432107E4" cg="6-28">查看详情</a>
-							</p>
-							</div>
-						</div>
-					
-						<div class="hproduct" pos="12" commid="AE6E2E1C0000000004010000397F5A52" leafclassid="238812" per="1" cg="6-21-2" tourl="http://auction1.paipai.com/AE6E2E1C0000000004010000397F5A52">
-							<div class="props">
-							<a href="http://auction1.paipai.com/AE6E2E1C0000000004010000397F5A52" target="_blank" class="url">
-								<img init_src="http://img6.paipaiimg.com/675c226e/item-5567E6E4-AE6E2E1C0000000004010000397F5A52.0.300x300.jpg" class="photo" alt="麦尚伦夏季新款真皮舒适男士休闲鞋驾车鞋透气网布系带低帮男鞋透气鞋 " leafclassid="238812" pos="12" commid="AE6E2E1C0000000004010000397F5A52" per="1" cg="6-21-2" src="./shoppage/item-5567E6E4-AE6E2E1C0000000004010000397F5A52.0.300x300.jpg" iguid="78">
-							</a>
-							
-
-							<!-- S 商品副图 -->
-							
-							<div class="preview_wrap">
-								<div class="preview_inner">
-									<ul class="preview_item">
-										
-										<li><a class="cur" href="http://auction1.paipai.com/AE6E2E1C0000000004010000397F5A52"><img init_src="http://img6.paipaiimg.com/675c226e/item-5567E6E4-AE6E2E1C0000000004010000397F5A52.0.80x80.jpg" pos="12" commid="AE6E2E1C0000000004010000397F5A52" leafclassid="238812" cg="6-32-1" alt="麦尚伦夏季新款真皮舒适男士休闲鞋驾车鞋透气网布系带低帮男鞋透气鞋 " tourl="Invalid_ToUrl" src="./shoppage/item-5567E6E4-AE6E2E1C0000000004010000397F5A52.0.80x80.jpg" iguid="79"></a></li>
-										
-										<li><a href="http://auction1.paipai.com/AE6E2E1C0000000004010000397F5A52"><img init_src="http://img6.paipaiimg.com/675c226e/item-5567E6E4-AE6E2E1C0000000004010000397F5A52.1.80x80.jpg" pos="12" commid="AE6E2E1C0000000004010000397F5A52" leafclassid="238812" cg="6-32-2" alt="麦尚伦夏季新款真皮舒适男士休闲鞋驾车鞋透气网布系带低帮男鞋透气鞋 " tourl="Invalid_ToUrl" src="./shoppage/item-5567E6E4-AE6E2E1C0000000004010000397F5A52.1.80x80.jpg" iguid="80"></a></li>
-										
-										<li><a href="http://auction1.paipai.com/AE6E2E1C0000000004010000397F5A52"><img init_src="http://img6.paipaiimg.com/675c226e/item-5567E6E4-AE6E2E1C0000000004010000397F5A52.2.80x80.jpg" pos="12" commid="AE6E2E1C0000000004010000397F5A52" leafclassid="238812" cg="6-32-3" alt="麦尚伦夏季新款真皮舒适男士休闲鞋驾车鞋透气网布系带低帮男鞋透气鞋 " tourl="Invalid_ToUrl" src="./shoppage/item-5567E6E4-AE6E2E1C0000000004010000397F5A52.2.80x80.jpg" iguid="81"></a></li>
-										
-										<li><a href="http://auction1.paipai.com/AE6E2E1C0000000004010000397F5A52"><img init_src="http://img6.paipaiimg.com/675c226e/item-5567E6E4-AE6E2E1C0000000004010000397F5A52.3.80x80.jpg" pos="12" commid="AE6E2E1C0000000004010000397F5A52" leafclassid="238812" cg="6-32-4" alt="麦尚伦夏季新款真皮舒适男士休闲鞋驾车鞋透气网布系带低帮男鞋透气鞋 " tourl="Invalid_ToUrl" src="./shoppage/item-5567E6E4-AE6E2E1C0000000004010000397F5A52.3.80x80.jpg" iguid="82"></a></li>
-										
-										<li><a href="http://auction1.paipai.com/AE6E2E1C0000000004010000397F5A52"><img init_src="http://img6.paipaiimg.com/675c226e/item-5567E6E4-AE6E2E1C0000000004010000397F5A52.4.80x80.jpg" pos="12" commid="AE6E2E1C0000000004010000397F5A52" leafclassid="238812" cg="6-32-5" alt="麦尚伦夏季新款真皮舒适男士休闲鞋驾车鞋透气网布系带低帮男鞋透气鞋 " tourl="Invalid_ToUrl" src="./shoppage/item-5567E6E4-AE6E2E1C0000000004010000397F5A52.4.80x80.jpg" iguid="83"></a></li>
-										
-									</ul>
-								</div>
-							</div>
-							
-
-							<p class="price_wrap" pos="12" commid="AE6E2E1C0000000004010000397F5A52" leafclassid="238812" per="1" cg="6-21-2" tourl="http://auction1.paipai.com/AE6E2E1C0000000004010000397F5A52">
-								<span class="price">￥ 99.08</span>
-													
-								<span class="promo_tool">
-									<span class="promo_tool_inner">
-										<i class="promo_icon promo_icon_dist" pos="12" commid="AE6E2E1C0000000004010000397F5A52" leafclassid="238812" per="1">折扣</i>	
-										<i class="promo_icon promo_icon_post" style="display:none" pos="12" commid="AE6E2E1C0000000004010000397F5A52" leafclassid="238812" per="1">包邮</i>
-									</span>
-								</span>
-
-								
-								<span class="promo ">销量<b>38</b></span>
-								
-							</p>
-							<p class="fn_wrap">
-								
-								
-			                	
-			                	
-			                	<a href="http://auction1.paipai.com/AE6E2E1C0000000004010000397F5A52" class="fn" leafclassid="238812" pos="12" commid="AE6E2E1C0000000004010000397F5A52" per="1" cg="6-22-2" target="_blank" title="麦尚伦夏季新款真皮舒适男士休闲鞋驾车鞋透气网布系带低帮男鞋透气鞋 ">麦尚伦夏季新款真皮舒适男士休闲<em>鞋驾车鞋</em>透气网布系带低帮男<em>鞋</em>透气<em>鞋</em> </a>
-			              	</p>
-				            <ul class="shopinfo_wrap"> 				            	
-				              	<li class="seller ">
-
-				              	<a href="http://shop.paipai.com/472805038" uin="472805038" data-detail="rate" pos="12" commid="AE6E2E1C0000000004010000397F5A52" leafclassid="238812" per="1" cg="6-23-2" target="_blank" title="麦尚伦官方旗舰店 ">麦尚伦官方旗舰店 </a>
-				              	</li>
-				              	<li class="seller hidden "><a href="http://shop.paipai.com/472805038" title="麦尚伦官方旗舰店 " pos="12" commid="AE6E2E1C0000000004010000397F5A52" leafclassid="238812" per="1" cg="6-23-3" target="_blank">麦尚伦官方旗舰店 </a></li>
-				
-				              	<li class="location " pos="12" commid="AE6E2E1C0000000004010000397F5A52" leafclassid="238812" per="1" cg="6-21-2" tourl="http://auction1.paipai.com/AE6E2E1C0000000004010000397F5A52">福建泉州</li>
-				            </ul>
-				            <p class="other" pos="12" commid="AE6E2E1C0000000004010000397F5A52" leafclassid="238812" per="1" cg="6-21-2" tourl="Invalid_ToUrl">
-				            	<!-- span class="icon_promo mark_wxprice hidden" pos="12" commId="AE6E2E1C0000000004010000397F5A52" leafClassId="238812" per="1" cg="6-25-4" uin="472805038" price="99.08">扫码优惠<i class="arr"></i></span -->
-
-								<!-- new -->
-								</p><div class="promo_wrap" tag="promoteParams" value="" uin="472805038" itemauctionurl="">
-									<div class="promo_inner">										
-										
-										
-										<a class="icon_service icon_seven" title="7天无理由退货">7</a>
-										<!-- a class="icon_service icon_credit"  title="先行赔付">信</a -->
-										<a class="icon_service icon_real" style="display:none" title="正品假一赔三">正</a>
-										<a class="icon_service icon_virtaul" style="display:none" title="虚拟诚保代充">充</a>
-										<a class="icon_service icon_replace" style="display:none" title="7天包邮退">包</a>
-										<a class="icon_service icon_fast" style="display:none" title="快速发货">快</a>
-										<a class="icon_service icon_cash" title="货到付款">到</a>
-										<a class="icon_service icon_yfx" style="display:none" title="卖家赠送运费险，退货有保障">运</a>
-										<a class="icon_service icon_abroad" style="display:none" title="海外购" href="http://www.paipai.com/haiwaigou/index.shtml">海</a>
-										<a class="icon_service icon_second" style="display:none" title="二手">二</a>
-										<a class="icon_service icon_realtime" style="display:none" title="实时充值" href="http://guize.paipai.com/v2/detail_news_3226.shtml">充</a>
-										<a class="icon_service icon_jd" style="display:none" title="请在下单时联系卖家确认配送方式">京东配送</a>
-										<a class="icon_service icon_certified" style="display:none" title="美妆正品联盟，官方授权，100%正品保证"></a>
-										<a class="icon_service icon_kong" style="display:none" title="港啪正品认证，进口数码家电商品全球购">港啪</a>
-									</div>
-								</div>
-				            <p></p>
-
-							<p class="action ">
-								<a class="link_shopincart" href="http://s.paipai.com/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-PTAG=20567.38.60&,20084.2.2-as,0-bpf,0-cd,0-platform,1-sf,102.html###" tag="addCart" cg="6-26" per="1" leafclassid="238812" pos="12" commid="AE6E2E1C0000000004010000397F5A52">加入购物车</a>
-								<a class="link_detail" href="http://auction1.paipai.com/AE6E2E1C0000000004010000397F5A52" target="_blank" per="1" leafclassid="238812" pos="12" commid="AE6E2E1C0000000004010000397F5A52" cg="6-28">查看详情</a>
-							</p>
-							</div>
-						</div>
-					
-						<div class="hproduct" pos="13" commid="8B5CF63200000000040100004A0FDA0F" leafclassid="238812" per="1" cg="6-21-2" tourl="http://auction1.paipai.com/8B5CF63200000000040100004A0FDA0F">
-							<div class="props">
-							<a href="http://auction1.paipai.com/8B5CF63200000000040100004A0FDA0F" target="_blank" class="url">
-								<img init_src="http://img3.paipaiimg.com/3d9dcfef/item-5516161C-8B5CF63200000000040100004A0FDA0F.0.300x300.jpg" class="photo" alt="【TBLS汤铂莱斯】头层牛皮手工皮鞋 男士驾车鞋 休闲英伦男鞋 " leafclassid="238812" pos="13" commid="8B5CF63200000000040100004A0FDA0F" per="1" cg="6-21-2" src="./shoppage/item-5516161C-8B5CF63200000000040100004A0FDA0F.0.300x300.jpg" iguid="84">
-							</a>
-							
-
-							<!-- S 商品副图 -->
-							
-							<div class="preview_wrap">
-								<div class="preview_inner">
-									<ul class="preview_item">
-										
-										<li><a class="cur" href="http://auction1.paipai.com/8B5CF63200000000040100004A0FDA0F"><img init_src="http://img3.paipaiimg.com/3d9dcfef/item-5516161C-8B5CF63200000000040100004A0FDA0F.0.80x80.jpg" pos="13" commid="8B5CF63200000000040100004A0FDA0F" leafclassid="238812" cg="6-32-1" alt="【TBLS汤铂莱斯】头层牛皮手工皮鞋 男士驾车鞋 休闲英伦男鞋 " tourl="Invalid_ToUrl" src="./shoppage/item-5516161C-8B5CF63200000000040100004A0FDA0F.0.80x80.jpg" iguid="85"></a></li>
-										
-										<li><a href="http://auction1.paipai.com/8B5CF63200000000040100004A0FDA0F"><img init_src="http://img3.paipaiimg.com/3d9dcfef/item-5516161C-8B5CF63200000000040100004A0FDA0F.1.80x80.jpg" pos="13" commid="8B5CF63200000000040100004A0FDA0F" leafclassid="238812" cg="6-32-2" alt="【TBLS汤铂莱斯】头层牛皮手工皮鞋 男士驾车鞋 休闲英伦男鞋 " tourl="Invalid_ToUrl" src="./shoppage/item-5516161C-8B5CF63200000000040100004A0FDA0F.1.80x80.jpg" iguid="86"></a></li>
-										
-										<li><a href="http://auction1.paipai.com/8B5CF63200000000040100004A0FDA0F"><img init_src="http://img3.paipaiimg.com/3d9dcfef/item-5516161C-8B5CF63200000000040100004A0FDA0F.2.80x80.jpg" pos="13" commid="8B5CF63200000000040100004A0FDA0F" leafclassid="238812" cg="6-32-3" alt="【TBLS汤铂莱斯】头层牛皮手工皮鞋 男士驾车鞋 休闲英伦男鞋 " tourl="Invalid_ToUrl" src="./shoppage/item-5516161C-8B5CF63200000000040100004A0FDA0F.2.80x80.jpg" iguid="87"></a></li>
-										
-										<li><a href="http://auction1.paipai.com/8B5CF63200000000040100004A0FDA0F"><img init_src="http://img3.paipaiimg.com/3d9dcfef/item-5516161C-8B5CF63200000000040100004A0FDA0F.3.80x80.jpg" pos="13" commid="8B5CF63200000000040100004A0FDA0F" leafclassid="238812" cg="6-32-4" alt="【TBLS汤铂莱斯】头层牛皮手工皮鞋 男士驾车鞋 休闲英伦男鞋 " tourl="Invalid_ToUrl" src="./shoppage/item-5516161C-8B5CF63200000000040100004A0FDA0F.3.80x80.jpg" iguid="88"></a></li>
-										
-										<li><a href="http://auction1.paipai.com/8B5CF63200000000040100004A0FDA0F"><img init_src="http://img3.paipaiimg.com/3d9dcfef/item-5516161C-8B5CF63200000000040100004A0FDA0F.4.80x80.jpg" pos="13" commid="8B5CF63200000000040100004A0FDA0F" leafclassid="238812" cg="6-32-5" alt="【TBLS汤铂莱斯】头层牛皮手工皮鞋 男士驾车鞋 休闲英伦男鞋 " tourl="Invalid_ToUrl" src="./shoppage/item-5516161C-8B5CF63200000000040100004A0FDA0F.4.80x80.jpg" iguid="89"></a></li>
-										
-									</ul>
-								</div>
-							</div>
-							
-
-							<p class="price_wrap" pos="13" commid="8B5CF63200000000040100004A0FDA0F" leafclassid="238812" per="1" cg="6-21-2" tourl="http://auction1.paipai.com/8B5CF63200000000040100004A0FDA0F">
-								<span class="price">￥ 279.00</span>
-													
-								<span class="promo_tool">
-									<span class="promo_tool_inner">
-										<i class="promo_icon promo_icon_dist" pos="13" commid="8B5CF63200000000040100004A0FDA0F" leafclassid="238812" per="1">折扣</i>	
-										<i class="promo_icon promo_icon_post" pos="13" commid="8B5CF63200000000040100004A0FDA0F" leafclassid="238812" per="1">包邮</i>
-									</span>
-								</span>
-
-								
-								<span class="promo ">销量<b>9</b></span>
-								
-							</p>
-							<p class="fn_wrap">	                	
-			                	<a href="http://auction1.paipai.com/8B5CF63200000000040100004A0FDA0F" class="fn" leafclassid="238812" pos="13" commid="8B5CF63200000000040100004A0FDA0F" per="1" cg="6-22-2" target="_blank" title="【TBLS汤铂莱斯】头层牛皮手工皮鞋 男士驾车鞋 休闲英伦男鞋 ">【TBLS汤铂莱斯】头层牛皮手工皮<em>鞋</em> 男士<em>驾车鞋</em> 休闲英伦男<em>鞋</em> </a>
-			              	</p>
-				            <ul class="shopinfo_wrap"> 				            	
-				              	<li class="seller ">
-
-				              	<a href="http://shop.paipai.com/855006347" uin="855006347" data-detail="rate" pos="13" commid="8B5CF63200000000040100004A0FDA0F" leafclassid="238812" per="1" cg="6-23-2" target="_blank" title="汤铂莱斯官方旗舰店 ">汤铂莱斯官方旗舰店 </a>
-				              	</li>
-				              	<li class="seller hidden "><a href="http://shop.paipai.com/855006347" title="汤铂莱斯官方旗舰店 " pos="13" commid="8B5CF63200000000040100004A0FDA0F" leafclassid="238812" per="1" cg="6-23-3" target="_blank">汤铂莱斯官方旗舰店 </a></li>
-				
-				              	<li class="location " pos="13" commid="8B5CF63200000000040100004A0FDA0F" leafclassid="238812" per="1" cg="6-21-2" tourl="http://auction1.paipai.com/8B5CF63200000000040100004A0FDA0F">福建泉州</li>
-				            </ul>
-				            <p class="other" pos="13" commid="8B5CF63200000000040100004A0FDA0F" leafclassid="238812" per="1" cg="6-21-2" tourl="Invalid_ToUrl">
-				            	<!-- span class="icon_promo mark_wxprice hidden" pos="13" commId="8B5CF63200000000040100004A0FDA0F" leafClassId="238812" per="1" cg="6-25-4" uin="855006347" price="279.00">扫码优惠<i class="arr"></i></span -->
-
-								<!-- new -->
-								</p><div class="promo_wrap" tag="promoteParams" value="" uin="855006347" itemauctionurl="">
-									<div class="promo_inner">										
-										
-										
-										<a class="icon_service icon_seven" style="display:none" title="7天无理由退货">7</a>
-										<!-- a class="icon_service icon_credit"  title="先行赔付">信</a -->
-										<a class="icon_service icon_real" style="display:none" title="正品假一赔三">正</a>
-										<a class="icon_service icon_virtaul" style="display:none" title="虚拟诚保代充">充</a>
-										<a class="icon_service icon_replace" style="display:none" title="7天包邮退">包</a>
-										<a class="icon_service icon_fast" style="display:none" title="快速发货">快</a>
-										<a class="icon_service icon_cash" title="货到付款">到</a>
-										<a class="icon_service icon_yfx" style="display:none" title="卖家赠送运费险，退货有保障">运</a>
-										<a class="icon_service icon_abroad" style="display:none" title="海外购" href="http://www.paipai.com/haiwaigou/index.shtml">海</a>
-										<a class="icon_service icon_second" style="display:none" title="二手">二</a>
-										<a class="icon_service icon_realtime" style="display:none" title="实时充值" href="http://guize.paipai.com/v2/detail_news_3226.shtml">充</a>
-										<a class="icon_service icon_jd" title="请在下单时联系卖家确认配送方式">京东配送</a>
-										<a class="icon_service icon_certified" style="display:none" title="美妆正品联盟，官方授权，100%正品保证"></a>
-										<a class="icon_service icon_kong" style="display:none" title="港啪正品认证，进口数码家电商品全球购">港啪</a>
-									</div>
-								</div>
-				            <p></p>
-
-							<p class="action ">
-								<a class="link_shopincart" href="http://s.paipai.com/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-PTAG=20567.38.60&,20084.2.2-as,0-bpf,0-cd,0-platform,1-sf,102.html###" tag="addCart" cg="6-26" per="1" leafclassid="238812" pos="13" commid="8B5CF63200000000040100004A0FDA0F">加入购物车</a>
-								<a class="link_detail" href="http://auction1.paipai.com/8B5CF63200000000040100004A0FDA0F" target="_blank" per="1" leafclassid="238812" pos="13" commid="8B5CF63200000000040100004A0FDA0F" cg="6-28">查看详情</a>
-							</p>
-							</div>
-						</div>	
 					</div>				
 				</div>
 				<!-- E 商品列表 大图 -->		
 				<!-- S 分页 -->	
 				<div class="pp_pagination">
 					<ul id="btmPager">
-						
-						
-							<li class="disabled"><a class="prev" href="http://s.paipai.com/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-PTAG=20567.38.60&,20084.2.2-as,0-bpf,0-cd,0-platform,1-sf,102.html###"><i></i>上一页</a></li>
-							<li class="active"><a>1</a></li>
-
-								<li><a href="http://s.paipai.com/0,34167/s-1wr5kqrtyt--61-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html" pagetag="go" cg="7-2-2" pos="2">2</a></li>
-								<li><a href="http://s.paipai.com/0,34167/s-1wr5kqrtyt--121-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html" pagetag="go" cg="7-2-3" pos="3">3</a></li>
-								<li><a href="http://s.paipai.com/0,34167/s-1wr5kqrtyt--181-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html" pagetag="go" cg="7-2-4" pos="4">4</a></li>	
-								<li><span class="more">...</span></li>
-								<li><a href="http://s.paipai.com/0,34167/s-1wr5kqrtyt--5941-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html" pagetag="go" cg="7-2-100" pos="100">100</a></li>
-							    <li><a href="http://s.paipai.com/0,34167/s-1wr5kqrtyt--61-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html" class="next" pagetag="go" cg="7-3">下一页<i></i></a></li>
+							<li class="disabled">
+							<a class="prev" href="http://s.paipai.com/s-1wr5kqrtyt--1-60-15-34167--3-4-3----2-2-512-128-0-0-PTAG=20567.38.60&,20084.2.2-as,0-bpf,0-cd,0-platform,1-sf,102.html###"><i></i>上一页</a></li>
+							<li class="active">
+							<a>1</a></li>
+                            <li>
+                            <a href="http://s.paipai.com/0,34167/s-1wr5kqrtyt--61-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html" pagetag="go" cg="7-2-2" pos="2">2</a></li>
+							<li>
+							<a href="http://s.paipai.com/0,34167/s-1wr5kqrtyt--121-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html" pagetag="go" cg="7-2-3" pos="3">3</a></li>
+							<li>
+							<a href="http://s.paipai.com/0,34167/s-1wr5kqrtyt--181-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html" pagetag="go" cg="7-2-4" pos="4">4</a></li>	
+							<li>
+							<span class="more">...</span></li>
+							<li>
+							<a href="http://s.paipai.com/0,34167/s-1wr5kqrtyt--5941-60-15-34167--3-4-3----2-2-512-128-0-0-as,0-bpf,0-cd,0-platform,1-qrw,1-sf,102.html" pagetag="go" cg="7-2-100" pos="100">100</a></li>
+							<li>
+							<a href="#" class="next" pagetag="go" cg="7-3">下一页<i></i></a></li>
 					</ul>
 					<div class="goto">
 						<span>到第</span>
 						<input type="text" id="jumpInp" totpage="100" name="inputItem" pagetag="input" value="1" maxlength="3">
 						<span>页</span>
-						<button pagetag="jumper" id="jumpPageBtn" value="go" cg="7-4">确定</button>
+						<button id="jumpPageBtn" value="go" cg="7-4">确定</button>
 					</div>
 				</div>
 				

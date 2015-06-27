@@ -279,12 +279,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
             
         </div>
 
-        
-            
-            
-            
-        
-
         <div class="s-pic">
             <a href="http://item.taobao.com/item.htm?scm=1007.10157.7208.100200300000002&id=38886533825&pvid=b744531d-06c2-4ba1-9636-739efa9967f8" target="_blank" class="s-pic-link" data-spm="d4919530">
                 <img src="centershop/TB1tAN_HpXXXXaLXpXXXXXXXXXX_!!0-item_pic.jpg_220x220.jpg" alt="送气垫八哥篮球鞋男子正品2015春夏季透气全明星战靴AJ高帮运动鞋" title="送气垫八哥篮球鞋男子正品2015春夏季透气全明星战靴AJ高帮运动鞋" class="s-pic-img s-guess-item-img">
@@ -300,8 +294,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
             
                 
                 <span class="s-tmall-item" title="天猫商品">天猫商品</span>
-                
-            
             
             <span class="s-sales">月销: 6583</span>
             
@@ -317,11 +309,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
             
         </div>
 
-        
-            
-            
-            
-        
 
         <div class="s-pic">
             <a href="http://item.taobao.com/item.htm?scm=1007.10157.7208.100200300000002&id=42388493024&pvid=b744531d-06c2-4ba1-9636-739efa9967f8" target="_blank" class="s-pic-link" data-spm="d4919530">
@@ -338,10 +325,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
             
                 
                 <span class="s-tmall-item" title="天猫商品">天猫商品</span>
-                
-            
-            
-            <span class="s-sales">月销: 86</span>
+                <span class="s-sales">月销: 86</span>
             
         </div>
     </div>
@@ -356,11 +340,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
         </div>
 
         
-            
-            
-            
-        
-
         <div class="s-pic">
             <a href="http://item.taobao.com/item.htm?scm=1007.10157.7208.100200300000002&id=19226104104&pvid=b744531d-06c2-4ba1-9636-739efa9967f8" target="_blank" class="s-pic-link" data-spm="d4919530">
                 <img src="centershop/T17OwCFbtdXXXXXXXX_!!0-item_pic.jpg_220x220.jpg" alt="Max Homme男T恤 春装男士长袖T恤 薄款打底衫 男 圆领 男 修身T恤" title="Max Homme男T恤 春装男士长袖T恤 薄款打底衫 男 圆领 男 修身T恤" class="s-pic-img s-guess-item-img">
@@ -376,10 +355,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
             
                 
                 <span class="s-tmall-item" title="天猫商品">天猫商品</span>
-                
-            
-            
-            <span class="s-sales">月销: 791</span>
+                <span class="s-sales">月销: 791</span>
             
         </div>
     </div>
@@ -388,17 +364,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <div class="s-item" data-item-id="42128077587">
 
         <div class="s-top-hover hide">
-            
                 <a target="_blank" data-spm="d4920134" href="http://i.taobao.com/item_similar.htm?id=42128077587&catId=50011165&kind=recommend" class="i-goto-similar">找相似</a>
-            
         </div>
 
         
-            
-            
-            
-        
-
         <div class="s-pic">
             <a href="http://item.taobao.com/item.htm?scm=1007.10157.7208.100200300000002&id=42128077587&pvid=b744531d-06c2-4ba1-9636-739efa9967f8" target="_blank" class="s-pic-link" data-spm="d4919530">
                 <img src="centershop/TB1qXyIGFXXXXaLXFXXXXXXXXXX_!!0-item_pic.jpg_220x220.jpg" alt="2014新款冬装男士棉衣男韩版潮青少年短款加厚棉服男冬季外套棉袄" title="2014新款冬装男士棉衣男韩版潮青少年短款加厚棉服男冬季外套棉袄" class="s-pic-img s-guess-item-img">
@@ -411,14 +380,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
         </div>
         <div class="s-title"><a href="http://item.taobao.com/item.htm?scm=1007.10157.7208.100200300000002&id=42128077587&pvid=b744531d-06c2-4ba1-9636-739efa9967f8" title="2014新款冬装男士棉衣男韩版潮青少年短款加厚棉服男冬季外套棉袄" target="_blank" data-spm="d4919530">2014新款冬装男士棉衣男韩版潮青少年短款加厚棉服男冬季外套棉袄</a></div>
         <div class="s-extra-box">
-            
-                
-                <span class="s-tmall-item" title="天猫商品">天猫商品</span>
-                
-            
-            
+            <span class="s-tmall-item" title="天猫商品">天猫商品</span>
             <span class="s-sales">月销: 31</span>
-            
         </div>
     </div>
 </div>
@@ -426,38 +389,24 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <div class="s-item" data-item-id="44665967823">
 
         <div class="s-top-hover hide">
-            
-                <a target="_blank" data-spm="d4920135" href="http://i.taobao.com/item_similar.htm?id=44665967823&kind=p4p" class="i-goto-similar">找相似</a>
-            
+           <a target="_blank" data-spm="d4920135" href="http://i.taobao.com/item_similar.htm?id=44665967823&kind=p4p" class="i-goto-similar">找相似</a>
         </div>
 
         
-            
-            
-            
-        
-
         <div class="s-pic">
             <a href="http://click.simba.taobao.com/cc_im?p=&s=199572260&k=268&e=VNzc%2F5h99Day06uNP4WhhHHkxtccPu2imUqP0Fp9zvOi2NKyeYZvzg1qURckTij2ZRmFLr9CUVtLnCNhOR733DMpEjaF5OB6qdNeWen%2Bs3qW05Nq0WDtuYjmQVtnRYRwvL57i4vvoWUnDyVOE9Srfb2O6DpxEs6b2Wqt8omt5fiB7uy6L4WzVzZHq9inyllkuP360n8GY7RjU1%2FP2EToKVyWO1G7tWz5MbCGejYpRQLKHlnZgIDJZ89ai8H1uCggshaKlB5f1vo%3D" target="_blank" class="s-pic-link" data-spm="d4919820">
                 <img src="centershop/TB2iXAYcFXXXXbFXXXXXXXXXXXX_!!26978665-0-saturn_solar.jpg_220x220.jpg" alt="美图M4现货Meitu自拍神器美图手机M4" title="美图M4现货Meitu自拍神器美图手机M4" class="s-pic-img s-guess-item-img">
             </a>
         </div>
         <div class="s-price-box">
-            <span class="s-price"><em class="s-price-sign">¥</em><em class="s-value">2899.00</em></span>
-            
+            <span class="s-price"><em class="s-price-sign">¥</em><em class="s-value">2899.00</em></span> 
             <span class="s-p4p-item">掌柜热卖</span>
         </div>
         <div class="s-title"><a href="http://click.simba.taobao.com/cc_im?p=&s=199572260&k=268&e=VNzc%2F5h99Day06uNP4WhhHHkxtccPu2imUqP0Fp9zvOi2NKyeYZvzg1qURckTij2ZRmFLr9CUVtLnCNhOR733DMpEjaF5OB6qdNeWen%2Bs3qW05Nq0WDtuYjmQVtnRYRwvL57i4vvoWUnDyVOE9Srfb2O6DpxEs6b2Wqt8omt5fiB7uy6L4WzVzZHq9inyllkuP360n8GY7RjU1%2FP2EToKVyWO1G7tWz5MbCGejYpRQLKHlnZgIDJZ89ai8H1uCggshaKlB5f1vo%3D" title="美图M4现货Meitu自拍神器美图手机M4" target="_blank" data-spm="d4919820">美图M4现货Meitu自拍神器美图手机M4</a></div>
         <div class="s-extra-box">
-            
-                
-                <span class="s-tmall-item" title="天猫商品">天猫商品</span>
-                
-            
-            
-            <span class="s-sales">月销: 1716</span>
-            
-        </div>
+          <span class="s-tmall-item" title="天猫商品">天猫商品</span>
+          <span class="s-sales">月销: 1716</span>
+       </div>
     </div>
 </div>
 <div class="s-item-wrap" data-spm="1998107406">
@@ -475,19 +424,12 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
         </div>
         <div class="s-price-box">
             <span class="s-price"><em class="s-price-sign">¥</em><em class="s-value">199.00</em></span>
-            
             <span class="s-p4p-item">掌柜热卖</span>
         </div>
         <div class="s-title"><a href="http://click.simba.taobao.com/cc_im?p=&s=199572260&k=268&e=wBUE8MK%2FwYGy06uNP4WhhHHkxtccPu2imUqP0Fp9zvOi2NKyeYZvzg1qURckTij2ZRmFLr9CUVsCdKmz%2FvIAOGsAF%2FQu4ilTRJUArVuWaSGW05Nq0WDtuYjmQVtnRYRwvL57i4vvoWUnDyVOE9Srfb2O6DpxEs6b2Wqt8omt5fjCATVF3AMEeN%2BOC%2BtTqtZszNdS0su74bz70zWDnRfTRKfNq4OcOu%2FBxppHAIeWCoTKHlnZgIDJZ83JgEQn%2BWJZ6%2B3SySzdMds%3D" title="德国工艺老人机高端大气直板按键手机" target="_blank" data-spm="d4919820">德国工艺老人机高端大气直板按键手机</a></div>
         <div class="s-extra-box">
-            
-                
                 <span class="s-tmall-item" title="天猫商品">天猫商品</span>
-                
-            
-            
-            <span class="s-sales">月销: 393</span>
-            
+                <span class="s-sales">月销: 393</span>
         </div>
     </div>
 </div>
@@ -511,14 +453,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
         </div>
         <div class="s-title"><a href="http://click.simba.taobao.com/cc_im?p=&s=199572260&k=268&e=hMc9koYf4CKy06uNP4WhhHHkxtccPu2imUqP0Fp9zvOi2NKyeYZvzg1qURckTij2ZRmFLr9CUVtK8rjDdelGriEhDH69M%2FDUJf5Zpj2ayXyW05Nq0WDtuYjmQVtnRYRwvL57i4vvoWUnDyVOE9Srfb2O6DpxEs6b2Wqt8omt5fimtv91Z%2BlT4ZXIFNf24Y4FZvmgQ%2FUnskRjusgPtDOvd814EoKBUZbIHNaAbIyMSQ3KHlnZgIDJZ%2ForifiM8KsIXP4qAk0sBuE%3D" title="飞利浦 E121双卡超长待机手机 老人机备用机" target="_blank" data-spm="d4919820">飞利浦 E121双卡超长待机手机 老人机备用机</a></div>
         <div class="s-extra-box">
-            
-                
-                <span class="s-tmall-item" title="天猫商品">天猫商品</span>
-                
-            
-            
+            <span class="s-tmall-item" title="天猫商品">天猫商品</span>
             <span class="s-sales">月销: 10</span>
-            
         </div>
     </div>
 </div>
